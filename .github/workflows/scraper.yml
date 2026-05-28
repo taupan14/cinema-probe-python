@@ -11,6 +11,10 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
 
+    env:
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -26,11 +30,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Install Playwright Browsers
-        run: playwright install --with-deps
-
-      - name: Create ENV file
-        run: |
-          echo "${{ secrets.ENV_FILE }}" > .env
+        run: playwright install --with-deps chromium
 
       - name: Run Scraper
         run: |

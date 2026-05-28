@@ -169,6 +169,8 @@ async def main():
                 from models import ScrapeResult
                 results.append(ScrapeResult(source=scraper.SOURCE, errors=[str(result)]))
             else:
+                from models import ScrapeResult  # pastikan ScrapeResult diimport
+                assert isinstance(result, ScrapeResult)  # bantu type checker narrowing
                 progress.update(
                     task_id,
                     description=f"[green]✅ {scraper.SOURCE}: {result.cinema_count} cinemas, {result.movie_count} movies[/green]",

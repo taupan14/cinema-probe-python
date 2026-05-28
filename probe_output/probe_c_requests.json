@@ -1,0 +1,442 @@
+[
+  {
+    "url": "https://cinepolis.co.id/cinema-page.aspx",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/404.aspx?aspxerrorpath=/cinema-page.aspx",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://fonts.googleapis.com/icon?family=Material+Icons",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/css/theme.min.css",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/css/main-3.2.5.css",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=GTM-N7JV3LC",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/WebResource.axd?d=pynGkmcFUV13He1Qd6_TZKPd4vv3__s2HU2BTeImeFF73cCaPYc5TpKQqdOBbSCSjOcbHKS-FF7ONhh16j49CA2&t=638901788248157332",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/ScriptResource.axd?d=D9drwtSJ4hBA6O8UhT6CQh4BeaNTKGLur8vGw-ePL6rqFi8D6ggTqvnkbG8SdOihG4MvglV7lhyA_R5pop2O1V4Erm6FOp-BInru8nN7WgLJBGsk41zxSMF75NeMW8Ps1t0iTDM7AgzSetd1FdKXMXyPwSgXL9PQ2orlL71rWh41&t=5c0e0825",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/ScriptResource.axd?d=JnUc-DEDOM5KzzVKtsL1tZcS5ayZLyR-eE2Wn6VY3YwJ0zpPXqasSPHwAS8MKg1v5LZc3rhXPAO8xQUpxGi9EFlV3RRpik3_AKyGJ3hnCOhsLDqUr_b7QjU-oYHVQCWYiPtBmJxmrXuWPhLGn9AFs6mN7vEiGCHxMyJ66NmzEFPBlG8leT4teeQyT0VzAkvw0&t=5c0e0825",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/js/vendor/jquery-3.7.1.min.js",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/js/vendor/custom.js",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/js/vendor/bootstrap.bundle.min.js",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/js/vendor/script-1.2.js",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/js/web.comn.nav-2.8.js",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/js/web.comn-1.1.0.js",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/js/web.comn.req-1.0.js",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/js/web.comn.form.ctrl-1.9.js",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/js/web.comn.form.req-1.0.js",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/js/web.comn.page-4.0.js",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/js/pages/web.login-model-2.0.js",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/js/web.location-1.0.3.js",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/loader.png",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/cinepolis-logo.png",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/icn_language.svg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/icn_location.svg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/arrow-down-fill.svg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/icn_heart_brd.svg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/icn_bking.svg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/icn_search.svg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/emoji_02.png",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/icn_app_ios.png",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/icn_app_and.png",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/icn_wa.svg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/icn_twit.svg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/icn_insta.svg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/icn_fb.svg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/icn_youtube.svg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/emoji_01.png",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/icn_locGps.svg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/refresh_captcha.svg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/static/annonc_ban.jpg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/qr_code.png",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/js?sensor=false",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/css/root.css",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N7JV3LC",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/js?id=G-VT8XNPESW8&cx=c&gtm=4e65d0",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.google.com/ccm/collect?rcb=16&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fcinepolis.co.id%2F404.aspx&scrsrc=www.googletagmanager.com&rnd=596901278.1778866371&dt=Cinepolis&auid=1588276283.1778866371&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45Xe65d0v893721986za200zd893721986xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938469&apve=1&apvf=f&apvc=1&tft=1778866371421&tfd=1078",
+    "method": "POST",
+    "post_data": null
+  },
+  {
+    "url": "https://www.youtube.com/embed/bgIlyb_g63s?rel=0?modestbranding=0",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WlhyyTh89Y.woff2",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/fonts/finder-icons.ttf",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/helper/AccountPageHelper.aspx/GetLoginDetails",
+    "method": "POST",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/helper/CommonPageHelper.aspx/GetLocation",
+    "method": "POST",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/helper/CommonPageHelper.aspx/loadHdrSearchList",
+    "method": "POST",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/helper/AccountPageHelper.aspx/GenrateCaptcha",
+    "method": "POST",
+    "post_data": "{  'pVerifyType' : 'LOGM' }"
+  },
+  {
+    "url": "https://cinepolis.co.id/helper/AccountPageHelper.aspx/GenrateCaptcha",
+    "method": "POST",
+    "post_data": "{  'pVerifyType' : 'REGM' }"
+  },
+  {
+    "url": "https://cinepolis.co.id/images/bg_hdr.jpg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/ft_bg.jpg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/helper/CommonPageHelper.aspx/loadCities",
+    "method": "POST",
+    "post_data": null
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtag/destination?id=AW-17012034623&cx=c&gtm=4e65d0",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://analytics.google.com/g/collect?v=2&tid=G-VT8XNPESW8&gtm=45je65d0v893730005z8893721986za20gzb893721986zd893721986&_p=1778866371120&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&are=1&cid=1223764912.1778866372&frm=0&pscdl=noapi&rcb=17&sr=1280x800&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=macOS&uapv=10.15.7&uaw=0&ul=id-id&gaf=2&_s=1&tag_exp=0~115616986~115938466~115938468&sid=1778866371&sct=1&seg=0&dl=https%3A%2F%2Fcinepolis.co.id%2F404.aspx%3Faspxerrorpath%3D%2Fcinema-page.aspx&dt=Cinepolis&en=page_view&_fv=1&_nsi=1&_ss=1&ep.clicked_url=https%3A%2F%2Fcinepolis.co.id%2F404.aspx%3Faspxerrorpath%3D%2Fcinema-page.aspx&tfd=1533",
+    "method": "POST",
+    "post_data": null
+  },
+  {
+    "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-VT8XNPESW8&cid=1223764912.1778866372&gtm=45je65d0v893730005z8893721986za20gzb893721986zd893721986&rcb=17&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=0~115616986~115938466~115938468",
+    "method": "POST",
+    "post_data": null
+  },
+  {
+    "url": "https://www.google.co.id/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&tid=G-VT8XNPESW8&cid=1223764912.1778866372&gtm=45je65d0v893730005z8893721986za20gzb893721986zd893721986&rcb=17&aip=1&dma=0&gcd=13l3l3l3l1l1&npa=0&frm=0&tag_exp=0~115616986~115938466~115938468&z=2050437155",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.youtube.com/s/player/2d01abf7/www-player.css",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.CGmingXP4lc.L.W.O/am=AAAAIA/d=0/br=1/rs=AGKMywHYSQT8PU9-4C4LaRhbuvmFHCgVlQ",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.hlOHPMP-Qso.2021.O/am=AAAAIA/d=1/br=1/rs=AGKMywEcxwUiwDveKGZ0NRxn02w8vBWO4A/m=root,base",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.youtube.com/s/player/2d01abf7/player_embed_es6.vflset/id_ID/base.js",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17012034623/?random=1778866372106&cv=11&fst=1778866372106&bg=ffffff&guid=ON&async=1&gtm=45be65d0z8893721986za20gzb893721986zd893721986xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469&u_w=1280&u_h=800&url=https%3A%2F%2Fcinepolis.co.id%2F404.aspx%3Faspxerrorpath%3D%2Fcinema-page.aspx&rcb=7&frm=0&tiba=Cinepolis&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1588276283.1778866371&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uamb=0&uam=&uap=macOS&uapv=10.15.7&uaw=0&_tu=CA&rfmt=3&fmt=4",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.google.com/rmkt/collect/17012034623/?random=1778866372106&cv=11&fst=1778866372106&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be65d0z8893721986za20gzb893721986zd893721986xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469&u_w=1280&u_h=800&url=https%3A%2F%2Fcinepolis.co.id%2F404.aspx%3Faspxerrorpath%3D%2Fcinema-page.aspx&rcb=7&frm=0&tiba=Cinepolis&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1588276283.1778866371&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uamb=0&uam=&uap=macOS&uapv=10.15.7&uaw=0&_tu=CA&gcp=5",
+    "method": "POST",
+    "post_data": null
+  },
+  {
+    "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&ae=g&dl=https%3A%2F%2Fcinepolis.co.id%2F404.aspx&scrsrc=www.googletagmanager.com&rnd=596901278.1778866371&dt=Cinepolis&auid=1588276283.1778866371&navt=n&npa=0&_tu=CA&gtm=45be65d0z8893721986za20gzb893721986zd893721986xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469&apve=1&apvf=f&apvc=0&tids=AW-17012034623&tid=AW-17012034623&tft=1778866372114&tfd=1771",
+    "method": "POST",
+    "post_data": null
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/id",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://static.doubleclick.net/instream/ad_status.js",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.hlOHPMP-Qso.2021.O/am=AAAAIA/d=1/exm=base,root/ed=1/br=1/rs=AGKMywEcxwUiwDveKGZ0NRxn02w8vBWO4A/m=r78Drb",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://googleads.g.doubleclick.net/pagead/id?slf_rd=1",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.google.com/pagead/1p-user-list/17012034623/?random=1778866372106&cv=11&fst=1778864400000&bg=ffffff&guid=ON&async=1&gtm=45be65d0z8893721986za20gzb893721986zd893721986xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469&u_w=1280&u_h=800&url=https%3A%2F%2Fcinepolis.co.id%2F404.aspx%3Faspxerrorpath%3D%2Fcinema-page.aspx&rcb=7&frm=0&tiba=Cinepolis&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1588276283.1778866371&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uamb=0&uam=&uap=macOS&uapv=10.15.7&uaw=0&_tu=CA&rfmt=3&fmt=3&is_vtc=1&cid=CAQSsQEABaugfXspYc2h7UmrHayPA9YnsOd0xslfXEe5-XIqbxQKDxIF2T_XjGN0Wa9z5uaUlahXVQRhuWZxGXZAr6c4j5VjvJI_Vn1Tsop0g5GpVXDTy5VE2W0apSD6EjPiAfSmiQ4-uNoOtYlUsF8Os-SpxKEHqFRLbS4CUEYgj7T66Fvw3hJwDEOWZxToC9b57EPLX3whnmeqMBU_ifpBd-UIcCn8LxDF6_dJMvYwALFAKOk&random=1192821725&rmt_tld=0&ipr=y",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.google.co.id/pagead/1p-user-list/17012034623/?random=1778866372106&cv=11&fst=1778864400000&bg=ffffff&guid=ON&async=1&gtm=45be65d0z8893721986za20gzb893721986zd893721986xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115616985~115938466~115938469&u_w=1280&u_h=800&url=https%3A%2F%2Fcinepolis.co.id%2F404.aspx%3Faspxerrorpath%3D%2Fcinema-page.aspx&rcb=7&frm=0&tiba=Cinepolis&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=1588276283.1778866371&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uamb=0&uam=&uap=macOS&uapv=10.15.7&uaw=0&_tu=CA&rfmt=3&fmt=3&is_vtc=1&cid=CAQSsQEABaugfXspYc2h7UmrHayPA9YnsOd0xslfXEe5-XIqbxQKDxIF2T_XjGN0Wa9z5uaUlahXVQRhuWZxGXZAr6c4j5VjvJI_Vn1Tsop0g5GpVXDTy5VE2W0apSD6EjPiAfSmiQ4-uNoOtYlUsF8Os-SpxKEHqFRLbS4CUEYgj7T66Fvw3hJwDEOWZxToC9b57EPLX3whnmeqMBU_ifpBd-UIcCn8LxDF6_dJMvYwALFAKOk&random=1192821725&rmt_tld=1&ipr=y",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://i.ytimg.com/vi_webp/bgIlyb_g63s/default.webp",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/icn_movie.svg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://cinepolis.co.id/images/icn_arr.svg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.google.com/js/th/WJArZbuZLtlFfZKphfCAwt077b4izCJ-IpaG0JlV21s.js",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://www.youtube.com/generate_204?JDeJmg",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+    "method": "POST",
+    "post_data": "[\"O43z0dpjhgX20SCx4KAo\",\"$RNs5279RAAZjh4V_Q4feSYaSFtyveJKnAEABEArZ1KmF1lseoT2iVy8vSCeyjJjQPWzyBO31oMLZoxe6w4cyj6FN8rj4IngA86mYob0Ipb0PEM9VGp4lUn05ngAAADvOAAAABfQBB-IAU87ikideTkdyDVOdt5Gvk5s2S3PRnT5xNjmg8VpbIj66LEMR45v7-ctNtw5Z4q6jZ6mfwG8-vR7C6fcvGfohLjHxTKeGHltQ84NbDBkWC7hgl7b8BQTXdI5X18Inpk7nqW3QiFYkhCUCxEO1-jQk42FsnLcx2eYMJN-_Ob8nbQ9csrjUhxMbP7qdS-4zPV97PqKqpMhxmzHCST2sMjvYGASDdxWR4tsYjMNpuDnUC4UkWodEySMH1yO3l56oWXGUEpT2ggmlMAcqqyqNN7QafzaLwVztMw1-9-FrdH7XeUD2-_Xn-jUK5OTZVsEjQYUB9DmBXGihbYWk3P2JUkEF5YoP9EETxzErOcn_SwpQkSBTDAMJGmHBxaYj-mZLKJtZXgfOjCD_VpKIqLtLJHv5J7taM_BE4za0CFEKU6yx5Xo6WAZOPprPEgzzGS1flUHoKovlIKGnbdBA5jvWBJ0xDvFZV-qGA5ccmueoF1lzwX4OZprI_Z1AQubjHt2L7VNGXe9HAB7zieSASA9P_DcAipRiT76YzcsLzr7KkWcxtB509zvGW3wXYFBs6EyOGcOEmFiKKExhPARPXhmY26MQHXZ9rE-szCEdwWs_2vyZ1CASdExnIgSaXv6yF-dbaU_Cm_Y4tLlLltPT0neuNd0pObzpoz89gB9gSWD78bbPzhle_Ve875krAM1QtmeH77nND6l9QH1DxQM3b4A0hEX-ZPwAWUJ0h3ME3zHlsKm1G-lPsXw5EmKhaPL5NsE4oVPIrXGAEBSMs67f35tpJX9ytAtva-ol53wAK5TFNTC_aRfEsp4bW5s2mPbiTzIRqLvaQwgEYB0RN4YKR4Tc2ZzdKVSYbLReXwWXxksL9tU-Qevfb21PvY1Dxz7djA8V40moWG1JYA52UbFgNgkm8NMd0yBesoQwcoT2EBU8arqi38XevtNzV1MjlL_GePvr2aCKKDSwruf2HY6JfR9I8q5_91BDpiJihcF1TdmBSdOjruI8tq3FFB1JeckAS_pSUJhacNjkKZKwqVXIx-0nNPLXXR9WU2_h8xL1Jbss0jPO3Xuva1k6y-fd-bgCqIq_slZCPj_mUrfnNi0XEEOFqrc1AfDx3p-fT5H3ZjsU_GibU4B1DZERRYwI19kI4AmctrVaRMgb2WwhoIv0GqoC1JQmW2Zqzl-zicMvWzTNZmOfF-TAAkwlgTbE6P_0kZ70GlwPDxF-5qZVHwSBF4u9JslVMldGAje6sOx3lrpzM82t9b1ph29sPudklj_rJ9eJBD83xs__KX1JYTD2GT_8L8DAUVWt984XBsihEacWLZY0mnrfJeb1smOWCVtJpfJxQbxmwfe8aG5sj5Yeo_1vRCdk0hmPR8ImJWWBBtkGgzqySB5vTusf-oJZ-IVNYG_iIt6OtISfXrBLeAXJVpP_CUMxBivVnEbzdqM1mq2-wz-TNtLyvgdP94963YojyxPjrYJpvvZLyoFAXrRpXY0WwhA6uHpR2gij1VmmiME_ccsz2NNBNBxNzBGT6aDE2-BSJrQe6wm748YrLcw3Ixx6q7FO4iq6I2Lod-ctgHilSHEX-mZ27zXiLC8arzKJlhgiI-BJD6EaN5PevpbReo85sGQXqRes_8cATqEivw68fm_ppIyAvf3M_RqQc1hCut5-V2v9_ZFaa9lBjP2W_L53vRCougTyw7C0WhIX0hJN41HlqB7srsaObIFx8b222ly7o8saQLC2NXabbb4YxzjikP4WQOz9GIc2sWTcIPEk48RK\"]"
+  },
+  {
+    "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json",
+    "method": "POST",
+    "post_data": "{\"context\":{\"client\":{\"hl\":\"id\",\"gl\":\"ID\",\"clientName\":56,\"clientVersion\":\"2.20260515.01.00\",\"configInfo\":{\"appInstallData\":\"CMOxndAGELD-0BwQgc3OHBDa984cEIv3zxwQvoqwBRD2q7AFELW1gBMQ-_bQHBDIp9EcEIuP0RwQuOTOHBDtq9EcEKSp0RwQvZmwBRCe0LAFEImwzhwQ3M-AExCPqtEcEMbGzxwQq5HRHBC8pNAcEMj3zxwQvoTRHBDM-dAcEIeszhwQmY2xBRD_rdEcEOiV0RwQr4bPHBD8ss4cEPG00BwQrtbPHBCfz4ATEPGcsAUQjpDRHBD-hbgiEOmm0RwQ8uKAExDBj9AcEJai0RwQ45WwBRDM364FELWl0RwQ3rzOHBCs9dAcEPO90RwQvbauBRDD3oATEJ6B0RwqUENBTVNPQlV6LVpxLURMaVVFcFFDbkE3NUZiMEd3UlVzMTZUd0N6S2dyQVFEemY4Rnk3Y0cteWEyNUFhZmlRMkZaZTJiQnR2eUJMbXFCUjBIMAA%3D\"},\"userAgent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36\",\"connectionType\":\"CONN_CELLULAR_4G\",\"browserName\":\"Chrome\",\"deviceMake\":\"apple\",\"browserVersion\":\"124.0.0.0\",\"osName\":\"Macintosh\",\"osVersion\":\"10_15_7\",\"platform\":\"DESKTOP\"},\"thirdParty\":{\"embedUrl\":\"https://cinepolis.co.id/\"}},\"events\":[{\"eventTimeMs\":1778866372119,\"latencyActionTicked\":{\"tickName\":\"mm_is\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866372120,\"latencyActionTicked\":{\"tickName\":\"mm_ie\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866372122,\"latencyActionTicked\":{\"tickName\":\"ep_init_cus\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866372122,\"latencyActionTicked\":{\"tickName\":\"ep_init_eps\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866372123,\"latencyActionTicked\":{\"tickName\":\"ep_init_epe\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866372123,\"latencyActionTicked\":{\"tickName\":\"ep_init_cue\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866372211,\"latencyActionTicked\":{\"tickName\":\"pe\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866372218,\"latencyActionTicked\":{\"tickName\":\"ep_init_wes\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866371947,\"latencyActionTicked\":{\"tickName\":\"srt\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866371655,\"latencyActionBaselined\":{\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866371764,\"latencyActionTicked\":{\"tickName\":\"nreqs\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866371947,\"latencyActionTicked\":{\"tickName\":\"nress\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866371992,\"latencyActionTicked\":{\"tickName\":\"nrese\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866371657,\"latencyActionTicked\":{\"tickName\":\"ndnss\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866371702,\"latencyActionTicked\":{\"tickName\":\"ndnse\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866371702,\"latencyActionTicked\":{\"tickName\":\"ntcps\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866371763,\"latencyActionTicked\":{\"tickName\":\"ntcpe\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866371733,\"latencyActionTicked\":{\"tickName\":\"nstcps\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866371763,\"latencyActionTicked\":{\"tickName\":\"ntcpe\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866371956,\"latencyActionTicked\":{\"tickName\":\"wffs\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866372001,\"latencyActionTicked\":{\"tickName\":\"wffe\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866371982,\"latencyActionTicked\":{\"tickName\":\"rsf_pj\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866372197,\"latencyActionTicked\":{\"tickName\":\"rse_pj\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866371954,\"latencyActionTicked\":{\"tickName\":\"rsf_pc\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866372027,\"latencyActionTicked\":{\"tickName\":\"rse_pc\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866371982,\"latencyActionTicked\":{\"tickName\":\"rsf_ecj\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866372084,\"latencyActionTicked\":{\"tickName\":\"rse_ecj\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866371954,\"latencyActionTicked\":{\"tickName\":\"rsf_ecc\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866372049,\"latencyActionTicked\":{\"tickName\":\"rse_ecc\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866372221,\"latencyActionInfo\":{\"isNavigation\":true,\"actionType\":\"LATENCY_ACTION_VIDEO_PREVIEW\",\"httpProtocol\":\"h2\",\"transportProtocol\":\"tcp\",\"isVisible\":true,\"loadType\":\"cold\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866372117,\"latencyActionTicked\":{\"tickName\":\"rses_dpj\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866372225,\"latencyActionTicked\":{\"tickName\":\"ep_init_wee\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866372226,\"latencyActionInfo\":{\"serverTimeMs\":62,\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"-1\"}},{\"eventTimeMs\":1778866372246,\"screenCreated\":{\"csn\":\"rB2CtQkZzPOKPjlc\",\"pageVe\":{\"veType\":16623,\"youtubeData\":{\"servletData\":{\"serializedServletEventId\":\"w1gHauCIM46g9fwP4raQqA0\"}}}},\"context\":{\"lastActivityMs\":\"15\"}},{\"eventTimeMs\":1778866372246,\"latencyActionInfo\":{\"clientScreenNonce\":\"rB2CtQkZzPOKPjlc\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"15\"}},{\"eventTimeMs\":1778866372246,\"screenCreated\":{\"csn\":\"kFI3_i5OPJAqvfE7\",\"pageVe\":{\"veType\":32594},\"implicitGesture\":{\"parentCsn\":\"rB2CtQkZzPOKPjlc\",\"gesturedVe\":{\"veType\":16623},\"gestureType\":\"INTERACTION_LOGGING_GESTURE_TYPE_AUTOMATED\"}},\"context\":{\"lastActivityMs\":\"15\"}},{\"eventTimeMs\":1778866372246,\"visualElementHidden\":{\"csn\":\"rB2CtQkZzPOKPjlc\",\"ve\":{\"veType\":16623},\"eventType\":16},\"context\":{\"lastActivityMs\":\"15\"}},{\"eventTimeMs\":1778866372246,\"latencyActionInfo\":{\"clientScreenNonce\":\"kFI3_i5OPJAqvfE7\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"15\"}},{\"eventTimeMs\":1778866372247,\"visualElementAttached\":{\"csn\":\"kFI3_i5OPJAqvfE7\",\"parentVe\":{\"veType\":32594},\"childVes\":[{\"trackingParams\":\"CAAQru4BIhMIspvK0em7lAMVXwnpBR2aYy4CygEE348Tgg==\"}]},\"context\":{\"lastActivityMs\":\"15\"}},{\"eventTimeMs\":1778866372249,\"latencyActionTicked\":{\"tickName\":\"qoes\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"17\"}},{\"eventTimeMs\":1778866372249,\"latencyActionTicked\":{\"tickName\":\"fs\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"18\"}},{\"eventTimeMs\":1778866372257,\"latencyActionInfo\":{\"clientPlaybackNonce\":\"EhfunyQH8A5EAVJM\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"26\"}},{\"eventTimeMs\":1778866372258,\"latencyActionTicked\":{\"tickName\":\"ep_init_pr\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"27\"}},{\"eventTimeMs\":1778866372385,\"latencyActionTicked\":{\"tickName\":\"ep_init_ijs\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"153\"}},{\"eventTimeMs\":1778866372385,\"latencyActionTicked\":{\"tickName\":\"ep_init_ije\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"154\"}},{\"eventTimeMs\":1778866372386,\"latencyActionTicked\":{\"tickName\":\"ep_init_rs\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"154\"}},{\"eventTimeMs\":1778866372388,\"latencyActionTicked\":{\"tickName\":\"ep_init_re\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"156\"}},{\"eventTimeMs\":1778866372397,\"visualElementAttached\":{\"csn\":\"kFI3_i5OPJAqvfE7\",\"parentVe\":{\"veType\":32594},\"childVes\":[{\"veType\":28572,\"veCounter\":2,\"elementIndex\":0}]},\"context\":{\"lastActivityMs\":\"166\"}},{\"eventTimeMs\":1778866372397,\"visualElementShown\":{\"csn\":\"kFI3_i5OPJAqvfE7\",\"ve\":{\"veType\":28572,\"veCounter\":2,\"elementIndex\":0},\"eventType\":1},\"context\":{\"lastActivityMs\":\"166\"}},{\"eventTimeMs\":1778866372407,\"latencyActionTicked\":{\"tickName\":\"ftr\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"176\"}},{\"eventTimeMs\":1778866372734,\"latencyActionTicked\":{\"tickName\":\"pot_ist\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"502\"}},{\"eventTimeMs\":1778866372840,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChUvY2xpZW50X3N0cmVhbXovYmcvZWMSEAoOCghib3RndWFyZBICNTMaAmVuGgJtayIRCgMKAW8KBgoEYUdJZhICCAEiEQoDCgF0CgYKBGFHSWYSAggBIhEKAwoBaAoGCgRhR0lmEgIIBw==\"},\"context\":{\"lastActivityMs\":\"608\"}},{\"eventTimeMs\":1778866372840,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChUvY2xpZW50X3N0cmVhbXovYmcvZWwSEAoOCghib3RndWFyZBICNTMaAmVuGgJtayIYCgMKAWgKBgoEYUdJZhIJEQAAAABAMydAIhgKAwoBaAoGCgRhR0lmEgkRAAAAAABo5j8iGAoDCgFoCgYKBGFHSWYSCREAAAAAAADgPyIYCgMKAWgKBgoEYUdJZhIJEQAAAADAzBZAIhgKAwoBaAoGCgRhR0lmEgkRAAAAAICZEUAiGAoDCgFoCgYKBGFHSWYSCREAAAAAwEwzQCIYCgMKAWgKBgoEYUdJZhIJEQAAAACAZgpAIhgKAwoBdAoGCgRhR0lmEgkRAAAwMzMTUEA=\"},\"context\":{\"lastActivityMs\":\"609\"}},{\"eventTimeMs\":1778866373109,\"latencyActionTicked\":{\"tickName\":\"pot_if\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"878\"}},{\"eventTimeMs\":1778866373109,\"latencyActionTicked\":{\"tickName\":\"pot_cms\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"878\"}},{\"eventTimeMs\":1778866373110,\"latencyActionTicked\":{\"tickName\":\"pot_cmf\",\"clientActionNonce\":\"p29GWWY6_IKspPng\"},\"context\":{\"lastActivityMs\":\"878\"}},{\"eventTimeMs\":1778866373841,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChYvY2xpZW50X3N0cmVhbXovYmcvZnJzEhAKDgoIYm90Z3VhcmQSAjUzGgJtayITCgYKBGFHSWYSCREAAAAAANSdQA==\"},\"context\":{\"lastActivityMs\":\"1610\"}},{\"eventTimeMs\":1778866373841,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChUvY2xpZW50X3N0cmVhbXovYmcvZWMSEAoOCghib3RndWFyZBICNTMaAmVuGgJtayIRCgMKAW4KBgoEYUdJZhICCAEiEQoDCgFtCgYKBGFHSWYSAggB\"},\"context\":{\"lastActivityMs\":\"1610\"}},{\"eventTimeMs\":1778866373842,\"streamzIncremented\":{\"serializedIncrementBatch\":\"ChUvY2xpZW50X3N0cmVhbXovYmcvZWwSEAoOCghib3RndWFyZBICNTMaAmVuGgJtayIYCgMKAW4KBgoEYUdJZhIJEQAAAAAAABRAIhgKAwoBaQoGCgRhR0lmEgkRAAAAMDMz4z8iGAoDCgFvCgYKBGFHSWYSCREAAGZmZmZ3QCIYCgMKAWMKBgoEYUdJZhIJEQAAAAAAAAAAIhgKAwoBQwoGCgRhR0lmEgkRAAAAMDMz0z8iGAoDCgF4CgYKBGFHSWYSCREAAAAAAAAAACIYCgMKAW0KBgoEYUdJZhIJEQAAAAAAAOA/\"},\"context\":{\"lastActivityMs\":\"1610\"}}],\"serializedClientEventId\":{\"serializedEventId\":\"w1gHauCIM46g9fwP4raQqA0\",\"clientCounter\":\"30729\"}}"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/14a/intl/id_ALL/common.js",
+    "method": "GET",
+    "post_data": null
+  },
+  {
+    "url": "https://maps.googleapis.com/maps-api-v3/api/js/64/14a/intl/id_ALL/util.js",
+    "method": "GET",
+    "post_data": null
+  }
+]

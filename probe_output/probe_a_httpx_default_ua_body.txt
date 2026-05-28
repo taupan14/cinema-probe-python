@@ -1,0 +1,1341 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head><meta charset="utf-8" /><title>
+	Cinepolis
+</title><meta name="description" /><meta name="keywords" /><meta name="author" /><meta property="og:url" /><meta property="og:type" content="article" /><meta property="og:title" /><meta property="og:description" /><meta property="og:image" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="apple-touch-icon" sizes="180x180" href="images/favicon.png" /><link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png" /><link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png" />
+
+    <!-- icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <!-- new  css -->
+    
+    
+
+    <!-- <link rel="stylesheet" type="text/css" href="masterPages/css/bootstrap.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/theme.min.css" /><link rel="stylesheet" type="text/css" href="css/main-3.2.5.css" />
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-N7JV3LC');</script>
+    <!-- End Google Tag Manager -->
+
+    
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-N7JV3LC"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'GTM-N7JV3LC');
+    </script>
+
+
+    <!-- Facebook Pixel Code -->
+    
+
+
+    
+	<link rel="stylesheet" type="text/css" href="/css/circle_menu.css" />
+	<link rel="stylesheet" type="text/css" href="/css/owlcarousel/owl_custom-1.2.css" />
+	<link rel="stylesheet" type="text/css" href="/css/owlcarousel/owl.carousel.min.css" />
+</head>
+<body>
+    <form method="post" action="./" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="w6tYv2Dr9tVd/we6C+RW1tjJmqh7xAMr1BFdBeiY/c6tKibud6O/pH7SYC4lCTvk2hV6h3s4+ag4EiLrTKLtBDIktI1DaoMXKdUzRaBUr2M=" />
+
+
+<script src="/ScriptResource.axd?d=D9drwtSJ4hBA6O8UhT6CQh4BeaNTKGLur8vGw-ePL6rqFi8D6ggTqvnkbG8SdOihG4MvglV7lhyA_R5pop2O1V4Erm6FOp-BInru8nN7WgLJBGsk41zxSMF75NeMW8Ps1t0iTDM7AgzSetd1FdKXMXyPwSgXL9PQ2orlL71rWh41&amp;t=5c0e0825" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="js/vendor/jquery-3.7.1.min.js" type="text/javascript"></script>
+<script src="js/vendor/custom.js" type="text/javascript"></script>
+<script src="js/vendor/bootstrap.bundle.min.js" type="text/javascript"></script>
+<script src="js/vendor/script-1.2.js" type="text/javascript"></script>
+<script src="js/web.comn.nav-2.8.js" type="text/javascript"></script>
+<script src="js/web.comn-1.1.0.js" type="text/javascript"></script>
+<script src="js/web.comn.req-1.0.js" type="text/javascript"></script>
+<script src="js/web.comn.form.ctrl-1.9.js" type="text/javascript"></script>
+<script src="js/web.comn.form.req-1.0.js" type="text/javascript"></script>
+<script src="js/web.comn.page-4.0.js" type="text/javascript"></script>
+<script src="js/pages/web.login-model-2.0.js" type="text/javascript"></script>
+<script src="js/web.captcha-1.8.js" type="text/javascript"></script>
+<script src="js/web.location-1.0.3.js" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="8D0E13E6" />
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N7JV3LC"
+                height="0" width="0" style="display: none; visibility: hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager -->
+
+        
+
+        <!-- pre-loader start -->
+        <div id="divProgress" class="loader-wrapper img-gif" style="display: none">
+            <img src="images/loader.png" id="imgLoader" class="load_ani" alt="" />
+        </div>
+        <!-- pre-loader end -->
+
+        <main class="page-wrapper np">
+            <header class="header">
+                <div class="logo">
+                    <a href="#" id="lnkhdrLogo">
+                        <img src="images/cinepolis-logo.png" id="imgHdrLogo" /></a>
+                </div>
+                <div class="nav_btn_top">
+                    <a href="#" class="nav_btn" id="lnkhdrlang">
+                        <img src="images/icn_language.svg" id="imgLang" />
+                        <span id="spnLanguage">Bahasa</span>
+                    </a>
+                    <div class="nav_btn_top_hdr">
+                        <a class="link_loc" id="lnkhdrLocation">
+                            <img src="images/icn_location.svg" id="imgLocation" class="arr_hdr" />
+                            <span id="spnSelCity" class="city_hdr"></span>
+                            <img src="images/arrow-down-fill.svg" id="imglocArrow" class="arr_hdr" />
+                        </a>
+                        <div id="divLoginMenu" style="display: none">
+                            <span>|</span>
+                            <a class="link" id="lnkhdrFavourites">
+                                <img src="images/icn_heart_brd.svg" id="imgFav" />
+                                <!-- <img src="images/icn_heart.svg" /> -->
+                            </a>
+                            <span>|</span>
+                            <a id="lnkhdrBookings" class="link">
+                                <img src="images/icn_bking.svg" id="imgFavs" />
+                                My Bookings
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="navbar navbar-expand-lg navbar_wrap">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#head-nav"
+                        aria-controls="head-nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav-head" id="head-nav">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active"><a href="movies.html" id="lnkMenuMovies">Movies</a></li>
+                            <li class="nav-item "><a href="#" id="lnkMenuFnB">F&B</a></li>
+                            <li class="nav-item dropdow nav_drop">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">News & Promotions
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <a class="dropdown-item" href="#" id="lnkMenuNews">News</a>
+                                    <a class="dropdown-item" href="#" id="lnkMenuPromotion">Promotion</a>
+                                </div>
+                            </li>
+                            <li class="nav-item"><a href="cinema-page.html" id="lnkMenuCinema">Cinema</a></li>
+                            
+                        </ul>
+
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <div class="head_search_wrap">
+                                    <div class="head_search_hdr">
+                                        <img src="images/icn_search.svg" id="imgHdrSearch" class="img" />
+                                        <input id="txtSearchItem" class="input" type="text" placeholder="Search movies or theater.."
+                                            oninput="CommonPageHelper.searchItem();" autocomplete="Search">
+                                    </div>
+                                    <div class="search_result" id="divHdrSearchList">
+                                        
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="nav_btn_top_hdr " id="divLoginData">
+                                    
+
+                                    
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            
+	<script src="/js/vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="/js/vendor/cir_menu.js"></script>
+	<script src="/js/vendor/owlcarousel/owl_custom-1.3.js"></script>
+
+	<script src="/js/pages/web.home-2.0.js"></script>
+
+	<div class="swiper-container banner_wrap">
+
+		<!-- swiper slides -->
+		<div class="banner_wrap banner_wrap_car owl-carousel" id="divBanners">
+			
+		</div>
+		<!-- !swiper slides -->
+		<!-- next / prev arrows -->
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+		<!-- !pagination dots -->
+		<div class="swiper-pagination"></div>
+	</div>
+	<section class="search_wrap">
+		<div class="search_hdr">
+			<input id="txtSearch" type="text" placeholder="Search Movie, Cinema, City..."
+				oninput="HomePageHelper.searchItem();" autocomplete="Search" />
+			<button class="btn" id="btnSearch">
+				<img id="imgSearch" src="images/icn_search.svg" /></button>
+		</div>
+		<div class="search_result" id="divSearchList">
+			
+		</div>
+	</section>
+
+	<section>
+		<div class="headline text-center top" key="choose_your_movie">Choose Your Movie</div>
+		<div class="tab_wrap">
+			<!-- Nav tabs -->
+			<ul class="nav nav-tabs" role="tablist">
+				<li class="">
+					<a href="#showing" aria-controls="home" class="active" role="tab" data-bs-toggle="tab">
+						<span key="now_showing">Now Showing</span>
+					</a>
+				</li>
+				<li>
+					<a href="#upcoming" aria-controls="profile" role="tab" data-bs-toggle="tab">
+						<span key="upcoming">Upcoming</span>
+					</a></li>
+			</ul>
+
+			<!-- Tab panes -->
+			<div class="tab-content  ">
+
+				<div role="tabpanel " class="tab-pane active" id="showing">
+					<p class="movEmpty d-none">No data found!</p>
+					<div class="mv_thumb_hdr">
+						<div class="movieSlider owl-carousel" id="divNowShowingMov">
+							
+						</div>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="upcoming">
+					<div class="mv_thumb_hdr">
+						<div class="movieSlider owl-carousel" id="divUpcomingMov">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<section class="d-none" id="secPromotions">
+		<div class="head-section page_hdr">
+			<div class="headline"><span key="promotions">Promotions</span></div>
+			<div class="icn_list">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class=" no-bg " id="lnkPromoAll">
+						<a href="#tabPromoAll" class="active" aria-controls="home"
+							role="tab" data-bs-toggle="tab">All</a>
+					</li>
+					<li class="" id="lnkPromoTicket">
+						<a href="#tabPromoTicket" aria-controls="home" role="tab" data-bs-toggle="tab">
+							<img src="images/icn_ticket.svg" /></a>
+					</li>
+					<li id="lnkPromoFnB">
+						<a href="#tabPromoFnB" aria-controls="profile" role="tab" data-bs-toggle="tab">
+							<img src="images/icn_fnb.svg" /></a>
+					</li>
+					<li id="lnkPromoOffers">
+						<a href="#tabPromoEvent" aria-controls="profile" role="tab" data-bs-toggle="tab">
+							<img src="images/icn_favourite.svg" /></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="clr"></div>
+		<div class="tab-content pt50 page_hdr">
+			<div role="tabpanel " class="tab-pane active" id="tabPromoAll">
+				<div class="promo_thumb_hdr" id="tabPromoAllCont">
+					
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="tabPromoTicket">
+				<div class="promo_thumb_hdr" id="tabPromoTicketCont">
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="tabPromoFnB">
+				<div class="promo_thumb_hdr" id="tabPromoFnBCont">
+				</div>
+			</div>
+			<div role="tabpanel" class="tab-pane" id="tabPromoEvent">
+				<div class="promo_thumb_hdr" id="tabPromoEventCont">
+				</div>
+			</div>
+		</div>
+		<div class="btn_center">
+			<a class="btn" href="#" id="lnkViewAllPromo">
+				<span key="see_more">See More</span></a>
+		</div>
+	</section>
+
+	<section class="mem_wrap ">
+		<div class="page_hdr">
+			<div class="head-section ">
+				<div class="headline">Join Our Membership</div>
+				<div class="btn_hdr">
+					<a id="lnkMemJoinNow" href="#" class="btn">Join Now</a>
+					<a id="lnkMemLearnMore" href="#" class="btn_brd_second">Learn More</a>
+				</div>
+			</div>
+		</div>
+		<div class="services page_hdr">
+			<div class="circle--slider">
+				<div class="rotate--circle">
+					<ul class="circle--rotate" id="circle--rotate">
+						<li class="block ">
+							<div class="title">Earn Points</div>
+							<div class="icon">
+								<i>
+									<img class="invert icn" src="images/icn_card_pts.svg" />
+								</i>
+							</div>
+						</li>
+						<li class="block">
+							<div class="title">Birthday Gift</div>
+							<div class="icon">
+								<i>
+									<img class="invert icn" src="images/icn_card_gift.svg" /></i>
+							</div>
+						</li>
+						<li class="block">
+							<div class="title">F&B Deails</div>
+							<div class="icon">
+								<i>
+									<img class="invert icn" src="images/icn_fnb.svg" /></i>
+							</div>
+						</li>
+						<li class="block">
+							<div class="title">Ticket Deals</div>
+							<div class="icon">
+								<i>
+									<img class="invert icn" src="images/icn_ticket2.svg" /></i>
+							</div>
+						</li>
+						<!-- repeat -->
+						<li class="block ">
+							<div class="title">Earn Points</div>
+							<div class="icon">
+								<i>
+									<img class="invert icn" src="images/icn_card_pts.svg" />
+								</i>
+							</div>
+						</li>
+						<li class="block">
+							<div class="title">Birthday Gift</div>
+							<div class="icon">
+								<i>
+									<img class="invert icn" src="images/icn_card_gift.svg" /></i>
+							</div>
+						</li>
+						<li class="block">
+							<div class="title">F&B Deails</div>
+							<div class="icon">
+								<i>
+									<img class="invert icn" src="images/icn_fnb.svg" /></i>
+							</div>
+						</li>
+						<li class="block">
+							<div class="title">Ticket Deals</div>
+							<div class="icon">
+								<i>
+									<img class="invert icn" src="images/icn_ticket2.svg" /></i>
+							</div>
+						</li>
+						<!-- <li class="block">
+                <div class="icon"><i class="fa fa-paw"></i><span> </span></div>
+              </li> -->
+
+					</ul>
+					<div class="animate-wrapper">
+						<div class="animate_content">
+							<div class="animate-more">
+								<div class="ani_cont_hdr">
+									<div class="content">
+										<div class="head"><span key="earn_points">Earn Points</span></div>
+										<div class="title" key="earn_points_desc">Dapatkan poin lebih banyak dengan melakukan transaksi di Cinépolis</div>
+										<div class="card_hdr">
+											<img src="images/temp/cards_offer01.png" />
+										</div>
+									</div>
+									<div class="ani_img">
+										<img src="images/static/event_01.gif" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="animate_content">
+							<div class="animate-more">
+								<div class="ani_cont_hdr">
+									<div class="content">
+										<div class="head">Birthday Gifts</div>
+										<div class="title">Dapatkan hadiah spesial dari Cinepolis khusus di hari ulang tahunmu.</div>
+										<div class="card_hdr">
+											<img src="images/temp/cards_offer01.png" />
+										</div>
+									</div>
+									<div class="card_hdr">
+										<img src="images/static/event_birthday.gif" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="animate_content">
+							<div class="animate-more">
+								<div class="ani_cont_hdr">
+									<div class="content">
+										<div class="head">F&B Deals</div>
+										<div class="title">Nikmati makanan dan minuman penawaran spesial khusus member.</div>
+										<div class="card_hdr">
+											<img src="images/temp/cards_offer01.png" />
+										</div>
+									</div>
+									<div class="ani_img">
+										<img src="images/static/event_fnb.gif" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="animate_content">
+							<div class="animate-more">
+								<div class="ani_cont_hdr">
+									<div class="content">
+										<div class="head">Ticket Deals</div>
+										<div class="title">Get special offers with any movie ticket purchase at Cinepolis.</div>
+										<div class="card_hdr">
+											<img src="images/temp/cards_offer01.png" />
+										</div>
+									</div>
+									<div class="card_hdr">
+										<img src="images/static/event_deals.gif" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- repeat -->
+						<div class="animate_content">
+							<div class="animate-more">
+								<div class="ani_cont_hdr">
+									<div class="content">
+										<div class="head">Earn Points</div>
+										<div class="title">Spends more to get more points of your transaction.</div>
+										<div class="card_hdr">
+											<img src="images/temp/cards_offer01.png" />
+										</div>
+									</div>
+									<div class="ani_img">
+										<img src="images/static/event_01.gif" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="animate_content">
+							<div class="animate-more">
+								<div class="ani_cont_hdr">
+									<div class="content">
+										<div class="head">Birthday Gifts</div>
+										<div class="title">Dapatkan hadiah spesial dari Cinepolis khusus di hari ulang tahunmu.</div>
+										<div class="card_hdr">
+											<img src="images/temp/cards_offer01.png" />
+										</div>
+									</div>
+									<div class="card_hdr">
+										<img src="images/static/event_birthday.gif" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="animate_content">
+							<div class="animate-more">
+								<div class="ani_cont_hdr">
+									<div class="content">
+										<div class="head">F&B Deals</div>
+										<div class="title">Nikmati makanan dan minuman penawaran spesial khusus member.</div>
+										<div class="card_hdr">
+											<img src="images/temp/cards_offer01.png" />
+										</div>
+									</div>
+									<div class="ani_img">
+										<img src="images/static/event_fnb.gif" />
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="animate_content">
+							<div class="animate-more">
+								<div class="ani_cont_hdr">
+									<div class="content">
+										<div class="head">Ticket Dealss</div>
+										<div class="title">Get special offers with any movie ticket purchase at Cinepolis.</div>
+										<div class="card_hdr">
+											<img src="images/temp/cards_offer01.png" />
+										</div>
+									</div>
+									<div class="card_hdr">
+										<img src="images/static/event_deals.gif" />
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+
+					</div>
+					<!-- <div class="prev"><span>PREV</span></div>
+          <div class="next"><span>NEXT</span></div> -->
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+
+
+	<section class="cine_banr_wrap_main">
+		<div class="cine_banr_wrap_main_hdr owl-carousel">
+			<div class="cine_banr_wrap">
+				<div class="outer">
+					<div id="JumoBig" class="owl-carousel owl-theme big">
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/jomo_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('JOM');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_jomo_01.jpg" />
+						</div>
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/jomo_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('JOM');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_jomo_02.jpg" />
+						</div>
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/jomo_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('JOM');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_jomo_03.jpg" />
+						</div>
+					</div>
+					<div id="JumoThumb" class="owl-carousel owl-theme thumbs">
+						<div class="item">
+							<img class="cine_img" src="images/temp/thumb_jomo_01.jpg" />
+						</div>
+						<div class="item">
+							<img class="cine_img" src="images/temp/thumb_jomo_02.jpg" />
+						</div>
+						<div class="item">
+							<img class="cine_img" src="images/temp/thumb_jomo_03.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cine_banr_wrap">
+				<div class="outer">
+					<div id="vipBig" class="owl-carousel owl-theme big">
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/vip_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('VIP');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_vip_02.jpg" />
+						</div>
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/vip_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('VIP');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_vip_01.jpg" />
+						</div>
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/vip_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('VIP');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_vip_03.jpg" />
+						</div>
+					</div>
+					<div id="vipThumbs" class="owl-carousel owl-theme thumbs">
+						<div class="item current">
+							<img class="cine_img" src="images/temp/thumb_vip_01.jpg" />
+						</div>
+						<div class="item">
+							<img class="cine_img" src="images/temp/thumb_vip_02.jpg" />
+						</div>
+						<div class="item">
+							<img class="cine_img" src="images/temp/thumb_vip_03.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cine_banr_wrap">
+				<div class="outer">
+					<div id="ultraBig" class="owl-carousel owl-theme big">
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/mxe_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('MXE');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_xe_02.jpg" />
+						</div>
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/mxe_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('MXE');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_xe_03.jpg" />
+						</div>
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/mxe_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('MXE');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_xe_01.jpg" />
+						</div>
+					</div>
+					<div id="ultraThumbs" class="owl-carousel owl-theme thumbs">
+						<div class="item active current">
+							<img class="cine_img" src="images/temp/thumb_xe_01.jpg" />
+						</div>
+						<div class="item">
+							<img class="cine_img" src="images/temp/thumb_xe_02.jpg" />
+						</div>
+						<div class="item">
+							<img class="cine_img" src="images/temp/thumb_xe_03.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cine_banr_wrap">
+				<div class="outer">
+					<div id="juniBig" class="owl-carousel owl-theme big">
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/junior_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('JNR');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_junior_01.jpg" />
+						</div>
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/junior_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('JNR');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_junior_03.jpg" />
+						</div>
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/junior_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('JNR');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_junior_02.jpg" />
+						</div>
+					</div>
+					<div id="juniThumbs" class="owl-carousel owl-theme thumbs">
+						<div class="item active current">
+							<img class="cine_img" src="images/temp/thumb_junior_01.jpg" />
+						</div>
+						<div class="item">
+							<img class="cine_img" src="images/temp/thumb_junior_02.jpg" />
+						</div>
+						<div class="item">
+							<img class="cine_img" src="images/temp/thumb_junior_03.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cine_banr_wrap">
+				<div class="outer">
+					<div id="regBig" class="owl-carousel owl-theme big">
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/reg_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('REG');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_reg_02.jpg" />
+						</div>
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/reg_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('REG');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_reg_03.jpg" />
+						</div>
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/reg_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('REG');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_reg_01.jpg" />
+						</div>
+					</div>
+					<div id="regThumbs" class="owl-carousel owl-theme thumbs regThumbs">
+						<div class="item active current">
+							<img class="cine_img" src="images/temp/thumb_regular_01.jpg" />
+						</div>
+						<div class="item">
+							<img class="cine_img" src="images/temp/thumb_regular_02.jpg" />
+						</div>
+						<div class="item">
+							<img class="cine_img" src="images/temp/thumb_regular_03.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cine_banr_wrap">
+				<div class="outer">
+					<div id="luxeBig" class="owl-carousel owl-theme big">
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/luxe_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('LUX');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_luxe_01.jpg" />
+						</div>
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/luxe_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('LUX');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_luxe_02.jpg" />
+						</div>
+						<div class="item">
+							<div class="content">
+								<img src="images/temp/luxe_logo.png" />
+								
+								<a href="#" class="btn"
+									onclick="javascript: WebNavHelper.redirectToCinemaClassPage('LUX');
+									return false;">Lihat Detail
+								</a>
+							</div>
+							<img class="cine_img" src="images/temp/banner_luxe_03.jpg" />
+						</div>
+					</div>
+					<div id="luxeThumbs" class="owl-carousel owl-theme thumbs regThumbs">
+						<div class="item active current">
+							<img class="cine_img" src="images/temp/thumb_luxe_01.jpg" />
+						</div>
+						<div class="item">
+							<img class="cine_img" src="images/temp/thumb_luxe_02.jpg" />
+						</div>
+						<div class="item">
+							<img class="cine_img" src="images/temp/thumb_luxe_03.jpg" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script>
+		$(".cine_banr_wrap_main_hdr").owlCarousel({
+			// $owl.owlCarousel({
+			dots: true,
+			loop: false,
+			autoplay: false,
+			nav: true,
+			pagination: true,
+			items: 1,
+			// navText: ["<img src='images/icn_prev_arrow.svg'>", "<img src='images/icn_next_arrow.svg'>"],
+			// navigationText: ["<img src='../images/icn_arr.svg", "<img src='mynextimage.png'>"]
+
+		});
+	</script>
+
+	<script>
+		//document.addEventListener("DOMContentLoaded", function () {
+		//	const btn = document.getElementById("chooseTicketsBtn");
+		//	btn.addEventListener("click", function () {
+		//		const filmName = this.getAttribute("data-film-name");
+		//		const filmId = this.getAttribute("data-film-id");
+		//		const venue = this.getAttribute("data-venue");
+		//		const genre = JSON.parse(this.getAttribute("data-genre"));
+		//		const showDate = this.getAttribute("data-date");
+		//		const showTime = this.getAttribute("data-time");
+
+		//		window.dataLayer = window.dataLayer || [];
+		//		dataLayer.push({
+		//			event: 'autoEvent',
+		//			event_category: 'Ticket Checkout',
+		//			event_action: 'Choose your tickets',
+		//			event_label: 'begin_checkout',
+		//			logged_user: 'true',
+		//			film_name: 'Lucy',
+		//			cms_id: '1234567790',
+		//			genre: 'Action',
+		//			venue_name: 'CINEPOLIS MAXXBOX LIPPO VILLAGE',
+		//			show_date: '29/03/2025',
+		//			show_time: '10:15',
+		//			ecommerce: {
+		//				items: [{
+		//					item_name: 'Lucy',
+		//					item_id: '1234567790',
+		//					item_category: 'CINEPOLIS MAXXBOX LIPPO VILLAGE',
+		//					item_category2: '29/03/2025',
+		//					item_variant: 'Ticket'
+		//				}]
+		//			}
+		//		});
+		//	});
+		//});
+</script>
+	
+
+
+            <footer class="footer" style="background-size: cover;">
+                <div class="foot-col-hdr page_hdr">
+                    <div class="foot-col">
+                        <div class="foot-playstore">
+                            <p>DOWNLOAD OUR APP</p>
+                            <div class="foot-playstore_link">
+                                <a href="https://itunes.apple.com/in/app/cinemaxx/id986733797" id="lnkDownAppIso" target="_blank">
+                                    <img src="images/icn_app_ios.png" id="imgAppIos" /></a>
+                                <a href="https://play.google.com/store/apps/details?id=com.cinemaxx.activity"
+                                    id="lnkDownAppAndriod" target="_blank">
+                                    <img src="images/icn_app_and.png" id="imgAppAnd" /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="vLine"></div>
+                    <div class="foot-col">
+                        <div class="foot-col-link">
+                            <a href="#" id="lnkFootAbout">ABOUT CINÉPOLIS</a>
+                            <a href="#" id="lnkFootCinemaClass">CINEMA CLASS</a>
+                            
+                            <a href="#" id="lnkFootMembership">MEMBERSHIP</a>
+                        </div>
+                    </div>
+                    <div class="vLine"></div>
+                    <div class="foot-col">
+                        <div class="foot-col-link">
+                            <a href="#" id="lnkFootFAQs">FAQ</a>
+                            <a href="#" id="lnkFootContact">CONTACT US</a>
+                            <a href="#" id="lnkFootAdvertise">ADVERTISEMENT & PARTNERSHIP</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot-note  page_hdr">
+                    <p>COPYRIGHT © CINEPOLIS 2022. ALL RIGHT RESERVED</p>
+                    <div class="link">
+                        <a href="#" id="lnkFootPrivacyPolicy">PRIVACY POLICY</a>
+                        <a href="#" id="lnkFootTnC">TERM AND CONDITIONS</a>
+                    </div>
+                    <div class="link-social">
+                        <a href="https://wa.me/087777731078?text=Hi%20Cinepolis%20Team%2C%20saya%20ingin%20bertanya" id="lnkFTSocWapp" target="_blank">
+                            <img src="images/icn_wa.svg" id="imgFootWA" /></a>
+                        <a href="https://twitter.com/cinepolisid" id="lnkFTSocTwit" target="_blank">
+                            <img src="images/icn_twit.svg" id="imgFootTwit" /></a>
+                        <a href="https://www.instagram.com/cinepolisid" id="lnkFTSocInsta" target="_blank">
+                            <img src="images/icn_insta.svg" id="imgFootInsta" /></a>
+                        <a href="https://www.facebook.com/cinepolisid" id="lnkFTSocFB" target="_blank">
+                            <img src="images/icn_fb.svg" id="imgFootFB" /></a>
+                        <a href="https://www.youtube.com/channel/UCP70SpqoP28WPYIHkzf_Y8Q" id="lnkFTSocYtube" target="_blank">
+                            <img src="images/icn_youtube.svg" id="imgFootYtube" /></a>
+                    </div>
+                </div>
+            </footer>
+
+            <div id="modalSiteMsgBox" class="modal fade" tabindex="-1" aria-labelledby="payModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal_sign_hdr">
+                    <div class="modal-content ">
+                        <div class="modal-body">
+                            <div class="sign_hdr">
+                                <button type="button" id="lnkMsgBoxClose" class="btn-close mod-btn"></button>
+                                
+                                <div class="content center">
+                                    
+                                    <img src="images/emoji_01.png" id="modalSiteMsgBoxImg" />
+                                    <div id="modalSiteMsgBoxTitle" class="head"></div>
+                                    <div id="modalSiteMsgBoxBody" class="title">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="modalSiteDecisionBox" class="modal fade" tabindex="-1" aria-labelledby="decisionModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal_sign_hdr">
+                    <div class="modal-content ">
+                        <div class="modal-body">
+                            <div class="sign_hdr">
+                                <div class="content center">
+                                    
+                                    
+                                    <div id="modalSiteDecisionBoxTitle" class="head"></div>
+                                    <div id="modalSiteDecisionBoxBody" class="title">
+                                    </div>
+                                    <div class="form_row_msg">
+                                        <button id="btnDecisionBoxCancel" type="button" class="btn">Cancel</button>
+                                        <button id="btnDecisionBoxOk" type="button" class="btn active">OK</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="location" class="modal fade" tabindex="-1" aria-labelledby="payModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-hdr">
+                    <div class="modal-content ">
+                        <div class="modal-header">
+                            <div class="head"><span key="your_location">Your Location</span></div>
+                            <button id="btnLocClose" type="button" class="btn-close mod-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="list-wrap loc_wrap accordion">
+                                <div class="list-hdr">
+                                    <div class="promo-hdr">
+                                        <img src="images/icn_search.svg" id="imgCitysearch" class="icn filterBright opacity-50" />
+                                        <input type="text" id="txtSearchCity" class="title" placeholder="Enter City"
+                                            oninput="CommonPageHelper.searchCity();" maxlength="30" autocomplete="off" />
+                                        <button id="btnGetCurentLoc" type="button" class="border-0">
+                                            <img src="images/icn_locGps.svg" id="imgBtnCitysearch" class="icn filterBright opacity-50" />
+                                        </button>
+                                    </div>
+                                </div>
+                                <div id="divDetctLocMsg" class="locMsg d-none">Detecting your location...</div>
+                                <div class="list_scroll" id="divCities">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Register modal -->
+            <div id="Reg-modal" class="modal fade" tabindex="-1" aria-labelledby="payModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal_sign_hdr">
+                    <div class="modal-content ">
+                        <div class="modal-body">
+                            <div class="sign_hdr">
+                                <button type="button" class="btn-close mod-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="center">
+                                    <div class="head"><span key="sign_up_title">Hallo, Selamat datang di Cinépolis Cinemas!</span></div>
+                                    <div class="title">
+                                        <span key='already_have_account'>Sudah memiliki akun?</span>
+                                        <a href="#" id="lnkLoginReg_M">Log in</a>
+                                    </div>
+                                </div>
+                                <div class="form_row">
+                                    <div class="form-group">
+                                        <label>First Name<span class="mndt">*</span></label>
+                                        <input id="txtFNameReg_M" type="text" placeholder=" Enter your First Name"
+                                            onkeypress='FormCtrlHelper.isCharacterText(event);'
+                                            autocomplete="off" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Last Name<span class="mndt">*</span></label>
+                                        <input id="txtLNameReg_M" type="text" placeholder=" Enter your Last Name"
+                                            onkeypress='FormCtrlHelper.isCharacterText(event);'
+                                            autocomplete="off" />
+                                    </div>
+                                </div>
+                                <div class="form_row">
+                                    <div class="form-group">
+                                        <label>Email<span class="mndt">*</span></label>
+                                        <input id="txtEmailReg_M" type="text" placeholder=" Enter your Email"
+                                            onkeypress='FormCtrlHelper.isEmailText(event);'
+                                            autocomplete="off" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label><span key="phone_number">Whatsapp Nomor</span><span class="mndt">*</span></label>
+                                        <div class="phone_prefix">
+                                            <span>+62</span>
+                                            <input id="txtMobileReg_M" type="text" placeholder=" Enter your mobile"
+                                                onkeydown='FormCtrlHelper.isNumeric(event);' maxlength="13" autocomplete="off" />
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="form_row">
+                                    <div class="form-group">
+                                        <label>Password<span class="mndt">*</span></label>
+                                        <input id="txtPassReg_M" type="password" placeholder=" Enter your Password"
+                                            onkeypress='FormCtrlHelper.isPasswordText(event);'
+                                            autocomplete="off" />
+                                        <a id="togelPassReg_M" toggle="#txtRegPass_M" class="field-icon toggle-password"><span
+                                            class="material-icons">visibility_off</span>
+                                        </a>
+                                    </div>
+                                    <div class="form-group">
+                                        <label><span key="confirm_password">Konfirmasi Password</span><span class="mndt">*</span></label>
+                                        <input id="txtConfirmPassReg_M" type="password" placeholder=" Enter your Password"
+                                            onkeypress='FormCtrlHelper.isPasswordText(event);'
+                                            autocomplete="off" />
+                                        <a id="togelConfirmPassReg_M" toggle="#txtConfirmPassReg_M" class="field-icon toggle-password"><span
+                                            class="material-icons">visibility_off</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="form_row_chk">
+                                    <input id="chkTnCReg_M" type="checkbox" class="checkbox" />
+                                    <span key='reg_tnc'>Anda harus menerima syarat dan ketentuan yang berlaku untuk melanjutkan pendaftaran</span>
+                                    
+                                </div>
+                                <div class="captcha">
+                                    
+                                    <div id="divRegModelCaptcha" class="capt_wrap">
+                                        <div class="capt_wrap_hdr">
+                                            <img class="captImg" id="imgREGMCaptcha" src="" />
+                                            <a id="lnkREGMCaptchaRefresh">
+                                                <img src="images/refresh_captcha.svg" id="Img1" /></a>
+                                        </div>
+                                        <input id="txtREGMCaptcha" type="text"
+                                            onkeypress='FormCtrlHelper.isAlphaNumericText(event);'
+                                            maxlength="10" autocomplete="off">
+                                    </div>
+                                </div>
+                                <button id="btnReg_M" type="button" class="btn">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- login modal -->
+            <div id="Login-modal" class="modal fade" tabindex="-1" aria-labelledby="Login-modal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal_sign_hdr">
+                    <div class="modal-content ">
+                        <div class="modal-body">
+                            <div class="sign_hdr">
+                                <button type="button" class="btn-close mod-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="center">
+                                    <div class="head"><span key="popup_sign_in_title">Oops, kamu harus login terlebih dahulu untuk memesan tiket</span></div>
+                                    <div class="title">
+                                        <span key='dont_have_account'>Belum punya akun? </span>
+                                        <a id="lnkRegisterLog_M" href="#"><span key='sign_up_here'>Daftar di sini</span></a>
+                                    </div>
+                                </div>
+                                <div class="form-group form-row-hdr">
+                                    <label>UserName</label>
+                                    <input id="txtUserNameLog_M" type="text" placeholder="Masukkan alamat email Anda"
+                                        onkeypress='FormCtrlHelper.isUserNameText(event);' autocomplete="off" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Password</label>
+                                    <input id="txtPassLog_M" type="password" placeholder="Masukkan password Anda"
+                                        onkeypress='FormCtrlHelper.isPasswordText(event);' autocomplete="off" />
+                                    <a id="togelPassLog_M" toggle="#txtPassLog_M" class="field-icon toggle-password"><span
+                                        class="material-icons">visibility_off</span>
+                                    </a>
+                                </div>
+                                <a id="lnkForgotPassLog_M" class="title link">
+                                    <span key="forgot_password">Lupa Password?</span></a>
+                                <div class="captcha">
+                                    
+                                    <div id="divLoginModelCaptcha" class="capt_wrap">
+                                        <div class="capt_wrap_hdr">
+                                            <img class="captImg" id="imgLOGMCaptcha" src="" />
+                                            <a id="lnkLOGMCaptchaRefresh">
+                                                <img src="images/refresh_captcha.svg" id="Img2" /></a>
+                                        </div>
+                                        <input id="txtLOGMCaptcha" type="text"
+                                            onkeypress='FormCtrlHelper.isAlphaNumericText(event);'
+                                            maxlength="10" autocomplete="off">
+                                    </div>
+                                </div>
+                                
+                                <button id="btnLogIn_M" type="button" class="btn ">Log in</button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ForgotPass modal -->
+            <div id="ForgotPass-modal" class="modal fade" tabindex="-1" aria-labelledby="Login-modal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal_sign_hdr">
+                    <div class="modal-content ">
+                        <div class="modal-body">
+                            <div class="sign_hdr">
+                                <button type="button" class="btn-close mod-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <div class="content">
+                                    <div class="head">Forgot Password </div>
+                                    <p class="title">Enter the email</p>
+                                </div>
+                                <div class="form-group">
+                                    <label>Email</label>
+                                    <input id="txtUserNameFP_M" placeholder=" Enter your Email"
+                                        onkeypress='FormCtrlHelper.isUserNameText(event);' autocomplete="off" />
+                                </div>
+                                
+                                <div id="FPModelCaptcha"></div>
+                                <a id="lnkSubmitFP_M" class="btn">Continue</a>
+                                <a id="lnkBackLoginFP_M" class="link">Back to Log in</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sign veriffication -->
+            <div id="modalotpVerify" class="modal fade" tabindex="-1" aria-labelledby="payModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal_sign_hdr">
+                    <div class="modal-content ">
+                        <div class="modal-body">
+                            <div class="sign_hdr">
+                                <button type="button" class="btn-close mod-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <section class="sign_wrap_veri ">
+                                    <div class="sign_veri_hdr otp_hdr">
+                                        <div class="content">
+                                            <div class="head">OTP Code Verification </div>
+                                            <p class="title">
+                                                We have sent an OTP to <strong>+622334176777</strong>. Please fill OTP Code in the
+                  field below.
+                                            </p>
+                                        </div>
+                                        <div class="pin-wrapper">
+                                            <input type="text" data-role="pin" maxlength="1" class="pin-input">
+                                            <input type="text" data-role="pin" maxlength="1" class="pin-input">
+                                            <input type="text" data-role="pin" maxlength="1" class="pin-input">
+                                            <input type="text" data-role="pin" maxlength="1" class="pin-input">
+                                            <input type="text" data-role="pin" maxlength="1" class="pin-input">
+                                        </div>
+                                        <!-- <div class="pin"></div> -->
+                                        <div class="pin_otp_hdr">
+                                            <div class="title">0:90</div>
+                                            <div class="title">
+                                                Not Receiving OTP Code? <a href="" class="link">Resend</a>
+                                            </div>
+                                            <a class="btn" href="seatLayout.html">Submit
+                                            </a>
+                                        </div>
+                                    </div>
+                                </section>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="ScreenTnC-model" class="modal fade" tabindex="-1" aria-labelledby="payModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal_junior">
+                    <div class="modal-content ">
+                        <div class="modal-body">
+                            <div class="juni_hdr">
+                                <button type="button" class="btn-close mod-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <section class="juni_content">
+                                    <div class="content" id="divScreenTNCContent">
+                                        
+                                    </div>
+                                </section>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <div id="modelMovieImage" class="modal fade" tabindex="-1" aria-labelledby="payModal" aria-hidden="true" data-bs-backdrop="static">
+                <div class="modal-dialog modal-dialog-centered movie_image_pop">
+                    <div class="modal-content ">
+                        <div class="modal-body">
+                            <button id="lnkCloseMovImgPopUp" type="button" class="btn-close mod-btn">X</button>
+                            <div class="">
+                                <img id="imgMovImage" class="mv_poster" src="" />
+                            </div>
+                            <div class="btn_wrap">
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="modelCensorRating" class="modal fade" tabindex="-1" aria-labelledby="payModal" aria-hidden="true" data-bs-backdrop="static">
+                <div class="modal-dialog modal-dialog-centered censor_rate_hdr">
+                    <div class="modal-content ">
+                        <div id="divRatingContent" class="modal-body">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tnc announce -->
+            <div id="CovidUpdate-model" class="modal fade" tabindex="-1" aria-labelledby="payModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal_tncAnnounce">
+                    <div class="modal-content ">
+                        <div class="modal-body">
+                            <button type="button" class="btn-close mod-btn" data-bs-dismiss="modal" aria-label="Close">
+                            </button>
+                            <div class="banr">
+                                <img src="images/static/annonc_ban.jpg" id="imgTnCBanner" />
+                            </div>
+                            <section class="modal_tncAnnounce_hdr ">
+                                <div class="">
+                                    <div class="content">
+                                        <div class="head">Rules to Watch Movies During Pandemic </div>
+                                        <ol>
+                                            <li>Keep masks on at all time. Double-masking is better.</li>
+                                            <li>Physical distancing</li>
+                                            <li>Keep hands clean. Bringing your own hand sanitizer is a good idea.</li>
+                                            <li>Have the PeduliLindungi app installed on your phone.</li>
+                                            <li>Scan the QR code for PeduliLindungi before entering the cinema.</li>
+                                            <li>No visitors under 12 years old.</li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- trailer -->
+            <div id="modTrail" class="modal fade" tabindex="-1" aria-labelledby="payModal" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modTrail ">
+                    <div class="modal-content ">
+                        <div class="modal-body">
+                            <button id="btnCloseMovTrail" type="button" class="btn-close mod-btn">
+                            </button>
+                            <section class="trailer ">
+                                <iframe id="ifrmMovtrailer" width="1200" height="800" src=""
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen="true"></iframe>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- modal -->
+            <div id="QRCode-model" class="modal fade" tabindex="-1" aria-labelledby="payModal" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content ">
+                        <div class="modal-header">
+                            <div class="head text-center">Scan Your QR Code</div>
+                            <button type="button" class="btn-close mod-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <div class="">
+                                <img src="images/qr_code.png" id="imgQrCode_M" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <!-- Footer-->
+        <!-- Back to top button-->
+        <a class="btn-scroll-top" href="#top" data-scroll><span
+            class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon fi-chevron-up">
+            </i>
+        </a>
+
+        
+
+        
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        
+        
+    </form>
+    
+
+    
+</body>
+</html>

@@ -1,0 +1,587 @@
+2026-05-17 21:25:58,357 [INFO] Cineplex21Scraper: 🎬 Starting scrape: 21cineplex (XXI)
+2026-05-17 21:25:58,458 [INFO] CGVScraper: 🎬 Starting scrape: cgv (CGV)
+2026-05-17 21:25:58,469 [INFO] CinepolisScraper: 🎬 Starting scrape: cinepolis (Cinepolis)
+2026-05-17 21:26:00,163 [INFO] CinepolisScraper: Playwright initialized
+2026-05-17 21:26:00,952 [INFO] CinepolisScraper: Playwright: membuka /cinema-page.aspx ...
+2026-05-17 21:26:00,986 [INFO] Cineplex21Scraper: Playwright: membuka /cinemas ...
+2026-05-17 21:26:01,978 [INFO] CGVScraper: CGV: 72 cinemas parsed
+2026-05-17 21:26:01,979 [INFO] CGVScraper: ✅ Found 72 cinemas
+2026-05-17 21:26:03,198 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 44 theaters
+2026-05-17 21:26:03,298 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 100 theaters
+2026-05-17 21:26:05,700 [INFO] CGVScraper: [1/72] CGV Grand Indonesia → 2 movies
+2026-05-17 21:26:05,900 [INFO] CGVScraper: [5/72] CGV Green Pramuka Mall → 1 movies
+2026-05-17 21:26:06,077 [INFO] CGVScraper: [3/72] CGV Central Park → 3 movies
+2026-05-17 21:26:06,159 [INFO] CGVScraper: [4/72] CGV Slipi Jaya → 1 movies
+2026-05-17 21:26:06,616 [INFO] CGVScraper: [2/72] CGV Pacific Place → 3 movies
+2026-05-17 21:26:07,282 [INFO] Cineplex21Scraper: XXI: 144 cinema dari getAllTheater intercept
+2026-05-17 21:26:07,373 [INFO] CGVScraper: [6/72] CGV Bella Terra Lifestyle Center → 3 movies
+2026-05-17 21:26:07,821 [INFO] CGVScraper: [8/72] CGV Aeon Mall JGC → 2 movies
+2026-05-17 21:26:07,857 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 44 theaters
+2026-05-17 21:26:07,859 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 100 theaters
+2026-05-17 21:26:08,021 [INFO] CinepolisScraper: cinema-page.aspx: 89807 chars
+2026-05-17 21:26:08,024 [INFO] CinepolisScraper: Session: ASP.NET_SessionId=dp4o1gdn41ck3y1bhv5xshfs
+2026-05-17 21:26:08,071 [INFO] CinepolisScraper: cinema-page.aspx: 58 cinema
+2026-05-17 21:26:08,071 [INFO] CinepolisScraper: Cinepolis: 58 cinema raw, fetch detail ...
+2026-05-17 21:26:08,467 [INFO] CGVScraper: [10/72] CGV Sunter Mall → 1 movies
+2026-05-17 21:26:09,062 [INFO] CGVScraper: [11/72] CGV Buaran Plaza → 1 movies
+2026-05-17 21:26:09,204 [INFO] CGVScraper: [7/72] CGV Transmart Cempaka Putih → 30 movies
+2026-05-17 21:26:09,642 [INFO] CGVScraper: [9/72] CGV FX Sudirman → 1 movies
+2026-05-17 21:26:09,768 [INFO] CGVScraper: [12/72] CGV Poins Mall → 1 movies
+2026-05-17 21:26:10,152 [INFO] CGVScraper: [13/72] CGV Paris Van Java → 2 movies
+2026-05-17 21:26:10,229 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 44 theaters
+2026-05-17 21:26:10,240 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 100 theaters
+2026-05-17 21:26:10,943 [INFO] CGVScraper: [14/72] CGV Miko Mall → 1 movies
+2026-05-17 21:26:11,331 [INFO] CGVScraper: [16/72] CGV 23 Paskal Shopping Center → 5 movies
+2026-05-17 21:26:12,158 [INFO] CGVScraper: [18/72] CGV Kings Shopping Center → 1 movies
+2026-05-17 21:26:12,648 [INFO] CGVScraper: [15/72] CGV BEC Mall → 30 movies
+2026-05-17 21:26:12,761 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 44 theaters
+2026-05-17 21:26:12,807 [INFO] CGVScraper: [19/72] CGV Teras Kota → 1 movies
+2026-05-17 21:26:12,808 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 100 theaters
+2026-05-17 21:26:13,030 [INFO] CGVScraper: [20/72] CGV Ecoplaza Citraraya Cikupa → 1 movies
+2026-05-17 21:26:13,035 [INFO] CGVScraper: [17/72] CGV Metro Indah Mall → 30 movies
+2026-05-17 21:26:13,850 [INFO] CGVScraper: [21/72] CGV Transmart Graha Bintaro → 1 movies
+2026-05-17 21:26:14,647 [INFO] CGVScraper: [23/72] CGV Grand Batavia → 1 movies
+2026-05-17 21:26:15,238 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 44 theaters
+2026-05-17 21:26:15,261 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 100 theaters
+2026-05-17 21:26:16,104 [INFO] CGVScraper: [22/72] CGV Paradise Walk Serpong → 3 movies
+2026-05-17 21:26:16,322 [INFO] CGVScraper: [27/72] CGV Bekasi Trade Center → 1 movies
+2026-05-17 21:26:16,383 [INFO] CGVScraper: [24/72] CGV Foodmosphere → 30 movies
+2026-05-17 21:26:17,058 [INFO] CGVScraper: [25/72] CGV Mal Ciputra Tangerang → 30 movies
+2026-05-17 21:26:17,394 [INFO] CGVScraper: [26/72] CGV Bekasi Cyber Park → 4 movies
+2026-05-17 21:26:17,631 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 44 theaters
+2026-05-17 21:26:17,658 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 100 theaters
+2026-05-17 21:26:18,611 [INFO] CGVScraper: [30/72] CGV Jwalk Mall → 3 movies
+2026-05-17 21:26:18,774 [INFO] CGVScraper: [31/72] CGV Pakuwon Mall Jogja → 2 movies
+2026-05-17 21:26:19,436 [INFO] CGVScraper: [28/72] CGV Lagoon Avenue Bekasi → 30 movies
+2026-05-17 21:26:20,090 [INFO] CGVScraper: [29/72] CGV Plaza Balikpapan → 30 movies
+2026-05-17 21:26:20,177 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 44 theaters
+2026-05-17 21:26:20,192 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 100 theaters
+2026-05-17 21:26:20,675 [INFO] CGVScraper: [33/72] CGV Grage City Mall → 1 movies
+2026-05-17 21:26:20,888 [INFO] CGVScraper: [32/72] CGV Transmart Maguwo → 30 movies
+2026-05-17 21:26:21,771 [INFO] CGVScraper: [36/72] CGV BG Junction → 3 movies
+2026-05-17 21:26:22,189 [INFO] CGVScraper: [34/72] CGV Transmart Cirebon → 30 movies
+2026-05-17 21:26:22,353 [INFO] CGVScraper: [37/72] CGV Maspion Square → 2 movies
+2026-05-17 21:26:22,819 [INFO] CGVScraper: [35/72] CGV Marvell City → 30 movies
+2026-05-17 21:26:23,361 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 44 theaters
+2026-05-17 21:26:23,412 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 100 theaters
+2026-05-17 21:26:24,137 [INFO] CGVScraper: [41/72] CGV Sunrise Mall → 1 movies
+2026-05-17 21:26:24,383 [INFO] CGVScraper: [38/72] CGV Festive Walk → 30 movies
+2026-05-17 21:26:24,538 [INFO] CGVScraper: [42/72] CGV Focal Point → 2 movies
+2026-05-17 21:26:25,425 [INFO] CGVScraper: [39/72] CGV Technomart → 30 movies
+2026-05-17 21:26:25,591 [INFO] CGVScraper: [40/72] CGV Cikampek Mall → 30 movies
+2026-05-17 21:26:25,996 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 100 theaters
+2026-05-17 21:26:26,010 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 44 theaters
+2026-05-17 21:26:27,265 [INFO] CGVScraper: [47/72] CGV Depok Mall → 1 movies
+2026-05-17 21:26:27,534 [INFO] CGVScraper: [43/72] CGV Rita Supermall → 30 movies
+2026-05-17 21:26:27,670 [INFO] CGVScraper: [44/72] CGV Social Market → 30 movies
+2026-05-17 21:26:27,836 [INFO] CGVScraper: [45/72] CGV Transmart Palembang → 30 movies
+2026-05-17 21:26:28,714 [INFO] CGVScraper: [46/72] CGV PTC Mall → 30 movies
+2026-05-17 21:26:29,576 [INFO] CGVScraper: [50/72] CGV Transmart Pekanbaru → 4 movies
+2026-05-17 21:26:29,910 [INFO] CGVScraper: [51/72] CGV Holiday Pekanbaru → 1 movies
+2026-05-17 21:26:30,431 [INFO] CGVScraper: [52/72] CGV Studio Pekanbaru → 2 movies
+2026-05-17 21:26:30,752 [INFO] CGVScraper: [48/72] CGV DTC Depok → 3 movies
+2026-05-17 21:26:31,157 [INFO] CGVScraper: [49/72] CGV Transmart Tegal → 30 movies
+2026-05-17 21:26:32,827 [INFO] CGVScraper: [57/72] CGV Icon Mall Gresik → 2 movies
+2026-05-17 21:26:33,060 [INFO] CGVScraper: [53/72] CGV Transmart Mataram → 30 movies
+2026-05-17 21:26:33,318 [INFO] CGVScraper: [54/72] CGV Transmart Solo → 30 movies
+2026-05-17 21:26:33,895 [INFO] CGVScraper: [55/72] CGV Transmart Lampung → 30 movies
+2026-05-17 21:26:34,031 [INFO] CGVScraper: [56/72] CGV Grand Mall Lampung → 30 movies
+2026-05-17 21:26:34,985 [INFO] CGVScraper: [59/72] CGV Blitar Square → 1 movies
+2026-05-17 21:26:35,601 [INFO] CGVScraper: [61/72] CGV Park Avenue Batam → 3 movies
+2026-05-17 21:26:36,044 [INFO] CGVScraper: [62/72] CGV Grand Batam Mall → 4 movies
+2026-05-17 21:26:36,248 [INFO] CGVScraper: [58/72] CGV Vivo Sentul → 30 movies
+2026-05-17 21:26:36,885 [INFO] CGVScraper: [60/72] CGV Plaza Mulia → 0 movies
+2026-05-17 21:26:36,929 [INFO] CGVScraper: [63/72] CGV Sadang Terminal Square → 1 movies
+2026-05-17 21:26:38,655 [INFO] CGVScraper: [64/72] CGV Plaza Lawu Madiun → 0 movies
+2026-05-17 21:26:39,102 [INFO] CGVScraper: [65/72] CGV Kediri Mall → 0 movies
+2026-05-17 21:26:39,308 [INFO] CGVScraper: [66/72] CGV Living Plaza Jababeka → 0 movies
+2026-05-17 21:26:40,040 [INFO] CGVScraper: [67/72] CGV Wijaya Kusuma → 0 movies
+2026-05-17 21:26:40,045 [INFO] CGVScraper: [68/72] CGV Panakkukang Square → 0 movies
+2026-05-17 21:26:41,741 [INFO] CGVScraper: [69/72] CGV Malang City Point → 0 movies
+2026-05-17 21:26:42,165 [INFO] CGVScraper: [70/72] CGV Roxy Square Jember → 0 movies
+2026-05-17 21:26:42,375 [INFO] CGVScraper: [71/72] CGV Raya Padang → 0 movies
+2026-05-17 21:26:43,179 [INFO] CGVScraper: [72/72] CGV Ecoplaza Citra Maja Raya → 0 movies
+2026-05-17 21:26:43,182 [INFO] CGVScraper: ✅ Done cgv: 72 cinemas, 766 movies, 79 showtimes
+2026-05-17 21:26:58,402 [INFO] Cineplex21Scraper: XXI: total 144 cinema
+2026-05-17 21:26:58,403 [INFO] Cineplex21Scraper: ✅ Found 144 cinemas for 21cineplex
+2026-05-17 21:26:59,186 [INFO] Cineplex21Scraper: dc21 schedule [AEON MALL TANJUNG BARAT XXI]: status=200 len=3667
+2026-05-17 21:26:59,997 [INFO] Cineplex21Scraper: dc21 schedule [AGORA MALL XXI]: status=200 len=7026
+2026-05-17 21:27:01,484 [INFO] Cineplex21Scraper: dc21 schedule [AGORA MALL PREMIERE]: status=200 len=3320
+2026-05-17 21:27:03,081 [INFO] Cineplex21Scraper: dc21 schedule [AGORA MALL IMAX]: status=200 len=6103
+2026-05-17 21:27:04,704 [INFO] Cineplex21Scraper: dc21 schedule [ARION XXI]: status=200 len=5233
+2026-05-17 21:27:06,466 [INFO] Cineplex21Scraper: detail_cache city_id=10: status=200 len=47839
+2026-05-17 21:27:06,467 [INFO] Cineplex21Scraper: detail_cache city_id=10: 32 film
+2026-05-17 21:27:06,468 [INFO] Cineplex21Scraper: [1/144] AEON MALL TANJUNG BARAT XXI → 4 movies, 20 showtimes
+2026-05-17 21:27:06,469 [INFO] Cineplex21Scraper: [2/144] AGORA MALL XXI → 9 movies, 27 showtimes
+2026-05-17 21:27:06,470 [INFO] Cineplex21Scraper: [3/144] AGORA MALL PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:27:06,470 [INFO] Cineplex21Scraper: [4/144] AGORA MALL IMAX → 0 movies, 0 showtimes
+2026-05-17 21:27:06,471 [INFO] Cineplex21Scraper: [5/144] ARION XXI → 6 movies, 26 showtimes
+2026-05-17 21:27:08,028 [INFO] Cineplex21Scraper: dc21 schedule [ARTHA GADING XXI]: status=200 len=9119
+2026-05-17 21:27:08,029 [INFO] Cineplex21Scraper: [6/144] ARTHA GADING XXI → 11 movies, 43 showtimes
+2026-05-17 21:27:09,825 [INFO] Cineplex21Scraper: dc21 schedule [BASSURA XXI]: status=200 len=6524
+2026-05-17 21:27:09,827 [INFO] Cineplex21Scraper: [7/144] BASSURA XXI → 8 movies, 29 showtimes
+2026-05-17 21:27:11,042 [INFO] Cineplex21Scraper: dc21 schedule [BAYWALK PLUIT XXI]: status=200 len=7074
+2026-05-17 21:27:11,050 [INFO] Cineplex21Scraper: [8/144] BAYWALK PLUIT XXI → 9 movies, 28 showtimes
+2026-05-17 21:27:12,738 [INFO] Cineplex21Scraper: dc21 schedule [BAYWALK PLUIT PREMIERE]: status=200 len=1645
+2026-05-17 21:27:12,739 [INFO] Cineplex21Scraper: [9/144] BAYWALK PLUIT PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:27:14,040 [INFO] Cineplex21Scraper: dc21 schedule [BLOK M SQUARE]: status=200 len=10080
+2026-05-17 21:27:14,048 [INFO] Cineplex21Scraper: [10/144] BLOK M SQUARE → 12 movies, 50 showtimes
+2026-05-17 21:27:15,738 [INFO] Cineplex21Scraper: dc21 schedule [BLOK M XXI]: status=200 len=10881
+2026-05-17 21:27:15,741 [INFO] Cineplex21Scraper: [11/144] BLOK M XXI → 13 movies, 51 showtimes
+2026-05-17 21:27:17,044 [INFO] Cineplex21Scraper: dc21 schedule [CIJANTUNG XXI]: status=200 len=5918
+2026-05-17 21:27:17,045 [INFO] Cineplex21Scraper: [12/144] CIJANTUNG XXI → 7 movies, 29 showtimes
+2026-05-17 21:27:18,843 [INFO] Cineplex21Scraper: dc21 schedule [CIPINANG XXI]: status=200 len=6858
+2026-05-17 21:27:18,845 [INFO] Cineplex21Scraper: [13/144] CIPINANG XXI → 8 movies, 34 showtimes
+2026-05-17 21:27:20,046 [INFO] Cineplex21Scraper: dc21 schedule [CIPLAZ CENGKARENG XXI]: status=200 len=4236
+2026-05-17 21:27:20,047 [INFO] Cineplex21Scraper: [14/144] CIPLAZ CENGKARENG XXI → 5 movies, 20 showtimes
+2026-05-17 21:27:21,799 [INFO] Cineplex21Scraper: dc21 schedule [CIPLAZ KLENDER XXI]: status=200 len=6214
+2026-05-17 21:27:21,802 [INFO] Cineplex21Scraper: [15/144] CIPLAZ KLENDER XXI → 7 movies, 33 showtimes
+2026-05-17 21:27:23,073 [INFO] Cineplex21Scraper: dc21 schedule [CITRA XPERIENCE XXI]: status=200 len=7740
+2026-05-17 21:27:23,074 [INFO] Cineplex21Scraper: [16/144] CITRA XPERIENCE XXI → 9 movies, 38 showtimes
+2026-05-17 21:27:24,550 [INFO] Cineplex21Scraper: dc21 schedule [CITRA XXI]: status=200 len=8000
+2026-05-17 21:27:24,552 [INFO] Cineplex21Scraper: [17/144] CITRA XXI → 9 movies, 43 showtimes
+2026-05-17 21:27:26,184 [INFO] Cineplex21Scraper: dc21 schedule [CITY PLAZA JATINEGARA XXI]: status=200 len=6030
+2026-05-17 21:27:26,186 [INFO] Cineplex21Scraper: [18/144] CITY PLAZA JATINEGARA XXI → 7 movies, 30 showtimes
+2026-05-17 21:27:27,757 [INFO] Cineplex21Scraper: dc21 schedule [DAAN MOGOT XXI]: status=200 len=6583
+2026-05-17 21:27:27,760 [INFO] Cineplex21Scraper: [19/144] DAAN MOGOT XXI → 8 movies, 30 showtimes
+2026-05-17 21:27:29,070 [INFO] Cineplex21Scraper: dc21 schedule [DJAKARTA XXI]: status=200 len=3932
+2026-05-17 21:27:29,072 [INFO] Cineplex21Scraper: [20/144] DJAKARTA XXI → 5 movies, 13 showtimes
+2026-05-17 21:27:30,812 [INFO] Cineplex21Scraper: dc21 schedule [EMPORIUM PLUIT XXI]: status=200 len=5610
+2026-05-17 21:27:30,815 [INFO] Cineplex21Scraper: [21/144] EMPORIUM PLUIT XXI → 7 movies, 23 showtimes
+2026-05-17 21:27:32,076 [INFO] Cineplex21Scraper: dc21 schedule [EMPORIUM PLUIT PREMIERE]: status=200 len=2733
+2026-05-17 21:27:32,077 [INFO] Cineplex21Scraper: [22/144] EMPORIUM PLUIT PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:27:33,749 [INFO] Cineplex21Scraper: dc21 schedule [EPICENTRUM XXI]: status=200 len=1895
+2026-05-17 21:27:33,750 [INFO] Cineplex21Scraper: [23/144] EPICENTRUM XXI → 2 movies, 10 showtimes
+2026-05-17 21:27:33,764 [INFO] CinepolisScraper: Cinepolis: 58 cinema final
+2026-05-17 21:27:33,771 [INFO] CinepolisScraper: ✅ Found 58 cinemas for cinepolis
+2026-05-17 21:27:35,096 [INFO] Cineplex21Scraper: dc21 schedule [GANDARIA CITY XXI]: status=200 len=7088
+2026-05-17 21:27:35,101 [INFO] Cineplex21Scraper: [24/144] GANDARIA CITY XXI → 8 movies, 37 showtimes
+2026-05-17 21:27:36,778 [INFO] Cineplex21Scraper: dc21 schedule [GANDARIA CITY PREMIERE]: status=200 len=2664
+2026-05-17 21:27:36,779 [INFO] Cineplex21Scraper: [25/144] GANDARIA CITY PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:27:38,087 [INFO] Cineplex21Scraper: dc21 schedule [GANDARIA CITY IMAX]: status=200 len=6722
+2026-05-17 21:27:38,087 [INFO] Cineplex21Scraper: [26/144] GANDARIA CITY IMAX → 0 movies, 0 showtimes
+2026-05-17 21:27:38,423 [INFO] CinepolisScraper: [Binjai Supermall] schedule intercepted: 2166 chars
+2026-05-17 21:27:39,945 [INFO] Cineplex21Scraper: dc21 schedule [GRAND PARAGON XXI]: status=200 len=9969
+2026-05-17 21:27:39,946 [INFO] Cineplex21Scraper: [27/144] GRAND PARAGON XXI → 12 movies, 48 showtimes
+2026-05-17 21:27:41,095 [INFO] Cineplex21Scraper: dc21 schedule [GREEN SEDAYU MALL XXI]: status=200 len=6882
+2026-05-17 21:27:41,096 [INFO] Cineplex21Scraper: [28/144] GREEN SEDAYU MALL XXI → 8 movies, 33 showtimes
+2026-05-17 21:27:43,023 [INFO] Cineplex21Scraper: dc21 schedule [HOLLYWOOD XXI]: status=200 len=10644
+2026-05-17 21:27:43,024 [INFO] Cineplex21Scraper: [29/144] HOLLYWOOD XXI → 13 movies, 48 showtimes
+2026-05-17 21:27:44,078 [INFO] Cineplex21Scraper: dc21 schedule [KALIBATA XXI]: status=200 len=6652
+2026-05-17 21:27:44,080 [INFO] Cineplex21Scraper: [30/144] KALIBATA XXI → 8 movies, 30 showtimes
+2026-05-17 21:27:44,170 [INFO] CinepolisScraper: [Blu Plaza] schedule intercepted: 14342 chars
+2026-05-17 21:27:45,069 [INFO] CinepolisScraper: [Binjai Supermall]: 1 movies, 1 showtimes
+2026-05-17 21:27:45,069 [INFO] CinepolisScraper: [1/58] Binjai Supermall → 1 movies, 1 showtimes
+2026-05-17 21:27:45,827 [INFO] Cineplex21Scraper: dc21 schedule [KELAPA GADING XXI]: status=200 len=13365
+2026-05-17 21:27:45,830 [INFO] Cineplex21Scraper: [31/144] KELAPA GADING XXI → 16 movies, 66 showtimes
+2026-05-17 21:27:47,122 [INFO] Cineplex21Scraper: dc21 schedule [KELAPA GADING PREMIERE]: status=200 len=3281
+2026-05-17 21:27:47,122 [INFO] Cineplex21Scraper: [32/144] KELAPA GADING PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:27:48,806 [INFO] Cineplex21Scraper: dc21 schedule [KELAPA GADING IMAX]: status=200 len=6109
+2026-05-17 21:27:48,807 [INFO] Cineplex21Scraper: [33/144] KELAPA GADING IMAX → 0 movies, 0 showtimes
+2026-05-17 21:27:49,941 [INFO] CinepolisScraper: [Cibubur Junction] schedule intercepted: 19298 chars
+2026-05-17 21:27:50,091 [INFO] Cineplex21Scraper: dc21 schedule [KEMANG VILLAGE XXI]: status=200 len=8162
+2026-05-17 21:27:50,093 [INFO] Cineplex21Scraper: [34/144] KEMANG VILLAGE XXI → 10 movies, 36 showtimes
+2026-05-17 21:27:51,796 [INFO] Cineplex21Scraper: dc21 schedule [KEMANG VILLAGE PREMIERE]: status=200 len=3350
+2026-05-17 21:27:51,797 [INFO] Cineplex21Scraper: [35/144] KEMANG VILLAGE PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:27:53,114 [INFO] Cineplex21Scraper: dc21 schedule [KOTA KASABLANKA XXI]: status=200 len=10864
+2026-05-17 21:27:53,116 [INFO] Cineplex21Scraper: [36/144] KOTA KASABLANKA XXI → 13 movies, 52 showtimes
+2026-05-17 21:27:54,816 [INFO] Cineplex21Scraper: dc21 schedule [KOTA KASABLANKA PREMIERE]: status=200 len=2742
+2026-05-17 21:27:54,817 [INFO] Cineplex21Scraper: [37/144] KOTA KASABLANKA PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:27:55,248 [INFO] CinepolisScraper: [Citimall Ketapang] schedule intercepted: 4359 chars
+2026-05-17 21:27:56,094 [INFO] Cineplex21Scraper: dc21 schedule [KRAMAT JATI XXI]: status=200 len=5971
+2026-05-17 21:27:56,096 [INFO] Cineplex21Scraper: [38/144] KRAMAT JATI XXI → 7 movies, 30 showtimes
+2026-05-17 21:27:56,195 [INFO] CinepolisScraper: [Blu Plaza]: 6 movies, 12 showtimes
+2026-05-17 21:27:56,195 [INFO] CinepolisScraper: [2/58] Blu Plaza → 6 movies, 12 showtimes
+2026-05-17 21:27:57,803 [INFO] Cineplex21Scraper: dc21 schedule [KUNINGAN CITY XXI]: status=200 len=7457
+2026-05-17 21:27:57,804 [INFO] Cineplex21Scraper: [39/144] KUNINGAN CITY XXI → 9 movies, 34 showtimes
+2026-05-17 21:27:59,100 [INFO] CinepolisScraper: [Citimall Ketapang]: 2 movies, 2 showtimes
+2026-05-17 21:27:59,100 [INFO] CinepolisScraper: [4/58] Citimall Ketapang → 2 movies, 2 showtimes
+2026-05-17 21:27:59,128 [INFO] Cineplex21Scraper: dc21 schedule [LIPPO MALL PURI XXI]: status=200 len=10199
+2026-05-17 21:27:59,129 [INFO] Cineplex21Scraper: [40/144] LIPPO MALL PURI XXI → 12 movies, 51 showtimes
+2026-05-17 21:27:59,150 [INFO] CinepolisScraper: [Cibubur Junction]: 8 movies, 17 showtimes
+2026-05-17 21:27:59,150 [INFO] CinepolisScraper: [3/58] Cibubur Junction → 8 movies, 17 showtimes
+2026-05-17 21:28:00,841 [INFO] CinepolisScraper: [Citimall Prabumulih] schedule intercepted: 2166 chars
+2026-05-17 21:28:00,874 [INFO] Cineplex21Scraper: dc21 schedule [LIPPO MALL PURI PREMIERE]: status=200 len=3343
+2026-05-17 21:28:00,874 [INFO] Cineplex21Scraper: [41/144] LIPPO MALL PURI PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:28:02,167 [INFO] Cineplex21Scraper: dc21 schedule [LOTTE SHOPPING AVENUE XXI]: status=200 len=7879
+2026-05-17 21:28:02,169 [INFO] Cineplex21Scraper: [42/144] LOTTE SHOPPING AVENUE XXI → 10 movies, 32 showtimes
+2026-05-17 21:28:04,518 [INFO] Cineplex21Scraper: dc21 schedule [LOTTE SHOPPING AVENUE PREMIERE]: status=200 len=3405
+2026-05-17 21:28:04,519 [INFO] Cineplex21Scraper: [43/144] LOTTE SHOPPING AVENUE PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:28:05,064 [INFO] CinepolisScraper: [Citimall Prabumulih]: 1 movies, 1 showtimes
+2026-05-17 21:28:05,065 [INFO] CinepolisScraper: [5/58] Citimall Prabumulih → 1 movies, 1 showtimes
+2026-05-17 21:28:05,251 [INFO] Cineplex21Scraper: dc21 schedule [MAL ATRIUM SENEN XXI]: status=200 len=4794
+2026-05-17 21:28:05,252 [INFO] Cineplex21Scraper: [44/144] MAL ATRIUM SENEN XXI → 6 movies, 20 showtimes
+2026-05-17 21:28:06,770 [INFO] Cineplex21Scraper: dc21 schedule [MALL KOJA XXI]: status=200 len=9446
+2026-05-17 21:28:06,771 [INFO] Cineplex21Scraper: [45/144] MALL KOJA XXI → 11 movies, 50 showtimes
+2026-05-17 21:28:06,815 [INFO] CinepolisScraper: [Citimall Sampit] schedule intercepted: 15128 chars
+2026-05-17 21:28:08,228 [INFO] Cineplex21Scraper: dc21 schedule [METROPOLE XXI]: status=200 len=6233
+2026-05-17 21:28:08,229 [INFO] Cineplex21Scraper: [46/144] METROPOLE XXI → 8 movies, 23 showtimes
+2026-05-17 21:28:09,873 [INFO] Cineplex21Scraper: dc21 schedule [METROPOLE PREMIERE]: status=200 len=2801
+2026-05-17 21:28:09,873 [INFO] Cineplex21Scraper: [47/144] METROPOLE PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:28:10,952 [INFO] CinepolisScraper: [Citimall Sampit]: 6 movies, 16 showtimes
+2026-05-17 21:28:10,952 [INFO] CinepolisScraper: [6/58] Citimall Sampit → 6 movies, 16 showtimes
+2026-05-17 21:28:11,242 [INFO] Cineplex21Scraper: dc21 schedule [ONE BELPARK XXI]: status=200 len=7343
+2026-05-17 21:28:11,245 [INFO] Cineplex21Scraper: [48/144] ONE BELPARK XXI → 9 movies, 32 showtimes
+2026-05-17 21:28:12,839 [INFO] CinepolisScraper: [Citiplaza Kutabumi] schedule intercepted: 5571 chars
+2026-05-17 21:28:12,854 [INFO] Cineplex21Scraper: dc21 schedule [ONE BELPARK PREMIERE]: status=200 len=1645
+2026-05-17 21:28:12,854 [INFO] Cineplex21Scraper: [49/144] ONE BELPARK PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:28:14,180 [INFO] Cineplex21Scraper: dc21 schedule [PGC XXI]: status=200 len=6652
+2026-05-17 21:28:14,182 [INFO] Cineplex21Scraper: [50/144] PGC XXI → 8 movies, 30 showtimes
+2026-05-17 21:28:15,889 [INFO] Cineplex21Scraper: dc21 schedule [PLAZA INDONESIA XXI]: status=200 len=4122
+2026-05-17 21:28:15,891 [INFO] Cineplex21Scraper: [51/144] PLAZA INDONESIA XXI → 5 movies, 19 showtimes
+2026-05-17 21:28:16,438 [INFO] CinepolisScraper: [Citiplaza Kutabumi]: 2 movies, 8 showtimes
+2026-05-17 21:28:16,438 [INFO] CinepolisScraper: [7/58] Citiplaza Kutabumi → 2 movies, 8 showtimes
+2026-05-17 21:28:17,116 [INFO] Cineplex21Scraper: dc21 schedule [PLAZA INDONESIA PREMIERE]: status=200 len=1518
+2026-05-17 21:28:17,116 [INFO] Cineplex21Scraper: [52/144] PLAZA INDONESIA PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:28:18,066 [INFO] CinepolisScraper: [City Of Tomorrow] schedule intercepted: 17111 chars
+2026-05-17 21:28:18,987 [INFO] Cineplex21Scraper: dc21 schedule [PLAZA SENAYAN XXI]: status=200 len=11915
+2026-05-17 21:28:18,990 [INFO] Cineplex21Scraper: [53/144] PLAZA SENAYAN XXI → 15 movies, 49 showtimes
+2026-05-17 21:28:20,119 [INFO] Cineplex21Scraper: dc21 schedule [PLAZA SENAYAN PREMIERE]: status=200 len=2687
+2026-05-17 21:28:20,119 [INFO] Cineplex21Scraper: [54/144] PLAZA SENAYAN PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:28:21,891 [INFO] Cineplex21Scraper: dc21 schedule [PONDOK INDAH 2 XXI]: status=200 len=4162
+2026-05-17 21:28:21,893 [INFO] Cineplex21Scraper: [55/144] PONDOK INDAH 2 XXI → 5 movies, 18 showtimes
+2026-05-17 21:28:22,688 [INFO] CinepolisScraper: [City Of Tomorrow]: 7 movies, 16 showtimes
+2026-05-17 21:28:22,688 [INFO] CinepolisScraper: [8/58] City Of Tomorrow → 7 movies, 16 showtimes
+2026-05-17 21:28:23,106 [INFO] Cineplex21Scraper: dc21 schedule [PONDOK INDAH 2 PREMIERE]: status=200 len=1596
+2026-05-17 21:28:23,108 [INFO] Cineplex21Scraper: [56/144] PONDOK INDAH 2 PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:28:23,611 [INFO] CinepolisScraper: [Depok Town Square] schedule intercepted: 2166 chars
+2026-05-17 21:28:24,690 [INFO] Cineplex21Scraper: dc21 schedule [PURI XXI]: status=200 len=9721
+2026-05-17 21:28:24,695 [INFO] Cineplex21Scraper: [57/144] PURI XXI → 12 movies, 43 showtimes
+2026-05-17 21:28:26,104 [INFO] Cineplex21Scraper: dc21 schedule [PURI PREMIERE]: status=200 len=1051
+2026-05-17 21:28:26,104 [INFO] Cineplex21Scraper: [58/144] PURI PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:28:27,744 [INFO] CinepolisScraper: [Depok Town Square]: 1 movies, 1 showtimes
+2026-05-17 21:28:27,744 [INFO] CinepolisScraper: [9/58] Depok Town Square → 1 movies, 1 showtimes
+2026-05-17 21:28:28,028 [INFO] Cineplex21Scraper: dc21 schedule [SEASONS CITY XXI]: status=200 len=7094
+2026-05-17 21:28:28,029 [INFO] Cineplex21Scraper: [59/144] SEASONS CITY XXI → 8 movies, 39 showtimes
+2026-05-17 21:28:28,646 [INFO] CinepolisScraper: [Distrik 1 Meikarta] schedule intercepted: 4355 chars
+2026-05-17 21:28:29,180 [INFO] Cineplex21Scraper: dc21 schedule [SENAYAN CITY XXI]: status=200 len=6671
+2026-05-17 21:28:29,180 [INFO] Cineplex21Scraper: [60/144] SENAYAN CITY XXI → 8 movies, 32 showtimes
+2026-05-17 21:28:30,896 [INFO] Cineplex21Scraper: dc21 schedule [SENAYAN CITY PREMIERE]: status=200 len=3330
+2026-05-17 21:28:30,896 [INFO] Cineplex21Scraper: [61/144] SENAYAN CITY PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:28:32,211 [INFO] Cineplex21Scraper: dc21 schedule [SETIABUDI XXI]: status=200 len=5935
+2026-05-17 21:28:32,212 [INFO] Cineplex21Scraper: [62/144] SETIABUDI XXI → 8 movies, 18 showtimes
+2026-05-17 21:28:33,008 [INFO] CinepolisScraper: [Distrik 1 Meikarta]: 2 movies, 2 showtimes
+2026-05-17 21:28:33,008 [INFO] CinepolisScraper: [10/58] Distrik 1 Meikarta → 2 movies, 2 showtimes
+2026-05-17 21:28:33,656 [INFO] Cineplex21Scraper: dc21 schedule [TAMAN ANGGREK XXI]: status=200 len=5648
+2026-05-17 21:28:33,657 [INFO] Cineplex21Scraper: [63/144] TAMAN ANGGREK XXI → 7 movies, 23 showtimes
+2026-05-17 21:28:34,112 [INFO] CinepolisScraper: [Gajah Mada Plaza] schedule intercepted: 4362 chars
+2026-05-17 21:28:35,233 [INFO] Cineplex21Scraper: dc21 schedule [AEON MALL BSD CITY XXI]: status=200 len=10263
+2026-05-17 21:28:36,889 [INFO] Cineplex21Scraper: dc21 schedule [AEON MALL BSD CITY PREMIERE]: status=200 len=3300
+2026-05-17 21:28:38,196 [INFO] Cineplex21Scraper: dc21 schedule [AEON MALL SENTUL CITY XXI]: status=200 len=7681
+2026-05-17 21:28:39,450 [INFO] CinepolisScraper: [Istana Plaza] schedule intercepted: 3211 chars
+2026-05-17 21:28:39,811 [INFO] CinepolisScraper: [Gajah Mada Plaza]: 2 movies, 2 showtimes
+2026-05-17 21:28:39,812 [INFO] CinepolisScraper: [11/58] Gajah Mada Plaza → 2 movies, 2 showtimes
+2026-05-17 21:28:39,850 [INFO] Cineplex21Scraper: dc21 schedule [AEON MALL SENTUL CITY PREMIERE]: status=200 len=1661
+2026-05-17 21:28:41,188 [INFO] Cineplex21Scraper: dc21 schedule [AEON MALL SENTUL CITY IMAX]: status=200 len=7341
+2026-05-17 21:28:42,926 [INFO] Cineplex21Scraper: detail_cache city_id=15: status=200 len=40994
+2026-05-17 21:28:42,927 [INFO] Cineplex21Scraper: detail_cache city_id=15: 27 film
+2026-05-17 21:28:42,930 [INFO] Cineplex21Scraper: [64/144] AEON MALL BSD CITY XXI → 12 movies, 52 showtimes
+2026-05-17 21:28:42,930 [INFO] Cineplex21Scraper: [65/144] AEON MALL BSD CITY PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:28:43,978 [INFO] CinepolisScraper: [Istana Plaza]: 2 movies, 4 showtimes
+2026-05-17 21:28:43,978 [INFO] CinepolisScraper: [12/58] Istana Plaza → 2 movies, 4 showtimes
+2026-05-17 21:28:44,344 [INFO] Cineplex21Scraper: detail_cache city_id=3: status=200 len=33855
+2026-05-17 21:28:44,345 [INFO] Cineplex21Scraper: detail_cache city_id=3: 22 film
+2026-05-17 21:28:44,349 [INFO] Cineplex21Scraper: [66/144] AEON MALL SENTUL CITY XXI → 9 movies, 37 showtimes
+2026-05-17 21:28:44,350 [INFO] Cineplex21Scraper: [67/144] AEON MALL SENTUL CITY PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:28:44,354 [INFO] Cineplex21Scraper: [68/144] AEON MALL SENTUL CITY IMAX → 0 movies, 0 showtimes
+2026-05-17 21:28:44,827 [INFO] CinepolisScraper: [Java Supermall Semarang] schedule intercepted: 23904 chars
+2026-05-17 21:28:45,843 [INFO] Cineplex21Scraper: dc21 schedule [ALAM SUTERA XXI]: status=200 len=6701
+2026-05-17 21:28:45,844 [INFO] Cineplex21Scraper: [69/144] ALAM SUTERA XXI → 8 movies, 34 showtimes
+2026-05-17 21:28:47,335 [INFO] Cineplex21Scraper: dc21 schedule [ALAM SUTERA PREMIERE]: status=200 len=2673
+2026-05-17 21:28:47,336 [INFO] Cineplex21Scraper: [70/144] ALAM SUTERA PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:28:49,154 [INFO] Cineplex21Scraper: dc21 schedule [ALAM SUTERA IMAX]: status=200 len=6742
+2026-05-17 21:28:49,154 [INFO] Cineplex21Scraper: [71/144] ALAM SUTERA IMAX → 0 movies, 0 showtimes
+2026-05-17 21:28:50,700 [INFO] Cineplex21Scraper: dc21 schedule [BALE KOTA XXI]: status=200 len=9662
+2026-05-17 21:28:50,702 [INFO] Cineplex21Scraper: [72/144] BALE KOTA XXI → 11 movies, 54 showtimes
+2026-05-17 21:28:51,437 [INFO] CinepolisScraper: [Kalibata City Square] schedule intercepted: 22286 chars
+2026-05-17 21:28:51,858 [INFO] CinepolisScraper: [Java Supermall Semarang]: 10 movies, 20 showtimes
+2026-05-17 21:28:51,858 [INFO] CinepolisScraper: [13/58] Java Supermall Semarang → 10 movies, 20 showtimes
+2026-05-17 21:28:52,138 [INFO] Cineplex21Scraper: dc21 schedule [BANDARA CITY MALL XXI]: status=200 len=3348
+2026-05-17 21:28:52,140 [INFO] Cineplex21Scraper: [73/144] BANDARA CITY MALL XXI → 4 movies, 15 showtimes
+2026-05-17 21:28:53,316 [INFO] Cineplex21Scraper: dc21 schedule [BINTARO XCHANGE 2 XXI]: status=200 len=2504
+2026-05-17 21:28:53,317 [INFO] Cineplex21Scraper: [74/144] BINTARO XCHANGE 2 XXI → 3 movies, 10 showtimes
+2026-05-17 21:28:54,862 [INFO] CinepolisScraper: [Kalibata City Square]: 10 movies, 12 showtimes
+2026-05-17 21:28:54,862 [INFO] CinepolisScraper: [14/58] Kalibata City Square → 10 movies, 12 showtimes
+2026-05-17 21:28:55,015 [INFO] Cineplex21Scraper: dc21 schedule [BINTARO XCHANGE 2 PREMIERE]: status=200 len=1873
+2026-05-17 21:28:55,015 [INFO] Cineplex21Scraper: [75/144] BINTARO XCHANGE 2 PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:28:55,593 [INFO] CinepolisScraper: [Kebayoran Park Mall] schedule intercepted: 5575 chars
+2026-05-17 21:28:56,445 [INFO] Cineplex21Scraper: dc21 schedule [BINTARO XCHANGE 2 IMAX]: status=200 len=6158
+2026-05-17 21:28:56,446 [INFO] Cineplex21Scraper: [76/144] BINTARO XCHANGE 2 IMAX → 0 movies, 0 showtimes
+2026-05-17 21:28:58,142 [INFO] Cineplex21Scraper: dc21 schedule [BINTARO XCHANGE XXI]: status=200 len=9972
+2026-05-17 21:28:58,145 [INFO] Cineplex21Scraper: [77/144] BINTARO XCHANGE XXI → 12 movies, 47 showtimes
+2026-05-17 21:28:59,347 [INFO] Cineplex21Scraper: dc21 schedule [BOGOR GREAT MALL XXI]: status=200 len=6612
+2026-05-17 21:28:59,350 [INFO] Cineplex21Scraper: [78/144] BOGOR GREAT MALL XXI → 8 movies, 30 showtimes
+2026-05-17 21:29:01,081 [INFO] Cineplex21Scraper: dc21 schedule [BOGOR SQUARE XXI]: status=200 len=6827
+2026-05-17 21:29:01,083 [INFO] Cineplex21Scraper: [79/144] BOGOR SQUARE XXI → 8 movies, 33 showtimes
+2026-05-17 21:29:01,439 [INFO] CinepolisScraper: [Kebayoran Park Mall]: 2 movies, 8 showtimes
+2026-05-17 21:29:01,439 [INFO] CinepolisScraper: [15/58] Kebayoran Park Mall → 2 movies, 8 showtimes
+2026-05-17 21:29:01,580 [INFO] CinepolisScraper: [KSquare Batam] schedule intercepted: 2571 chars
+2026-05-17 21:29:02,398 [INFO] Cineplex21Scraper: dc21 schedule [BOTANI SQUARE XXI]: status=200 len=10606
+2026-05-17 21:29:02,400 [INFO] Cineplex21Scraper: [80/144] BOTANI SQUARE XXI → 13 movies, 47 showtimes
+2026-05-17 21:29:04,089 [INFO] Cineplex21Scraper: dc21 schedule [BOXIES XXI]: status=200 len=5124
+2026-05-17 21:29:04,091 [INFO] Cineplex21Scraper: [81/144] BOXIES XXI → 6 movies, 25 showtimes
+2026-05-17 21:29:05,187 [INFO] CinepolisScraper: [KSquare Batam]: 1 movies, 3 showtimes
+2026-05-17 21:29:05,187 [INFO] CinepolisScraper: [16/58] KSquare Batam → 1 movies, 3 showtimes
+2026-05-17 21:29:05,362 [INFO] Cineplex21Scraper: dc21 schedule [BSD XXI]: status=200 len=7253
+2026-05-17 21:29:05,363 [INFO] Cineplex21Scraper: [82/144] BSD XXI → 9 movies, 30 showtimes
+2026-05-17 21:29:06,655 [INFO] CinepolisScraper: [Lippo Mall Kuta] schedule intercepted: 39006 chars
+2026-05-17 21:29:07,114 [INFO] Cineplex21Scraper: dc21 schedule [CBD CILEDUG XXI]: status=200 len=10313
+2026-05-17 21:29:07,115 [INFO] Cineplex21Scraper: [83/144] CBD CILEDUG XXI → 12 movies, 55 showtimes
+2026-05-17 21:29:08,395 [INFO] Cineplex21Scraper: dc21 schedule [CIBINONG CITY XXI]: status=200 len=10305
+2026-05-17 21:29:08,396 [INFO] Cineplex21Scraper: [84/144] CIBINONG CITY XXI → 12 movies, 55 showtimes
+2026-05-17 21:29:09,818 [INFO] Cineplex21Scraper: dc21 schedule [CIBINONG CITY PREMIERE]: status=200 len=1048
+2026-05-17 21:29:09,819 [INFO] Cineplex21Scraper: [85/144] CIBINONG CITY PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:29:11,340 [INFO] Cineplex21Scraper: dc21 schedule [CIKUPA XXI]: status=200 len=4823
+2026-05-17 21:29:11,341 [INFO] Cineplex21Scraper: [86/144] CIKUPA XXI → 6 movies, 20 showtimes
+2026-05-17 21:29:11,905 [INFO] CinepolisScraper: [Lippo Mall Nusantara] schedule intercepted: 13973 chars
+2026-05-17 21:29:13,104 [INFO] Cineplex21Scraper: dc21 schedule [CINERE]: status=200 len=6351
+2026-05-17 21:29:13,106 [INFO] Cineplex21Scraper: [87/144] CINERE → 8 movies, 25 showtimes
+2026-05-17 21:29:14,410 [INFO] Cineplex21Scraper: dc21 schedule [CINERE BELLEVUE XXI]: status=200 len=9394
+2026-05-17 21:29:14,414 [INFO] Cineplex21Scraper: [88/144] CINERE BELLEVUE XXI → 11 movies, 47 showtimes
+2026-05-17 21:29:16,067 [INFO] Cineplex21Scraper: dc21 schedule [CIPLAZ CIBITUNG XXI]: status=200 len=4787
+2026-05-17 21:29:16,176 [INFO] CinepolisScraper: [Lippo Mall Nusantara]: 6 movies, 10 showtimes
+2026-05-17 21:29:16,178 [INFO] CinepolisScraper: [18/58] Lippo Mall Nusantara → 6 movies, 10 showtimes
+2026-05-17 21:29:17,318 [INFO] CinepolisScraper: [Lippo Plaza Batu] schedule intercepted: 13372 chars
+2026-05-17 21:29:17,382 [INFO] Cineplex21Scraper: dc21 schedule [CIPLAZ CILEDUG XXI]: status=200 len=5129
+2026-05-17 21:29:18,368 [INFO] CinepolisScraper: [Lippo Mall Kuta]: 16 movies, 29 showtimes
+2026-05-17 21:29:18,368 [INFO] CinepolisScraper: [17/58] Lippo Mall Kuta → 16 movies, 29 showtimes
+2026-05-17 21:29:19,126 [INFO] Cineplex21Scraper: dc21 schedule [CIPLAZ DEPOK XXI]: status=200 len=10950
+2026-05-17 21:29:20,442 [INFO] Cineplex21Scraper: dc21 schedule [CIPLAZ PARUNG XXI]: status=200 len=6061
+2026-05-17 21:29:21,524 [INFO] CinepolisScraper: [Lippo Plaza Batu]: 5 movies, 17 showtimes
+2026-05-17 21:29:21,524 [INFO] CinepolisScraper: [19/58] Lippo Plaza Batu → 5 movies, 17 showtimes
+2026-05-17 21:29:22,095 [INFO] Cineplex21Scraper: dc21 schedule [CIPUTRA CIBUBUR XXI]: status=200 len=7341
+2026-05-17 21:29:23,741 [INFO] Cineplex21Scraper: detail_cache city_id=4: status=200 len=32878
+2026-05-17 21:29:23,742 [INFO] Cineplex21Scraper: detail_cache city_id=4: 22 film
+2026-05-17 21:29:23,744 [INFO] Cineplex21Scraper: [89/144] CIPLAZ CIBITUNG XXI → 6 movies, 18 showtimes
+2026-05-17 21:29:23,745 [INFO] Cineplex21Scraper: [90/144] CIPLAZ CILEDUG XXI → 6 movies, 25 showtimes
+2026-05-17 21:29:23,748 [INFO] Cineplex21Scraper: [91/144] CIPLAZ DEPOK XXI → 13 movies, 55 showtimes
+2026-05-17 21:29:23,749 [INFO] Cineplex21Scraper: [92/144] CIPLAZ PARUNG XXI → 7 movies, 30 showtimes
+2026-05-17 21:29:23,750 [INFO] Cineplex21Scraper: [93/144] CIPUTRA CIBUBUR XXI → 9 movies, 32 showtimes
+2026-05-17 21:29:25,306 [INFO] Cineplex21Scraper: dc21 schedule [CIPUTRA CIBUBUR PREMIERE]: status=200 len=999
+2026-05-17 21:29:25,306 [INFO] Cineplex21Scraper: [94/144] CIPUTRA CIBUBUR PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:29:25,890 [INFO] CinepolisScraper: [Lippo Plaza Buton] schedule intercepted: 2170 chars
+2026-05-17 21:29:27,054 [INFO] Cineplex21Scraper: dc21 schedule [CITIMALL CIMANGGIS XXI]: status=200 len=4825
+2026-05-17 21:29:27,055 [INFO] Cineplex21Scraper: [95/144] CITIMALL CIMANGGIS XXI → 6 movies, 20 showtimes
+2026-05-17 21:29:28,353 [INFO] Cineplex21Scraper: dc21 schedule [COURTS KHI XXI]: status=200 len=5050
+2026-05-17 21:29:28,355 [INFO] Cineplex21Scraper: [96/144] COURTS KHI XXI → 6 movies, 24 showtimes
+2026-05-17 21:29:29,933 [INFO] CinepolisScraper: [Lippo Plaza Buton]: 1 movies, 1 showtimes
+2026-05-17 21:29:29,933 [INFO] CinepolisScraper: [20/58] Lippo Plaza Buton → 1 movies, 1 showtimes
+2026-05-17 21:29:30,116 [INFO] Cineplex21Scraper: dc21 schedule [GRAND KOTA BINTANG XXI]: status=200 len=6324
+2026-05-17 21:29:30,116 [INFO] Cineplex21Scraper: [97/144] GRAND KOTA BINTANG XXI → 8 movies, 25 showtimes
+2026-05-17 21:29:31,344 [INFO] Cineplex21Scraper: dc21 schedule [GRAND METROPOLITAN XXI]: status=200 len=4687
+2026-05-17 21:29:31,345 [INFO] Cineplex21Scraper: [98/144] GRAND METROPOLITAN XXI → 6 movies, 18 showtimes
+2026-05-17 21:29:32,090 [INFO] CinepolisScraper: [Lippo Plaza Ekalokasari] schedule intercepted: 24770 chars
+2026-05-17 21:29:33,102 [INFO] Cineplex21Scraper: dc21 schedule [GRAND METROPOLITAN PREMIERE]: status=200 len=2683
+2026-05-17 21:29:33,102 [INFO] Cineplex21Scraper: [99/144] GRAND METROPOLITAN PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:29:34,345 [INFO] Cineplex21Scraper: dc21 schedule [GREEN WALK MALL XXI]: status=200 len=2515
+2026-05-17 21:29:34,346 [INFO] Cineplex21Scraper: [100/144] GREEN WALK MALL XXI → 3 movies, 10 showtimes
+2026-05-17 21:29:35,877 [INFO] CinepolisScraper: [Lippo Plaza Ekalokasari]: 9 movies, 24 showtimes
+2026-05-17 21:29:35,878 [INFO] CinepolisScraper: [21/58] Lippo Plaza Ekalokasari → 9 movies, 24 showtimes
+2026-05-17 21:29:37,518 [INFO] Cineplex21Scraper: dc21 schedule [ICON WALK XXI]: status=200 len=8635
+2026-05-17 21:29:37,519 [INFO] Cineplex21Scraper: [101/144] ICON WALK XXI → 10 movies, 45 showtimes
+2026-05-17 21:29:37,659 [INFO] Cineplex21Scraper: dc21 schedule [JAMBU DUA XXI]: status=200 len=6533
+2026-05-17 21:29:37,661 [INFO] Cineplex21Scraper: [102/144] JAMBU DUA XXI → 8 movies, 29 showtimes
+2026-05-17 21:29:38,615 [INFO] CinepolisScraper: [Lippo Plaza Jambi] schedule intercepted: 15734 chars
+2026-05-17 21:29:39,320 [INFO] Cineplex21Scraper: dc21 schedule [LIVING WORLD GRAND WISATA XXI]: status=200 len=8080
+2026-05-17 21:29:39,321 [INFO] Cineplex21Scraper: [103/144] LIVING WORLD GRAND WISATA XXI → 10 movies, 34 showtimes
+2026-05-17 21:29:40,370 [INFO] Cineplex21Scraper: dc21 schedule [LIVING WORLD KOTA WISATA XXI]: status=200 len=3281
+2026-05-17 21:29:40,371 [INFO] Cineplex21Scraper: [104/144] LIVING WORLD KOTA WISATA XXI → 4 movies, 14 showtimes
+2026-05-17 21:29:41,636 [INFO] CinepolisScraper: [Lippo Plaza Jambi]: 6 movies, 19 showtimes
+2026-05-17 21:29:41,637 [INFO] CinepolisScraper: [22/58] Lippo Plaza Jambi → 6 movies, 19 showtimes
+2026-05-17 21:29:42,046 [INFO] Cineplex21Scraper: dc21 schedule [LIVING WORLD KOTA WISATA PREMIERE]: status=200 len=1002
+2026-05-17 21:29:42,047 [INFO] Cineplex21Scraper: [105/144] LIVING WORLD KOTA WISATA PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:29:43,415 [INFO] Cineplex21Scraper: dc21 schedule [LIVING WORLD KOTA WISATA IMAX]: status=200 len=6742
+2026-05-17 21:29:43,416 [INFO] Cineplex21Scraper: [106/144] LIVING WORLD KOTA WISATA IMAX → 0 movies, 0 showtimes
+2026-05-17 21:29:43,880 [INFO] CinepolisScraper: [Lippo Plaza Jember] schedule intercepted: 1997 chars
+2026-05-17 21:29:44,971 [INFO] Cineplex21Scraper: dc21 schedule [LIVING WORLD XXI]: status=200 len=7669
+2026-05-17 21:29:44,974 [INFO] Cineplex21Scraper: [107/144] LIVING WORLD XXI → 9 movies, 37 showtimes
+2026-05-17 21:29:46,347 [INFO] Cineplex21Scraper: dc21 schedule [LIVING WORLD PREMIERE]: status=200 len=1665
+2026-05-17 21:29:46,348 [INFO] Cineplex21Scraper: [108/144] LIVING WORLD PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:29:47,597 [INFO] CinepolisScraper: [Lippo Plaza Jember]: 1 movies, 1 showtimes
+2026-05-17 21:29:47,597 [INFO] CinepolisScraper: [23/58] Lippo Plaza Jember → 1 movies, 1 showtimes
+2026-05-17 21:29:48,173 [INFO] Cineplex21Scraper: dc21 schedule [LOTTE BINTARO XXI]: status=200 len=7753
+2026-05-17 21:29:48,174 [INFO] Cineplex21Scraper: [109/144] LOTTE BINTARO XXI → 9 movies, 40 showtimes
+2026-05-17 21:29:49,432 [INFO] Cineplex21Scraper: dc21 schedule [MALL BTM XXI]: status=200 len=7145
+2026-05-17 21:29:49,433 [INFO] Cineplex21Scraper: [110/144] MALL BTM XXI → 8 movies, 40 showtimes
+2026-05-17 21:29:49,537 [INFO] CinepolisScraper: [Lippo Plaza Jogja] schedule intercepted: 20436 chars
+2026-05-17 21:29:51,129 [INFO] Cineplex21Scraper: dc21 schedule [MARGO CITY XXI]: status=200 len=6681
+2026-05-17 21:29:51,132 [INFO] Cineplex21Scraper: [111/144] MARGO CITY XXI → 8 movies, 32 showtimes
+2026-05-17 21:29:52,325 [INFO] Cineplex21Scraper: dc21 schedule [MARGO CITY PREMIERE]: status=200 len=1051
+2026-05-17 21:29:52,327 [INFO] Cineplex21Scraper: [112/144] MARGO CITY PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:29:52,960 [INFO] CinepolisScraper: [Lippo Plaza Jogja]: 7 movies, 26 showtimes
+2026-05-17 21:29:52,960 [INFO] CinepolisScraper: [24/58] Lippo Plaza Jogja → 7 movies, 26 showtimes
+2026-05-17 21:29:54,131 [INFO] Cineplex21Scraper: dc21 schedule [MARGO CITY IMAX]: status=200 len=6742
+2026-05-17 21:29:54,131 [INFO] Cineplex21Scraper: [113/144] MARGO CITY IMAX → 0 movies, 0 showtimes
+2026-05-17 21:29:54,444 [INFO] CinepolisScraper: [Lippo Plaza Keboen Raya Bogor] schedule intercepted: 23913 chars
+2026-05-17 21:29:55,518 [INFO] Cineplex21Scraper: dc21 schedule [MEGA BEKASI XXI]: status=200 len=15127
+2026-05-17 21:29:55,520 [INFO] Cineplex21Scraper: [114/144] MEGA BEKASI XXI → 18 movies, 77 showtimes
+2026-05-17 21:29:57,160 [INFO] Cineplex21Scraper: dc21 schedule [METMALL CILEUNGSI XXI]: status=200 len=8875
+2026-05-17 21:29:57,169 [INFO] Cineplex21Scraper: [115/144] METMALL CILEUNGSI XXI → 10 movies, 50 showtimes
+2026-05-17 21:29:58,373 [INFO] Cineplex21Scraper: dc21 schedule [METROPOLITAN XXI]: status=200 len=4523
+2026-05-17 21:29:58,375 [INFO] Cineplex21Scraper: [116/144] METROPOLITAN XXI → 5 movies, 25 showtimes
+2026-05-17 21:29:58,438 [INFO] CinepolisScraper: [Lippo Plaza Keboen Raya Bogor]: 10 movies, 20 showtimes
+2026-05-17 21:29:58,438 [INFO] CinepolisScraper: [25/58] Lippo Plaza Keboen Raya Bogor → 10 movies, 20 showtimes
+2026-05-17 21:29:59,136 [INFO] CinepolisScraper: [Lippo Plaza Kendari] schedule intercepted: 4352 chars
+2026-05-17 21:30:00,129 [INFO] Cineplex21Scraper: dc21 schedule [PAKUWON MALL BEKASI XXI]: status=200 len=5039
+2026-05-17 21:30:00,130 [INFO] Cineplex21Scraper: [117/144] PAKUWON MALL BEKASI XXI → 6 movies, 23 showtimes
+2026-05-17 21:30:01,389 [INFO] Cineplex21Scraper: dc21 schedule [PAKUWON MALL BEKASI PREMIERE]: status=200 len=1048
+2026-05-17 21:30:01,389 [INFO] Cineplex21Scraper: [118/144] PAKUWON MALL BEKASI PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:30:02,919 [INFO] Cineplex21Scraper: dc21 schedule [PESONA SQUARE XXI]: status=200 len=7058
+2026-05-17 21:30:02,920 [INFO] Cineplex21Scraper: [119/144] PESONA SQUARE XXI → 8 movies, 38 showtimes
+2026-05-17 21:30:03,718 [INFO] CinepolisScraper: [Lippo Plaza Kendari]: 2 movies, 2 showtimes
+2026-05-17 21:30:03,718 [INFO] CinepolisScraper: [26/58] Lippo Plaza Kendari → 2 movies, 2 showtimes
+2026-05-17 21:30:04,357 [INFO] Cineplex21Scraper: dc21 schedule [PESONA SQUARE PREMIERE]: status=200 len=1661
+2026-05-17 21:30:04,357 [INFO] Cineplex21Scraper: [120/144] PESONA SQUARE PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:30:04,897 [INFO] CinepolisScraper: [Lippo Plaza Kupang] schedule intercepted: 3413 chars
+2026-05-17 21:30:06,197 [INFO] Cineplex21Scraper: dc21 schedule [PLASA CIBUBUR XXI]: status=200 len=7710
+2026-05-17 21:30:06,198 [INFO] Cineplex21Scraper: [121/144] PLASA CIBUBUR XXI → 9 movies, 40 showtimes
+2026-05-17 21:30:07,383 [INFO] Cineplex21Scraper: dc21 schedule [PLAZA BINTARO XXI]: status=200 len=4215
+2026-05-17 21:30:07,385 [INFO] Cineplex21Scraper: [122/144] PLAZA BINTARO XXI → 5 movies, 20 showtimes
+2026-05-17 21:30:09,157 [INFO] Cineplex21Scraper: dc21 schedule [PONDOK GEDE XXI]: status=200 len=6690
+2026-05-17 21:30:09,161 [INFO] Cineplex21Scraper: [123/144] PONDOK GEDE XXI → 8 movies, 30 showtimes
+2026-05-17 21:30:09,173 [INFO] CinepolisScraper: [Lippo Plaza Kupang]: 2 movies, 5 showtimes
+2026-05-17 21:30:09,174 [INFO] CinepolisScraper: [27/58] Lippo Plaza Kupang → 2 movies, 5 showtimes
+2026-05-17 21:30:10,404 [INFO] Cineplex21Scraper: dc21 schedule [Q SQUARE XXI]: status=200 len=3885
+2026-05-17 21:30:10,404 [INFO] Cineplex21Scraper: [124/144] Q SQUARE XXI → 5 movies, 14 showtimes
+2026-05-17 21:30:11,413 [INFO] CinepolisScraper: [Lippo Plaza Lubuk Linggau] schedule intercepted: 2190 chars
+2026-05-17 21:30:12,115 [INFO] Cineplex21Scraper: dc21 schedule [QBIG BSD CITY XXI]: status=200 len=3226
+2026-05-17 21:30:12,115 [INFO] Cineplex21Scraper: [125/144] QBIG BSD CITY XXI → 4 movies, 13 showtimes
+2026-05-17 21:30:13,418 [INFO] Cineplex21Scraper: dc21 schedule [RAMAYANA TAJUR XXI]: status=200 len=5710
+2026-05-17 21:30:13,420 [INFO] Cineplex21Scraper: [126/144] RAMAYANA TAJUR XXI → 7 movies, 24 showtimes
+2026-05-17 21:30:14,601 [INFO] CinepolisScraper: [Lippo Plaza Lubuk Linggau]: 1 movies, 1 showtimes
+2026-05-17 21:30:14,601 [INFO] CinepolisScraper: [28/58] Lippo Plaza Lubuk Linggau → 1 movies, 1 showtimes
+2026-05-17 21:30:14,970 [INFO] Cineplex21Scraper: dc21 schedule [REVO MALL XXI]: status=200 len=6648
+2026-05-17 21:30:14,971 [INFO] Cineplex21Scraper: [127/144] REVO MALL XXI → 8 movies, 30 showtimes
+2026-05-17 21:30:15,713 [INFO] CinepolisScraper: [Lippo Plaza Manado] schedule intercepted: 2159 chars
+2026-05-17 21:30:16,457 [INFO] Cineplex21Scraper: dc21 schedule [SUMMARECON MAL BEKASI XXI]: status=200 len=8883
+2026-05-17 21:30:16,458 [INFO] Cineplex21Scraper: [128/144] SUMMARECON MAL BEKASI XXI → 11 movies, 38 showtimes
+2026-05-17 21:30:18,139 [INFO] Cineplex21Scraper: dc21 schedule [SUMMARECON MAL BEKASI PREMIERE]: status=200 len=3300
+2026-05-17 21:30:18,139 [INFO] Cineplex21Scraper: [129/144] SUMMARECON MAL BEKASI PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:30:19,421 [INFO] Cineplex21Scraper: dc21 schedule [SUMMARECON MAL BEKASI IMAX]: status=200 len=6742
+2026-05-17 21:30:19,421 [INFO] Cineplex21Scraper: [130/144] SUMMARECON MAL BEKASI IMAX → 0 movies, 0 showtimes
+2026-05-17 21:30:20,606 [INFO] CinepolisScraper: [Lippo Plaza Manado]: 1 movies, 1 showtimes
+2026-05-17 21:30:20,606 [INFO] CinepolisScraper: [29/58] Lippo Plaza Manado → 1 movies, 1 showtimes
+2026-05-17 21:30:21,624 [INFO] CinepolisScraper: [Lippo Plaza Medan] schedule intercepted: 4178 chars
+2026-05-17 21:30:21,711 [INFO] Cineplex21Scraper: dc21 schedule [SUMMARECON MAL SERPONG XXI]: status=200 len=7271
+2026-05-17 21:30:21,714 [INFO] Cineplex21Scraper: [131/144] SUMMARECON MAL SERPONG XXI → 9 movies, 32 showtimes
+2026-05-17 21:30:22,400 [INFO] Cineplex21Scraper: dc21 schedule [SUMMARECON MAL SERPONG PREMIERE]: status=200 len=2732
+2026-05-17 21:30:22,400 [INFO] Cineplex21Scraper: [132/144] SUMMARECON MAL SERPONG PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:30:23,938 [INFO] Cineplex21Scraper: dc21 schedule [SUMMARECON MAL SERPONG IMAX]: status=200 len=6742
+2026-05-17 21:30:23,938 [INFO] Cineplex21Scraper: [133/144] SUMMARECON MAL SERPONG IMAX → 0 movies, 0 showtimes
+2026-05-17 21:30:25,465 [INFO] CinepolisScraper: [Lippo Plaza Medan]: 2 movies, 2 showtimes
+2026-05-17 21:30:25,466 [INFO] CinepolisScraper: [30/58] Lippo Plaza Medan → 2 movies, 2 showtimes
+2026-05-17 21:30:25,475 [INFO] Cineplex21Scraper: dc21 schedule [SUPERMAL KARAWACI XXI]: status=200 len=10256
+2026-05-17 21:30:25,477 [INFO] Cineplex21Scraper: [134/144] SUPERMAL KARAWACI XXI → 12 movies, 52 showtimes
+2026-05-17 21:30:27,098 [INFO] Cineplex21Scraper: dc21 schedule [SUPERMAL KARAWACI PREMIERE]: status=200 len=999
+2026-05-17 21:30:27,098 [INFO] Cineplex21Scraper: [135/144] SUPERMAL KARAWACI PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:30:27,585 [INFO] CinepolisScraper: [Lippo Plaza Sidoarjo] schedule intercepted: 21075 chars
+2026-05-17 21:30:28,466 [INFO] Cineplex21Scraper: dc21 schedule [TANGCITY XXI]: status=200 len=10283
+2026-05-17 21:30:28,469 [INFO] Cineplex21Scraper: [136/144] TANGCITY XXI → 12 movies, 53 showtimes
+2026-05-17 21:30:30,095 [INFO] Cineplex21Scraper: dc21 schedule [THE BREEZE XXI]: status=200 len=1826
+2026-05-17 21:30:30,096 [INFO] Cineplex21Scraper: [137/144] THE BREEZE XXI → 2 movies, 9 showtimes
+2026-05-17 21:30:31,369 [INFO] Cineplex21Scraper: dc21 schedule [THE BREEZE PREMIERE]: status=200 len=1665
+2026-05-17 21:30:31,369 [INFO] Cineplex21Scraper: [138/144] THE BREEZE PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:30:32,601 [INFO] CinepolisScraper: [Lippo Plaza Sunset] schedule intercepted: 23289 chars
+2026-05-17 21:30:33,128 [INFO] CinepolisScraper: [Lippo Plaza Sidoarjo]: 9 movies, 16 showtimes
+2026-05-17 21:30:33,128 [INFO] CinepolisScraper: [31/58] Lippo Plaza Sidoarjo → 9 movies, 16 showtimes
+2026-05-17 21:30:33,244 [INFO] Cineplex21Scraper: dc21 schedule [THE BREEZE IMAX]: status=200 len=7390
+2026-05-17 21:30:33,244 [INFO] Cineplex21Scraper: [139/144] THE BREEZE IMAX → 0 movies, 0 showtimes
+2026-05-17 21:30:34,488 [INFO] Cineplex21Scraper: dc21 schedule [THE PARK SAWANGAN XXI]: status=200 len=6523
+2026-05-17 21:30:34,490 [INFO] Cineplex21Scraper: [140/144] THE PARK SAWANGAN XXI → 8 movies, 29 showtimes
+2026-05-17 21:30:36,223 [INFO] Cineplex21Scraper: dc21 schedule [TRANSPARK BINTARO 7 XXI]: status=200 len=5682
+2026-05-17 21:30:36,226 [INFO] Cineplex21Scraper: [141/144] TRANSPARK BINTARO 7 XXI → 7 movies, 24 showtimes
+2026-05-17 21:30:36,723 [INFO] CinepolisScraper: [Lippo Plaza Sunset]: 10 movies, 17 showtimes
+2026-05-17 21:30:36,723 [INFO] CinepolisScraper: [32/58] Lippo Plaza Sunset → 10 movies, 17 showtimes
+2026-05-17 21:30:37,481 [INFO] Cineplex21Scraper: dc21 schedule [TRANSPARK MALL JUANDA XXI]: status=200 len=6845
+2026-05-17 21:30:37,482 [INFO] Cineplex21Scraper: [142/144] TRANSPARK MALL JUANDA XXI → 8 movies, 34 showtimes
+2026-05-17 21:30:38,820 [INFO] CinepolisScraper: [Living Plaza Balikpapan] schedule intercepted: 23730 chars
+2026-05-17 21:30:39,329 [INFO] Cineplex21Scraper: dc21 schedule [TSM XXI CIBUBUR]: status=200 len=8594
+2026-05-17 21:30:39,331 [INFO] Cineplex21Scraper: [143/144] TSM XXI CIBUBUR → 10 movies, 43 showtimes
+2026-05-17 21:30:40,447 [INFO] Cineplex21Scraper: dc21 schedule [TSM CIBUBUR PREMIERE]: status=200 len=1593
+2026-05-17 21:30:40,447 [INFO] Cineplex21Scraper: [144/144] TSM CIBUBUR PREMIERE → 0 movies, 0 showtimes
+2026-05-17 21:30:41,959 [INFO] Cineplex21Scraper: ✅ Done 21cineplex: 144 cinemas, 842 movies, 3312 showtimes
+2026-05-17 21:30:42,199 [INFO] CinepolisScraper: [Living Plaza Balikpapan]: 10 movies, 27 showtimes
+2026-05-17 21:30:42,199 [INFO] CinepolisScraper: [33/58] Living Plaza Balikpapan → 10 movies, 27 showtimes
+2026-05-17 21:30:43,723 [INFO] CinepolisScraper: [Living World Pekanbaru] schedule intercepted: 4179 chars
+2026-05-17 21:30:47,474 [INFO] CinepolisScraper: [Living World Pekanbaru]: 2 movies, 2 showtimes
+2026-05-17 21:30:47,475 [INFO] CinepolisScraper: [34/58] Living World Pekanbaru → 2 movies, 2 showtimes
+2026-05-17 21:30:49,147 [INFO] CinepolisScraper: [Mal Botania 2] schedule intercepted: 2166 chars
+2026-05-17 21:30:52,904 [INFO] CinepolisScraper: [Mal Botania 2]: 1 movies, 1 showtimes
+2026-05-17 21:30:52,905 [INFO] CinepolisScraper: [35/58] Mal Botania 2 → 1 movies, 1 showtimes
+2026-05-17 21:30:54,485 [INFO] CinepolisScraper: [Mal Mandau City] schedule intercepted: 11173 chars
+2026-05-17 21:30:58,473 [INFO] CinepolisScraper: [Mal Mandau City]: 4 movies, 16 showtimes
+2026-05-17 21:30:58,473 [INFO] CinepolisScraper: [36/58] Mal Mandau City → 4 movies, 16 showtimes
+2026-05-17 21:30:59,883 [INFO] CinepolisScraper: [Mal Pekanbaru] schedule intercepted: 17729 chars
+2026-05-17 21:31:03,910 [INFO] CinepolisScraper: [Mal Pekanbaru]: 7 movies, 19 showtimes
+2026-05-17 21:31:03,910 [INFO] CinepolisScraper: [37/58] Mal Pekanbaru → 7 movies, 19 showtimes
+2026-05-17 21:31:05,168 [INFO] CinepolisScraper: [Malang Town Square] schedule intercepted: 2182 chars
+2026-05-17 21:31:09,152 [INFO] CinepolisScraper: [Malang Town Square]: 1 movies, 1 showtimes
+2026-05-17 21:31:09,152 [INFO] CinepolisScraper: [38/58] Malang Town Square → 1 movies, 1 showtimes
+2026-05-17 21:31:10,889 [INFO] CinepolisScraper: [Mall Lippo Cikarang] schedule intercepted: 2166 chars
+2026-05-17 21:31:14,706 [INFO] CinepolisScraper: [Mall Lippo Cikarang]: 1 movies, 1 showtimes
+2026-05-17 21:31:14,706 [INFO] CinepolisScraper: [39/58] Mall Lippo Cikarang → 1 movies, 1 showtimes
+2026-05-17 21:31:15,938 [INFO] CinepolisScraper: [Mall Of Serang] schedule intercepted: 27606 chars
+2026-05-17 21:31:21,229 [INFO] CinepolisScraper: [Mall Of Serang]: 11 movies, 28 showtimes
+2026-05-17 21:31:21,230 [INFO] CinepolisScraper: [40/58] Mall Of Serang → 11 movies, 28 showtimes
+2026-05-17 21:31:22,179 [INFO] CinepolisScraper: [Mall Phinisi Point] schedule intercepted: 18940 chars
+2026-05-17 21:31:25,573 [INFO] CinepolisScraper: [Mall Phinisi Point]: 7 movies, 21 showtimes
+2026-05-17 21:31:25,574 [INFO] CinepolisScraper: [41/58] Mall Phinisi Point → 7 movies, 21 showtimes
+2026-05-17 21:31:26,695 [INFO] CinepolisScraper: [Mall The Galeria] schedule intercepted: 4362 chars
+2026-05-17 21:31:31,235 [INFO] CinepolisScraper: [Mall The Galeria]: 2 movies, 2 showtimes
+2026-05-17 21:31:31,236 [INFO] CinepolisScraper: [42/58] Mall The Galeria → 2 movies, 2 showtimes
+2026-05-17 21:31:32,725 [INFO] CinepolisScraper: [Mangga Dua Square] schedule intercepted: 18553 chars
+2026-05-17 21:31:36,733 [INFO] CinepolisScraper: [Mangga Dua Square]: 7 movies, 21 showtimes
+2026-05-17 21:31:36,733 [INFO] CinepolisScraper: [43/58] Mangga Dua Square → 7 movies, 21 showtimes
+2026-05-17 21:31:38,575 [INFO] CinepolisScraper: [Maxxbox Lippo Village] schedule intercepted: 37291 chars
+2026-05-17 21:31:43,064 [INFO] CinepolisScraper: [Pacific Tegal] schedule intercepted: 17931 chars
+2026-05-17 21:31:43,447 [INFO] CinepolisScraper: [Maxxbox Lippo Village]: 15 movies, 29 showtimes
+2026-05-17 21:31:43,447 [INFO] CinepolisScraper: [44/58] Maxxbox Lippo Village → 15 movies, 29 showtimes
+2026-05-17 21:31:47,684 [INFO] CinepolisScraper: [Pacific Tegal]: 7 movies, 20 showtimes
+2026-05-17 21:31:47,684 [INFO] CinepolisScraper: [45/58] Pacific Tegal → 7 movies, 20 showtimes
+2026-05-17 21:31:48,865 [INFO] CinepolisScraper: [Palembang Icon] schedule intercepted: 2166 chars
+2026-05-17 21:31:53,194 [INFO] CinepolisScraper: [Palembang Icon]: 1 movies, 1 showtimes
+2026-05-17 21:31:53,195 [INFO] CinepolisScraper: [46/58] Palembang Icon → 1 movies, 1 showtimes
+2026-05-17 21:31:55,264 [INFO] CinepolisScraper: [Plaza Medan Fair] schedule intercepted: 4359 chars
+2026-05-17 21:31:58,678 [INFO] CinepolisScraper: [Plaza Medan Fair]: 2 movies, 2 showtimes
+2026-05-17 21:31:58,679 [INFO] CinepolisScraper: [47/58] Plaza Medan Fair → 2 movies, 2 showtimes
+2026-05-17 21:32:00,204 [INFO] CinepolisScraper: [Plaza Renon] schedule intercepted: 14732 chars
+2026-05-17 21:32:04,161 [INFO] CinepolisScraper: [Plaza Renon]: 6 movies, 14 showtimes
+2026-05-17 21:32:04,161 [INFO] CinepolisScraper: [48/58] Plaza Renon → 6 movies, 14 showtimes
+2026-05-17 21:32:05,803 [INFO] CinepolisScraper: [Pluit Village] schedule intercepted: 25698 chars
+2026-05-17 21:32:09,664 [INFO] CinepolisScraper: [Pluit Village]: 10 movies, 25 showtimes
+2026-05-17 21:32:09,664 [INFO] CinepolisScraper: [49/58] Pluit Village → 10 movies, 25 showtimes
+2026-05-17 21:32:11,116 [INFO] CinepolisScraper: [Pondok Kelapa Town Square] schedule intercepted: 12326 chars
+2026-05-17 21:32:15,206 [INFO] CinepolisScraper: [Pondok Kelapa Town Square]: 5 movies, 12 showtimes
+2026-05-17 21:32:15,206 [INFO] CinepolisScraper: [50/58] Pondok Kelapa Town Square → 5 movies, 12 showtimes
+2026-05-17 21:32:17,103 [INFO] CinepolisScraper: [Ponorogo City Center] schedule intercepted: 12975 chars
+2026-05-17 21:32:20,671 [INFO] CinepolisScraper: [Ponorogo City Center]: 5 movies, 15 showtimes
+2026-05-17 21:32:20,671 [INFO] CinepolisScraper: [51/58] Ponorogo City Center → 5 movies, 15 showtimes
+2026-05-17 21:32:22,961 [INFO] CinepolisScraper: [Q mall Banjarbaru] schedule intercepted: 8757 chars
+2026-05-17 21:32:26,186 [INFO] CinepolisScraper: [Q mall Banjarbaru]: 4 movies, 4 showtimes
+2026-05-17 21:32:26,187 [INFO] CinepolisScraper: [52/58] Q mall Banjarbaru → 4 movies, 4 showtimes
+2026-05-17 21:32:28,034 [INFO] CinepolisScraper: [Senayan Park] schedule intercepted: 41641 chars
+2026-05-17 21:32:32,264 [INFO] CinepolisScraper: [Senayan Park]: 16 movies, 32 showtimes
+2026-05-17 21:32:32,264 [INFO] CinepolisScraper: [53/58] Senayan Park → 16 movies, 32 showtimes
+2026-05-17 21:32:32,579 [INFO] CinepolisScraper: [Siantar City Square] schedule intercepted: 22907 chars
+2026-05-17 21:32:37,123 [INFO] CinepolisScraper: [Siantar City Square]: 9 movies, 25 showtimes
+2026-05-17 21:32:37,123 [INFO] CinepolisScraper: [54/58] Siantar City Square → 9 movies, 25 showtimes
+2026-05-17 21:32:38,429 [INFO] CinepolisScraper: [Sidewalk Jimbaran] schedule intercepted: 21854 chars
+2026-05-17 21:32:42,564 [INFO] CinepolisScraper: [Sidewalk Jimbaran]: 10 movies, 10 showtimes
+2026-05-17 21:32:42,564 [INFO] CinepolisScraper: [55/58] Sidewalk Jimbaran → 10 movies, 10 showtimes
+2026-05-17 21:32:45,158 [INFO] CinepolisScraper: [Sun Plaza] schedule intercepted: 4342 chars
+2026-05-17 21:32:48,307 [INFO] CinepolisScraper: [Sun Plaza]: 2 movies, 2 showtimes
+2026-05-17 21:32:48,307 [INFO] CinepolisScraper: [56/58] Sun Plaza → 2 movies, 2 showtimes
+2026-05-17 21:32:49,856 [INFO] CinepolisScraper: [Tamini Square] schedule intercepted: 15153 chars
+2026-05-17 21:32:53,617 [INFO] CinepolisScraper: [Tamini Square]: 6 movies, 16 showtimes
+2026-05-17 21:32:53,618 [INFO] CinepolisScraper: [57/58] Tamini Square → 6 movies, 16 showtimes
+2026-05-17 21:32:56,516 [INFO] CinepolisScraper: [The Park Pejaten] schedule intercepted: 25552 chars
+2026-05-17 21:32:59,091 [INFO] CinepolisScraper: [The Park Pejaten]: 9 movies, 28 showtimes
+2026-05-17 21:32:59,091 [INFO] CinepolisScraper: [58/58] The Park Pejaten → 9 movies, 28 showtimes
+2026-05-17 21:33:00,602 [INFO] CinepolisScraper: ✅ Done cinepolis: 58 cinemas, 311 movies, 690 showtimes
+2026-05-17 21:33:00,863 [INFO] db.storage: Saved: {'json': 'output/21cineplex_20260517_213300.json', 'cinemas_csv': 'output/21cineplex_20260517_213300_cinemas.csv', 'movies_csv': 'output/21cineplex_20260517_213300_movies.csv'}
+2026-05-17 21:33:00,896 [INFO] db.storage: Saved: {'json': 'output/cgv_20260517_213300.json', 'cinemas_csv': 'output/cgv_20260517_213300_cinemas.csv', 'movies_csv': 'output/cgv_20260517_213300_movies.csv'}
+2026-05-17 21:33:00,912 [INFO] db.storage: Saved: {'json': 'output/cinepolis_20260517_213300.json', 'cinemas_csv': 'output/cinepolis_20260517_213300_cinemas.csv', 'movies_csv': 'output/cinepolis_20260517_213300_movies.csv'}
+2026-05-17 21:33:00,998 [INFO] db.storage: Saved: {'json': 'output/combined_all_20260517_213300.json', 'cinemas_csv': 'output/combined_all_20260517_213300_cinemas.csv', 'movies_csv': 'output/combined_all_20260517_213300_movies.csv'}
+2026-05-17 21:33:27,611 [INFO] db.storage: showtimes: 3312 rows -> 3312 setelah dedup
+2026-05-17 21:33:47,204 [INFO] db.storage: showtimes: 79 rows -> 70 setelah dedup
+2026-05-17 21:34:03,135 [INFO] db.storage: showtimes: 690 rows -> 674 setelah dedup

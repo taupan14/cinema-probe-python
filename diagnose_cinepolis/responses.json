@@ -1,0 +1,79 @@
+[
+  {
+    "url": "https://cinepolis.co.id/helper/CommonPageHelper.aspx/GetLocation",
+    "status": 200,
+    "len": 113,
+    "ct": "application/json; charset=utf-8",
+    "body": "{\"d\":\"{\\\"DataObject\\\":null,\\\"ErrDescription\\\":{\\\"ErrorCode\\\":0,\\\"ErrorMessage\\\":\\\"\\\",\\\"ErrorMessageLng\\\":null}}\"}"
+  },
+  {
+    "url": "https://cinepolis.co.id/home.aspx/loadSearchList",
+    "status": 200,
+    "len": 95517,
+    "ct": "application/json; charset=utf-8",
+    "body": "{\"d\":\"{\\\"DataObject\\\":\\\"\\u003cdiv class=\\u0027head\\u0027 id=\\u0027divPopular\\u0027\\u003ePopular Search\\u003c/div\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003cul id=\\u0027ulPopular\\u0027\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003cli\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003ca href=\\u0027#\\u0027 onclick=\\\\\\\" javascript: CommonPageHelper.SelMovie(\\u0027db3afc9d-025f-4e77-876e-a02de3e436ae\\u0027,\\u0027Gak-Ada-Matinya\\u0027); return false;\\\\\\\"\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003"
+  },
+  {
+    "url": "https://cinepolis.co.id/home.aspx/loadUpcomingMovies",
+    "status": 200,
+    "len": 6437,
+    "ct": "application/json; charset=utf-8",
+    "body": "{\"d\":\"{\\\"DataObject\\\":\\\"\\u003ca class=\\u0027mv_thumb\\u0027 href=\\u0027#\\u0027 onclick=\\\\\\\"javascript:\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\tCommonPageHelper.SelMovie(\\u0027cb164cab-9b35-4189-ad82-a6652ec9f339\\u0027,\\u0027Top-Gun\\u0027); return false;\\\\\\\"\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003cimg src=\\u0027https://cms2.cinepolis.co.id/Gallery/CPL/MOV/Movie/Thumbnail/f7e21aa8000b43b4b6d7b38ac505bede.jpg\\u0027 /\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t   \\u003c/a\\u003e\\u003ca class=\\u0027mv_thumb\\u0027 "
+  },
+  {
+    "url": "https://cinepolis.co.id/helper/CommonPageHelper.aspx/loadCities",
+    "status": 200,
+    "len": 5657,
+    "ct": "application/json; charset=utf-8",
+    "body": "{\"d\":\"{\\\"DataObject\\\":\\\"\\u003cdiv class=\\u0027list_hdr\\u0027\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003ch3\\u003eB\\u003c/h3\\u003e\\u003cdiv class=\\u0027citis\\u0027\\u003e\\u003ca href=\\u0027#\\u0027 onclick=\\\\\\\"CommonPageHelper.SelCity(\\u0027BAL\\u0027);\\\\\\\"\\u003eBali\\u003c/a\\u003e\\u003ca href=\\u0027#\\u0027 onclick=\\\\\\\"CommonPageHelper.SelCity(\\u0027BLP\\u0027);\\\\\\\"\\u003eBalikpapan\\u003c/a\\u003e\\u003ca href=\\u0027#\\u0027 onclick=\\\\\\\"CommonPageHelper.SelCity(\\u0027BDG\\u0027);\\\\\\\"\\u003eBandung\\u003c/a\\u003"
+  },
+  {
+    "url": "https://cinepolis.co.id/helper/AccountPageHelper.aspx/GenrateCaptcha",
+    "status": 200,
+    "len": 3815,
+    "ct": "application/json; charset=utf-8",
+    "body": "{\"d\":\"{\\\"DataObject\\\":\\\"data:image/gif;base64,R0lGODlhyAAyAPcAAAAAAAAAMwAAZgAAmQAAzAAA/wArAAArMwArZgArmQArzAAr/wBVAABVMwBVZgBVmQBVzABV/wCAAACAMwCAZgCAmQCAzACA/wCqAACqMwCqZgCqmQCqzACq/wDVAADVMwDVZgDVmQDVzADV/wD/AAD/MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMrADMrMzMrZjMrmTMrzDMr/zNVADNVMzNVZjNVmTNVzDNV/zOAADOAMzOAZjOAmTOAzDOA/zOqADOqMzOqZjOqmTOqzDOq/zPVADPVMzPVZjPVmTPVzDPV/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YrAGYrM2YrZmYrmWYrzGYr/2ZVAGZVM2ZVZmZVmWZVzGZV/2aAAGaAM2aAZmaAmWaAzGaA/2aqAG"
+  },
+  {
+    "url": "https://cinepolis.co.id/home.aspx/loadPromotions",
+    "status": 200,
+    "len": 7268,
+    "ct": "application/json; charset=utf-8",
+    "body": "{\"d\":\"{\\\"DataObject\\\":{\\\"PromoListContent\\\":\\\"\\u003ca class=\\u0027prmo_thumb\\u0027 href=\\u0027#\\u0027 onclick=\\\\\\\"javascript: \\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\tCommonPageHelper.SelPromotion(\\u00274a4cbda2-6429-4b89-8464-e4590886b6fb\\u0027,\\u0027rewind-cuma-25-ribuan!-\ud83d\udc9c\ud83c\udfac\ud83d\ude32\\u0027); return false;\\\\\\\"\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003cimg src=\\u0027https://cms2.cinepolis.co.id/Gallery/CPL/CNT/Promo/Banner/d0d7986c6d8f43e4999bec522d4e7ea6.jpg\\u0027 /\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\"
+  },
+  {
+    "url": "https://cinepolis.co.id/helper/CommonPageHelper.aspx/loadHdrSearchList",
+    "status": 200,
+    "len": 76220,
+    "ct": "application/json; charset=utf-8",
+    "body": "{\"d\":\"{\\\"DataObject\\\":\\\"\\u003cdiv class=\\u0027head\\u0027 id=\\u0027divHdrPopular\\u0027\\u003ePopular Search\\u003c/div\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003cul id=\\u0027ulHdrPopular\\u0027\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003cli \\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003ca href=\\u0027#\\u0027 onclick=\\\\\\\" javascript: CommonPageHelper.SelMovie(\\u0027db3afc9d-025f-4e77-876e-a02de3e436ae\\u0027,\\u0027Gak-Ada-Matinya\\u0027); return false;\\\\\\\"\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\"
+  },
+  {
+    "url": "https://cinepolis.co.id/helper/AccountPageHelper.aspx/GetLoginDetails",
+    "status": 200,
+    "len": 113,
+    "ct": "application/json; charset=utf-8",
+    "body": "{\"d\":\"{\\\"DataObject\\\":null,\\\"ErrDescription\\\":{\\\"ErrorCode\\\":0,\\\"ErrorMessage\\\":\\\"\\\",\\\"ErrorMessageLng\\\":null}}\"}"
+  },
+  {
+    "url": "https://cinepolis.co.id/home.aspx/loadNowShowingMovies",
+    "status": 200,
+    "len": 15201,
+    "ct": "application/json; charset=utf-8",
+    "body": "{\"d\":\"{\\\"DataObject\\\":\\\"\\u003ca class=\\u0027mv_thumb\\u0027 href=\\u0027#\\u0027 onclick=\\\\\\\"javascript: \\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\tCommonPageHelper.SelMovie(\\u00271859bb5f-f638-4a41-854c-a114f6f8a608\\u0027,\\u0027Ghost-In-The-Cell\\u0027); return false;\\\\\\\"\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003cimg src=\\u0027https://cms2.cinepolis.co.id/Gallery/CPL/MOV/Movie/Thumbnail/5ea4ef23722a4dc9a288c4d50634a43e.jpg\\u0027 /\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t   \\u003c/a\\u003e\\u003ca class=\\u0027mv_t"
+  },
+  {
+    "url": "https://cinepolis.co.id/home.aspx/loadHomeBanners",
+    "status": 200,
+    "len": 11719,
+    "ct": "application/json; charset=utf-8",
+    "body": "{\"d\":\"{\\\"DataObject\\\":\\\"\\u003cdiv class=\\u0027banner_hdr\\u0027\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003cdiv class=\\u0027\\u0027 style=\\u0027background-image: url(https://cms2.cinepolis.co.id/Gallery/CPL/CNT/App/Banner/5db28a421efb4fdd8820977181514e47.jpg); width: 100%;height: 100%;background-size: cover;\\u0027\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t  \\u003cdiv class=\\u0027content\\u0027\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003ch1\\u003eMORTAL KOMBAT II\\u003c/h1\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t"
+  },
+  {
+    "url": "https://cinepolis.co.id/helper/AccountPageHelper.aspx/GenrateCaptcha",
+    "status": 200,
+    "len": 3719,
+    "ct": "application/json; charset=utf-8",
+    "body": "{\"d\":\"{\\\"DataObject\\\":\\\"data:image/gif;base64,R0lGODlhyAAyAPcAAAAAAAAAMwAAZgAAmQAAzAAA/wArAAArMwArZgArmQArzAAr/wBVAABVMwBVZgBVmQBVzABV/wCAAACAMwCAZgCAmQCAzACA/wCqAACqMwCqZgCqmQCqzACq/wDVAADVMwDVZgDVmQDVzADV/wD/AAD/MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMrADMrMzMrZjMrmTMrzDMr/zNVADNVMzNVZjNVmTNVzDNV/zOAADOAMzOAZjOAmTOAzDOA/zOqADOqMzOqZjOqmTOqzDOq/zPVADPVMzPVZjPVmTPVzDPV/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YrAGYrM2YrZmYrmWYrzGYr/2ZVAGZVM2ZVZmZVmWZVzGZV/2aAAGaAM2aAZmaAmWaAzGaA/2aqAG"
+  }
+]

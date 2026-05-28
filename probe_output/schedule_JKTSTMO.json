@@ -1,0 +1,1447 @@
+{
+  "status": "OK",
+  "data": {
+    "is_success": true,
+    "default_date": "10-05-2026",
+    "value": [
+      {
+        "timezone": 1,
+        "date": "09-05-2026",
+        "cinema": {
+          "xxi": [
+            {
+              "age_limit": "18",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "03bbf346-e12b-4375-a46c-f47cab17ca73",
+              "dc21_parent_movie_code": "26FUZE",
+              "duration": "96",
+              "genre": "Action, Crime",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/26FUZE.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "26FUZE",
+              "rating": "D17+",
+              "title": "FUZE",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "95c86e81-21f4-4193-bc97-f6c9a869922b",
+                  "dc21_movie_code": "26FUZE",
+                  "movie_id": "26FUZE",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "75000",
+                  "time_show": [
+                    "12:25",
+                    "14:25",
+                    "16:25",
+                    "18:25",
+                    "20:25"
+                  ],
+                  "show_status": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "studio_id": [
+                    7,
+                    7,
+                    7,
+                    7,
+                    7
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            },
+            {
+              "age_limit": "15",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "0bf9c178-aec9-47f6-87e3-7f4819d21996",
+              "dc21_parent_movie_code": "26DWP2",
+              "duration": "119",
+              "genre": "Comedy, Drama",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/26DWP2.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "26DWP2",
+              "rating": "R13+",
+              "title": "THE DEVIL WEARS PRADA 2",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "5b8eb5ec-ab04-464c-9700-f1191053cb7d",
+                  "dc21_movie_code": "26DWP2",
+                  "movie_id": "26DWP2",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "75000",
+                  "time_show": [
+                    "11:50",
+                    "14:10",
+                    "16:30",
+                    "18:50",
+                    "21:10"
+                  ],
+                  "show_status": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "studio_id": [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            },
+            {
+              "age_limit": "18",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "8dbbbd58-212a-4ae8-8c39-d5e4f7fcde05",
+              "dc21_parent_movie_code": "16GITC",
+              "duration": "106",
+              "genre": "Comedy, Horror",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/16GITC.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "16GITC",
+              "rating": "D17+",
+              "title": "GHOST IN THE CELL",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "183de071-5a1a-4e93-8212-f5a056c11ca0",
+                  "dc21_movie_code": "16GITC",
+                  "movie_id": "16GITC",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "75000",
+                  "time_show": [
+                    "12:25",
+                    "14:35",
+                    "16:45",
+                    "18:55",
+                    "21:05"
+                  ],
+                  "show_status": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "studio_id": [
+                    8,
+                    8,
+                    8,
+                    8,
+                    8
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            },
+            {
+              "age_limit": "1",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "dc4e73be-a151-4828-8f9f-3d95c0b8683a",
+              "dc21_parent_movie_code": "26MICL",
+              "duration": "127",
+              "genre": "Biography",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/26MICL.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "26MICL",
+              "rating": "SU",
+              "title": "MICHAEL",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "9a318ab9-5ccd-45bf-8ce6-65837c8bb00e",
+                  "dc21_movie_code": "26MICL",
+                  "movie_id": "26MICL",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "75000",
+                  "time_show": [
+                    "11:50",
+                    "16:35"
+                  ],
+                  "show_status": [
+                    "0",
+                    "0"
+                  ],
+                  "studio_id": [
+                    3,
+                    3
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4
+                  ]
+                }
+              ]
+            },
+            {
+              "age_limit": "18",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "df849ee7-39db-4ffc-b5d9-0b3a235a5fd5",
+              "dc21_parent_movie_code": "26LCTM",
+              "duration": "134",
+              "genre": "Horror",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/26LCTM.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "26LCTM",
+              "rating": "D17+",
+              "title": "LEE CRONIN'S THE MUMMY",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "5ef3ba4a-bad0-4386-8b0b-191b22993f65",
+                  "dc21_movie_code": "26LCTM",
+                  "movie_id": "26LCTM",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "75000",
+                  "time_show": [
+                    "12:50",
+                    "15:25",
+                    "18:00",
+                    "20:35"
+                  ],
+                  "show_status": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "studio_id": [
+                    4,
+                    4,
+                    4,
+                    4
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            },
+            {
+              "age_limit": "18",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "0f6d6e80-89ad-482f-8dc0-76493156331e",
+              "dc21_parent_movie_code": "26SWWR",
+              "duration": "95",
+              "genre": "Horror",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/26SWWR.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "26SWWR",
+              "rating": "D17+",
+              "title": "SALMOKJI: WHISPERING WATER",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "93bbb04b-30ab-411c-af3e-5073e038dec5",
+                  "dc21_movie_code": "26SWWR",
+                  "movie_id": "26SWWR",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "75000",
+                  "time_show": [
+                    "13:00",
+                    "14:55",
+                    "16:50",
+                    "18:45",
+                    "20:40"
+                  ],
+                  "show_status": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "studio_id": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            },
+            {
+              "age_limit": "18",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "ae6abadc-580c-47ef-bbcb-e5e3476d2d7c",
+              "dc21_parent_movie_code": "25MKT2",
+              "duration": "116",
+              "genre": "Action, Adventure",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/25MKT2.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "25MKT2",
+              "rating": "D17+",
+              "title": "MORTAL KOMBAT II",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "8db29944-efd7-4e35-87c1-81b14a46e6ce",
+                  "dc21_movie_code": "25MKT2",
+                  "movie_id": "25MKT2",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "75000",
+                  "time_show": [
+                    "12:00",
+                    "14:20",
+                    "16:40",
+                    "19:00",
+                    "21:20"
+                  ],
+                  "show_status": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "studio_id": [
+                    2,
+                    2,
+                    2,
+                    2,
+                    2
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            },
+            {
+              "age_limit": "15",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "5b79a2df-7011-48b7-bc02-66241392bed8",
+              "dc21_parent_movie_code": "26BEHM",
+              "duration": "114",
+              "genre": "Documentary, Music",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/26BEH3.jpg",
+              "movie_type": "3D",
+              "parent_movie_id": "26BEHM",
+              "rating": "R13+",
+              "title": "BILLIE EILISH: HIT ME HARD AND SOFT - THE TOUR LIVE IN 3D (3D)",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "fe6a33cd-d171-4d0b-bbbd-b001e956158d",
+                  "dc21_movie_code": "26BEH3",
+                  "movie_id": "26BEH3",
+                  "movie_type_name": "Reguler 3D",
+                  "ticket_price": "130000",
+                  "time_show": [
+                    "14:20",
+                    "19:05",
+                    "21:20"
+                  ],
+                  "show_status": [
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "studio_id": [
+                    3,
+                    3,
+                    3
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            },
+            {
+              "age_limit": "18",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "42e50264-011c-43d8-a65e-808350aab05e",
+              "dc21_parent_movie_code": "16TBPU",
+              "duration": "91",
+              "genre": "Horror",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/16TBPU.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "16TBPU",
+              "rating": "D17+",
+              "title": "THE BELL: PANGGILAN UNTUK MATI",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "5aa3e2db-9dab-4f17-bb03-79df468d2047",
+                  "dc21_movie_code": "16TBPU",
+                  "movie_id": "16TBPU",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "75000",
+                  "time_show": [
+                    "12:50",
+                    "14:45",
+                    "16:40",
+                    "18:35",
+                    "20:30"
+                  ],
+                  "show_status": [
+                    "0",
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "studio_id": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "is_ats": false
+      },
+      {
+        "timezone": 1,
+        "date": "10-05-2026",
+        "cinema": {
+          "xxi": [
+            {
+              "age_limit": "18",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "0f6d6e80-89ad-482f-8dc0-76493156331e",
+              "dc21_parent_movie_code": "26SWWR",
+              "duration": "95",
+              "genre": "Horror",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/26SWWR.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "26SWWR",
+              "rating": "D17+",
+              "title": "SALMOKJI: WHISPERING WATER",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "93bbb04b-30ab-411c-af3e-5073e038dec5",
+                  "dc21_movie_code": "26SWWR",
+                  "movie_id": "26SWWR",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "75000",
+                  "time_show": [
+                    "13:00",
+                    "14:55",
+                    "16:50",
+                    "18:45",
+                    "20:40"
+                  ],
+                  "show_status": [
+                    "1",
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "studio_id": [
+                    1,
+                    1,
+                    1,
+                    1,
+                    1
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            },
+            {
+              "age_limit": "15",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "5b79a2df-7011-48b7-bc02-66241392bed8",
+              "dc21_parent_movie_code": "26BEHM",
+              "duration": "114",
+              "genre": "Documentary, Music",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/26BEH3.jpg",
+              "movie_type": "3D",
+              "parent_movie_id": "26BEHM",
+              "rating": "R13+",
+              "title": "BILLIE EILISH: HIT ME HARD AND SOFT - THE TOUR LIVE IN 3D (3D)",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "fe6a33cd-d171-4d0b-bbbd-b001e956158d",
+                  "dc21_movie_code": "26BEH3",
+                  "movie_id": "26BEH3",
+                  "movie_type_name": "Reguler 3D",
+                  "ticket_price": "130000",
+                  "time_show": [
+                    "18:05"
+                  ],
+                  "show_status": [
+                    "1"
+                  ],
+                  "studio_id": [
+                    3
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4
+                  ]
+                }
+              ]
+            },
+            {
+              "age_limit": "18",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "03bbf346-e12b-4375-a46c-f47cab17ca73",
+              "dc21_parent_movie_code": "26FUZE",
+              "duration": "96",
+              "genre": "Action, Crime",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/26FUZE.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "26FUZE",
+              "rating": "D17+",
+              "title": "FUZE",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "95c86e81-21f4-4193-bc97-f6c9a869922b",
+                  "dc21_movie_code": "26FUZE",
+                  "movie_id": "26FUZE",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "75000",
+                  "time_show": [
+                    "12:25",
+                    "14:25",
+                    "16:25",
+                    "18:25",
+                    "20:25"
+                  ],
+                  "show_status": [
+                    "1",
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "studio_id": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            },
+            {
+              "age_limit": "18",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "8dbbbd58-212a-4ae8-8c39-d5e4f7fcde05",
+              "dc21_parent_movie_code": "16GITC",
+              "duration": "106",
+              "genre": "Comedy, Horror",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/16GITC.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "16GITC",
+              "rating": "D17+",
+              "title": "GHOST IN THE CELL",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "183de071-5a1a-4e93-8212-f5a056c11ca0",
+                  "dc21_movie_code": "16GITC",
+                  "movie_id": "16GITC",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "75000",
+                  "time_show": [
+                    "12:25",
+                    "14:35",
+                    "16:45",
+                    "18:55",
+                    "21:05"
+                  ],
+                  "show_status": [
+                    "1",
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "studio_id": [
+                    8,
+                    8,
+                    8,
+                    8,
+                    8
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            },
+            {
+              "age_limit": "15",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "0bf9c178-aec9-47f6-87e3-7f4819d21996",
+              "dc21_parent_movie_code": "26DWP2",
+              "duration": "119",
+              "genre": "Comedy, Drama",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/26DWP2.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "26DWP2",
+              "rating": "R13+",
+              "title": "THE DEVIL WEARS PRADA 2",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "5b8eb5ec-ab04-464c-9700-f1191053cb7d",
+                  "dc21_movie_code": "26DWP2",
+                  "movie_id": "26DWP2",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "75000",
+                  "time_show": [
+                    "11:50",
+                    "14:10",
+                    "16:30",
+                    "18:50",
+                    "21:10"
+                  ],
+                  "show_status": [
+                    "1",
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "studio_id": [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            },
+            {
+              "age_limit": "18",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "df849ee7-39db-4ffc-b5d9-0b3a235a5fd5",
+              "dc21_parent_movie_code": "26LCTM",
+              "duration": "134",
+              "genre": "Horror",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/26LCTM.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "26LCTM",
+              "rating": "D17+",
+              "title": "LEE CRONIN'S THE MUMMY",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "5ef3ba4a-bad0-4386-8b0b-191b22993f65",
+                  "dc21_movie_code": "26LCTM",
+                  "movie_id": "26LCTM",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "75000",
+                  "time_show": [
+                    "12:50",
+                    "15:25",
+                    "18:00",
+                    "20:35"
+                  ],
+                  "show_status": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "studio_id": [
+                    4,
+                    4,
+                    4,
+                    4
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            },
+            {
+              "age_limit": "18",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "42e50264-011c-43d8-a65e-808350aab05e",
+              "dc21_parent_movie_code": "16TBPU",
+              "duration": "91",
+              "genre": "Horror",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/16TBPU.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "16TBPU",
+              "rating": "D17+",
+              "title": "THE BELL: PANGGILAN UNTUK MATI",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "5aa3e2db-9dab-4f17-bb03-79df468d2047",
+                  "dc21_movie_code": "16TBPU",
+                  "movie_id": "16TBPU",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "75000",
+                  "time_show": [
+                    "12:50",
+                    "14:45",
+                    "16:40",
+                    "18:35",
+                    "20:30"
+                  ],
+                  "show_status": [
+                    "1",
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "studio_id": [
+                    7,
+                    7,
+                    7,
+                    7,
+                    7
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            },
+            {
+              "age_limit": "18",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "ae6abadc-580c-47ef-bbcb-e5e3476d2d7c",
+              "dc21_parent_movie_code": "25MKT2",
+              "duration": "116",
+              "genre": "Action, Adventure",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/25MKT2.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "25MKT2",
+              "rating": "D17+",
+              "title": "MORTAL KOMBAT II",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "8db29944-efd7-4e35-87c1-81b14a46e6ce",
+                  "dc21_movie_code": "25MKT2",
+                  "movie_id": "25MKT2",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "75000",
+                  "time_show": [
+                    "12:00",
+                    "14:20",
+                    "16:40",
+                    "19:00",
+                    "21:20"
+                  ],
+                  "show_status": [
+                    "1",
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "studio_id": [
+                    2,
+                    2,
+                    2,
+                    2,
+                    2
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            },
+            {
+              "age_limit": "1",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "dc4e73be-a151-4828-8f9f-3d95c0b8683a",
+              "dc21_parent_movie_code": "26MICL",
+              "duration": "127",
+              "genre": "Biography",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/26MICL.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "26MICL",
+              "rating": "SU",
+              "title": "MICHAEL",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "9a318ab9-5ccd-45bf-8ce6-65837c8bb00e",
+                  "dc21_movie_code": "26MICL",
+                  "movie_id": "26MICL",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "75000",
+                  "time_show": [
+                    "13:05",
+                    "15:35",
+                    "20:20"
+                  ],
+                  "show_status": [
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "studio_id": [
+                    3,
+                    3,
+                    3
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "is_ats": false
+      },
+      {
+        "timezone": 1,
+        "date": "13-05-2026",
+        "cinema": {
+          "xxi": [
+            {
+              "age_limit": "15",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "4a1846e4-d2ff-4c95-89a2-2431f66bd4a9",
+              "dc21_parent_movie_code": "16SABB",
+              "duration": "113",
+              "genre": "Drama",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/16SABB.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "16SABB",
+              "rating": "R13+",
+              "title": "SEMUA AKAN BAIK-BAIK SAJA",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "2751fc29-86b9-4952-a383-7277546bf822",
+                  "dc21_movie_code": "16SABB",
+                  "movie_id": "16SABB",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "60000",
+                  "time_show": [
+                    "12:05",
+                    "14:20",
+                    "16:35",
+                    "18:50",
+                    "21:05"
+                  ],
+                  "show_status": [
+                    "1",
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "studio_id": [
+                    7,
+                    7,
+                    7,
+                    7,
+                    7
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "is_ats": true
+      },
+      {
+        "timezone": 1,
+        "date": "14-05-2026",
+        "cinema": {
+          "xxi": [
+            {
+              "age_limit": "1",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "5b75237d-a383-4a03-b5af-2c0a645f2778",
+              "dc21_parent_movie_code": "26GOHN",
+              "duration": "140",
+              "genre": "Drama",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/26GOHN.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "26GOHN",
+              "rating": "SU",
+              "title": "GOHAN",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "59a0d026-8373-4a43-b52a-bfa69a073026",
+                  "dc21_movie_code": "26GOHN",
+                  "movie_id": "26GOHN",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "75000",
+                  "time_show": [
+                    "12:45",
+                    "15:25",
+                    "18:05",
+                    "20:45"
+                  ],
+                  "show_status": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "studio_id": [
+                    2,
+                    2,
+                    2,
+                    2
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "is_ats": true
+      },
+      {
+        "timezone": 1,
+        "date": "20-05-2026",
+        "cinema": {
+          "xxi": [
+            {
+              "age_limit": "15",
+              "cafe_group": "JKTSTMO",
+              "dc21_parent_movie_id": "a9985c8d-ded3-49a5-a197-df5369395f28",
+              "dc21_parent_movie_code": "26SWMG",
+              "duration": "132",
+              "genre": "Fantasy, Sci-Fi",
+              "movie_image": "https://nos.jkt-1.neo.id/media.cinema21.co.id/movie-images/26SWMG.jpg",
+              "movie_type": "2D",
+              "parent_movie_id": "26SWMG",
+              "rating": "R13+",
+              "title": "STAR WARS: THE MANDALORIAN AND GROGU",
+              "schedule": [
+                {
+                  "dc21_movie_subtype_id": "97c3cb53-35a8-43f4-b154-2f3bbf2d0f07",
+                  "dc21_movie_code": "26SWMG",
+                  "movie_id": "26SWMG",
+                  "movie_type_name": "Reguler 2D",
+                  "ticket_price": "50000",
+                  "time_show": [
+                    "13:00",
+                    "15:35",
+                    "18:10",
+                    "20:45"
+                  ],
+                  "show_status": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "studio_id": [
+                    2,
+                    2,
+                    2,
+                    2
+                  ],
+                  "seat_available": [
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    },
+                    {
+                      "free_seat": -1,
+                      "total_seat": -1
+                    }
+                  ],
+                  "statuses": [
+                    4,
+                    4,
+                    4,
+                    4
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "is_ats": true
+      }
+    ]
+  },
+  "accessTime": "10-05-2026 02:01:42"
+}

@@ -1,0 +1,73 @@
+name,chain,city,source,external_id,address,lat,lng,google_maps_url,booking_url,id,created_at
+CGV Grand Indonesia,CGV,Jakarta,cgv,002,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/002,6978cb01-f034-4c49-b910-16a221c2739b,2026-05-17T06:20:09.084507
+CGV Pacific Place,CGV,Jakarta,cgv,003,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/003,bb4855ac-053e-4c7d-b561-7fdfa4900554,2026-05-17T06:20:09.084595
+CGV Central Park,CGV,Jakarta,cgv,006,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/006,154d0fad-7b4f-4032-9a1b-90b77e478252,2026-05-17T06:20:09.084662
+CGV Slipi Jaya,CGV,Jakarta,cgv,020,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/020,95a9adc4-b1b5-4ec0-ae81-f65cefe86769,2026-05-17T06:20:09.084723
+CGV Green Pramuka Mall,CGV,Jakarta,cgv,025,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/025,ccddccd5-8c4e-4161-8eb5-43b8502669fb,2026-05-17T06:20:09.084784
+CGV Bella Terra Lifestyle Center,CGV,Jakarta,cgv,028,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/028,251a2a71-ecb5-4cb7-b11d-e506af15d40c,2026-05-17T06:20:09.084845
+CGV Transmart Cempaka Putih,CGV,Jakarta,cgv,035,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/035,e3747890-5f8b-4b36-b2e7-02976f152260,2026-05-17T06:20:09.084904
+CGV Aeon Mall JGC,CGV,Jakarta,cgv,037,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/037,824f565a-74e1-4a40-8f35-41ca412f506a,2026-05-17T06:20:09.084964
+CGV FX Sudirman,CGV,Jakarta,cgv,049,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/049,9dfbb437-c260-4a87-89a1-bf578464b9b5,2026-05-17T06:20:09.085025
+CGV Sunter Mall,CGV,Jakarta,cgv,068,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/068,c01d34fa-a21d-4b91-9c77-57cb5770149a,2026-05-17T06:20:09.085083
+CGV Buaran Plaza,CGV,Jakarta,cgv,086,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/086,9d4180b6-87ac-4844-99bc-9c62f3448b77,2026-05-17T06:20:09.085141
+CGV Poins Mall,CGV,Jakarta,cgv,092,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/092,843ca804-c35a-4f04-9a85-405a0ac6df84,2026-05-17T06:20:09.085199
+CGV Paris Van Java,CGV,Bandung,cgv,001,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/001,3a80e9f1-1f68-41af-a07a-25ed302238f0,2026-05-17T06:20:09.085260
+CGV Miko Mall,CGV,Bandung,cgv,011,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/011,98b82240-6069-488f-99a1-9ad2ce33763e,2026-05-17T06:20:09.085318
+CGV BEC Mall,CGV,Bandung,cgv,014,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/014,1050234b-49a0-461a-80b6-b601cb7014ab,2026-05-17T06:20:09.085376
+CGV 23 Paskal Shopping Center,CGV,Bandung,cgv,029,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/029,4b141c72-19f0-4c31-888f-8bef29864796,2026-05-17T06:20:09.085434
+CGV Metro Indah Mall,CGV,Bandung,cgv,038,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/038,f2275f96-a83d-4bd5-a71a-9a7257a3bdbf,2026-05-17T06:20:09.085492
+CGV Kings Shopping Center,CGV,Bandung,cgv,060,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/060,f2981373-54e5-441a-80ac-23697503a239,2026-05-17T06:20:09.085549
+CGV Teras Kota,CGV,Tangerang,cgv,005,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/005,ba07a796-cbf5-4b6e-ae28-6c356492271f,2026-05-17T06:20:09.085613
+CGV Ecoplaza Citraraya Cikupa,CGV,Tangerang,cgv,022,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/022,33d5076c-e2a7-49ab-bdb8-36b07a7774ca,2026-05-17T06:20:09.085675
+CGV Transmart Graha Bintaro,CGV,Tangerang,cgv,045,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/045,48c489d3-457b-473e-911c-cb01ca92fd96,2026-05-17T06:20:09.085733
+CGV Paradise Walk Serpong,CGV,Tangerang,cgv,065,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/065,01699bb3-67ca-4bd8-8114-06a5a900cebf,2026-05-17T06:20:09.085794
+CGV Grand Batavia,CGV,Tangerang,cgv,080,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/080,998fcd53-866a-46d4-9f22-bff30a1e43ca,2026-05-17T06:20:09.085853
+CGV Foodmosphere,CGV,Tangerang,cgv,083,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/083,8a4d71d8-5d95-4082-a185-eaf3eaaf25dd,2026-05-17T06:20:09.085910
+CGV Mal Ciputra Tangerang,CGV,Tangerang,cgv,089,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/089,48213392-787f-4572-b2b8-d6d2f7c4ef59,2026-05-17T06:20:09.085968
+CGV Bekasi Cyber Park,CGV,Bekasi,cgv,007,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/007,cc364992-cbec-4c01-bfd3-fdebf3df02c2,2026-05-17T06:20:09.086027
+CGV Bekasi Trade Center,CGV,Bekasi,cgv,036,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/036,1bc5ecfe-076e-4315-a863-f9f4e209600f,2026-05-17T06:20:09.086083
+CGV Lagoon Avenue Bekasi,CGV,Bekasi,cgv,040,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/040,167b9171-c178-4cf8-bbd4-367fb60af2ab,2026-05-17T06:20:09.086141
+CGV Plaza Balikpapan,CGV,Balikpapan,cgv,008,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/008,7781731f-07d9-44c4-8e7a-3148ef734f06,2026-05-17T06:20:09.086199
+CGV Jwalk Mall,CGV,Yogyakarta,cgv,013,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/013,dcefb2b7-6983-4860-b85b-423bf3a07098,2026-05-17T06:20:09.086258
+CGV Pakuwon Mall Jogja,CGV,Yogyakarta,cgv,017,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/017,431373d2-1d75-4ef9-9f72-16600558a61c,2026-05-17T06:20:09.086315
+CGV Transmart Maguwo,CGV,Yogyakarta,cgv,031,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/031,4772b633-9370-4d5b-969c-89270eb5ba88,2026-05-17T06:20:09.086371
+CGV Grage City Mall,CGV,Cirebon,cgv,016,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/016,1a8d1bc8-957c-43e7-bf0e-8217c043d6cc,2026-05-17T06:20:09.086429
+CGV Transmart Cirebon,CGV,Cirebon,cgv,042,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/042,06d55b4f-b8f5-46f6-b061-412836cdceb6,2026-05-17T06:20:09.086513
+CGV Marvell City,CGV,Surabaya,cgv,018,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/018,57791ed9-6ac6-4d69-9ad4-2cbb04380796,2026-05-17T06:20:09.086618
+CGV BG Junction,CGV,Surabaya,cgv,048,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/048,a3a53c56-66d3-4e46-bb7e-f95160b06cfe,2026-05-17T06:20:09.086688
+CGV Maspion Square,CGV,Surabaya,cgv,081,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/081,f31283d1-3bee-405a-af2e-dddf255525d0,2026-05-17T06:20:09.086753
+CGV Festive Walk,CGV,Karawang,cgv,019,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/019,ca7fc15b-8eee-4b79-a810-032ea0eb7254,2026-05-17T06:20:09.086815
+CGV Technomart,CGV,Karawang,cgv,046,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/046,336d0b48-da2b-45c8-bab4-33adaa225654,2026-05-17T06:20:09.086874
+CGV Cikampek Mall,CGV,Karawang,cgv,056,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/056,7bb92aa9-88ca-4de8-bcaa-0f070d64481f,2026-05-17T06:20:09.086930
+CGV Sunrise Mall,CGV,Mojokerto,cgv,023,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/023,11637015-6e7a-4ce2-932a-09cc97920d88,2026-05-17T06:20:09.086988
+CGV Focal Point,CGV,Medan,cgv,024,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/024,86856324-3556-42c4-b7cd-75cabae68761,2026-05-17T06:20:09.087046
+CGV Rita Supermall,CGV,Purwokerto,cgv,026,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/026,bcf4a59a-160d-4de3-b498-8855ff79d526,2026-05-17T06:20:09.087103
+CGV Social Market,CGV,Palembang,cgv,027,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/027,f95c6410-3023-4fd4-a593-ef058456496a,2026-05-17T06:20:09.087160
+CGV Transmart Palembang,CGV,Palembang,cgv,039,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/039,a7111ec5-8b08-49be-8f01-a95f1fa06800,2026-05-17T06:20:09.087217
+CGV PTC Mall,CGV,Palembang,cgv,064,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/064,36899ff5-b891-4174-8eac-c8d75b58abf6,2026-05-17T06:20:09.087271
+CGV Depok Mall,CGV,Depok,cgv,030,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/030,2da4c49d-6bbe-4a12-ae6e-44e6502aad7d,2026-05-17T06:20:09.087326
+CGV DTC Depok,CGV,Depok,cgv,073,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/073,447d649e-043f-4c94-8b0f-0559ef164a33,2026-05-17T06:20:09.087380
+CGV Transmart Tegal,CGV,Tegal,cgv,032,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/032,bf94c2a9-d906-4e3f-9fa5-9114db4508e6,2026-05-17T06:20:09.087434
+CGV Transmart Pekanbaru,CGV,Pekanbaru,cgv,033,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/033,b73e4d69-91bd-4cbb-a02c-b63957b16379,2026-05-17T06:20:09.087489
+CGV Holiday Pekanbaru,CGV,Pekanbaru,cgv,087,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/087,ff8eb6ae-e945-46c9-8cab-79f7cc12eaa5,2026-05-17T06:20:09.087543
+CGV Studio Pekanbaru,CGV,Pekanbaru,cgv,088,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/088,4ba4c3cf-e073-48b9-b3a5-065d9961eb4c,2026-05-17T06:20:09.087646
+CGV Transmart Mataram,CGV,Mataram,cgv,034,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/034,bcfa037b-c221-47a3-b437-fc45e5085794,2026-05-17T06:20:09.087708
+CGV Transmart Solo,CGV,Solo,cgv,041,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/041,15f34594-f042-4fac-bffa-7168e15d8391,2026-05-17T06:20:09.087765
+CGV Transmart Lampung,CGV,Lampung,cgv,043,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/043,ecc3b3cf-d6b7-4f15-9ed6-9b71297a5f1f,2026-05-17T06:20:09.087822
+CGV Grand Mall Lampung,CGV,Lampung,cgv,096,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/096,e739e42b-e122-4c09-af4d-9a4b02d5a921,2026-05-17T06:20:09.087878
+CGV Icon Mall Gresik,CGV,Gresik,cgv,051,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/051,5fce1496-1a6f-4f1e-9a36-cfad25acb552,2026-05-17T06:20:09.087935
+CGV Vivo Sentul,CGV,Bogor,cgv,052,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/052,93503778-3ec4-4cee-9921-7233ed02a22a,2026-05-17T06:20:09.087991
+CGV Blitar Square,CGV,Blitar,cgv,053,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/053,cf185fef-6e13-4dcb-b3a0-d88fcb5f8b63,2026-05-17T06:20:09.088048
+CGV Plaza Mulia,CGV,Samarinda,cgv,055,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/055,20bc9bbf-07ae-4ac8-9c60-b0bfe3dc49fc,2026-05-17T06:20:09.088104
+CGV Park Avenue Batam,CGV,Batam,cgv,057,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/057,886b8c58-4c1b-490d-ac19-d75aa4fbf5a4,2026-05-17T06:20:09.088163
+CGV Grand Batam Mall,CGV,Batam,cgv,071,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/071,52a61670-5f3e-4fe5-b3a4-b89e5aa85025,2026-05-17T06:20:09.088218
+CGV Sadang Terminal Square,CGV,Purwakarta,cgv,059,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/059,1503da59-2c15-42a2-8896-223d780b847e,2026-05-17T06:20:09.088273
+CGV Plaza Lawu Madiun,CGV,Madiun,cgv,066,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/066,fda5c4f1-d077-45f1-b376-1a4071cd4580,2026-05-17T06:20:09.088328
+CGV Kediri Mall,CGV,Kediri,cgv,067,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/067,e32cb50f-906b-4154-81cb-cff1facd7a45,2026-05-17T06:20:09.088383
+CGV Living Plaza Jababeka,CGV,Cikarang,cgv,069,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/069,19429721-64ee-40a0-9cc3-c7b2c796bb5e,2026-05-17T06:20:09.088438
+CGV Wijaya Kusuma,CGV,Probolinggo,cgv,070,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/070,677c6ced-3299-48fa-9205-221bb1571638,2026-05-17T06:20:09.088493
+CGV Panakkukang Square,CGV,Makassar,cgv,072,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/072,060bd326-accc-48e7-b467-652ba5cfdad2,2026-05-17T06:20:09.088547
+CGV Malang City Point,CGV,Malang,cgv,076,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/076,4a287711-4900-4380-aece-6a3c18f9e5ce,2026-05-17T06:20:09.088601
+CGV Roxy Square Jember,CGV,Jember,cgv,077,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/077,6ee33492-ac13-41ea-bc6d-4bfc107b6b18,2026-05-17T06:20:09.088656
+CGV Raya Padang,CGV,Padang,cgv,079,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/079,18091959-fefb-40c3-8abb-9a9840be5a82,2026-05-17T06:20:09.088711
+CGV Ecoplaza Citra Maja Raya,CGV,Serang,cgv,094,,0.0,0.0,,https://www.cgv.id/en/schedule/cinema/094,fb1b2ff9-3a52-4978-8e3a-353540be747b,2026-05-17T06:20:09.088766

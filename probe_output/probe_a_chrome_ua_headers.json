@@ -1,0 +1,19 @@
+{
+  "date": "Fri, 15 May 2026 17:32:39 GMT",
+  "content-type": "text/html; charset=utf-8",
+  "content-length": "62286",
+  "connection": "keep-alive",
+  "x-sucuri-id": "18002",
+  "x-xss-protection": "1; mode=block, 1; mode=block",
+  "x-frame-options": "SAMEORIGIN, DENY",
+  "x-content-type-options": "nosniff, nosniff",
+  "content-security-policy": "upgrade-insecure-requests;",
+  "cache-control": "private",
+  "set-cookie": "ASP.NET_SessionId=ja1jmb1aupmh331rfezthdra; path=/; secure; HttpOnly; SameSite=Lax",
+  "strict-transport-security": "max-age=31536000; includeSubDomains",
+  "referrer-policy": "origin",
+  "x-permitted-cross-domain-policies": "none",
+  "server": "Sucuri/Cloudproxy",
+  "x-sucuri-cache": "MISS",
+  "alt-svc": "h3=\":443\"; ma=2592000, h3-29=\":443\"; ma=2592000"
+}

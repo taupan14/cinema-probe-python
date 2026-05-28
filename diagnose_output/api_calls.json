@@ -1,0 +1,122 @@
+[
+  {
+    "method": "POST",
+    "url": "https://m.21cineplex.com/cdn-cgi/rum?",
+    "type": "xhr"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/api/movies?type=upcoming",
+    "type": "fetch"
+  },
+  {
+    "method": "POST",
+    "url": "https://m.21cineplex.com/api/theater?type=getCityList",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/api/auth/session",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/api/app?type=Carousel",
+    "type": "fetch"
+  },
+  {
+    "method": "POST",
+    "url": "https://m.21cineplex.com/api/promotion?type=GetAllLists",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/api/movies?type=now-playing&city_id=72",
+    "type": "fetch"
+  },
+  {
+    "method": "POST",
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-B87QWNSGB3&gtm=45je6562v9130365239za200zd9130365239&_p=1778351904058&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EA&are=1&cid=991708636.1778351905&frm=0&ir=1&pscdl=noapi&rcb=9&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=Android&uapv=11&uaw=0&ul=en-us&_s=1&tag_exp=0~115938466~115938468~118463262~118494633~118719171&sid=1778351904&sct=1&seg=0&dl=https%3A%2F%2Fm.21cineplex.com%2F&dt=CINEMA%2021%20-%20We%20Are%20The%20Largest%20Cinema%20Chain%20In%20Indonesia%20%7C%20Cinema%20XXI&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1732",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/movies?tabs=now-playing&_rsc=18tj9",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/movies?tabs=advance-ticket-sales&_rsc=18tj9",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/promotion?_rsc=18tj9",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/mtix?_rsc=18tj9",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/auth/login?_rsc=18tj9",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/cinemas?_rsc=18tj9",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/movies?_rsc=18tj9",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/mfood?_rsc=18tj9",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/id/promotion/detail?promo_id=wa2026050610436402798273488694&source=mdot&_rsc=18tj9",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/id/promotion/detail?promo_id=wa2026050714464747857310898496&source=mdot&_rsc=18tj9",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/movies/25MKT2?_rsc=18tj9",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/movies/16GITC?_rsc=18tj9",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/movies/26DRAA?_rsc=18tj9",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/id/movies/16GITC",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/id/movies/25MKT2",
+    "type": "fetch"
+  },
+  {
+    "method": "GET",
+    "url": "https://m.21cineplex.com/id/movies/26DRAA",
+    "type": "fetch"
+  }
+]

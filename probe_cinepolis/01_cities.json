@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Bali",
+    "city_id": "BAL"
+  },
+  {
+    "name": "Balikpapan",
+    "city_id": "BLP"
+  },
+  {
+    "name": "Bandung",
+    "city_id": "BDG"
+  },
+  {
+    "name": "Banjarbaru",
+    "city_id": "BAN"
+  },
+  {
+    "name": "Banjarmasin",
+    "city_id": "BJM"
+  },
+  {
+    "name": "Batam",
+    "city_id": "BTM"
+  },
+  {
+    "name": "Batu",
+    "city_id": "BTU"
+  },
+  {
+    "name": "Baubau",
+    "city_id": "BAU"
+  },
+  {
+    "name": "Bekasi",
+    "city_id": "BKS"
+  },
+  {
+    "name": "Binjai",
+    "city_id": "BIN"
+  },
+  {
+    "name": "Bogor",
+    "city_id": "BGO"
+  },
+  {
+    "name": "Cikarang",
+    "city_id": "CIK"
+  },
+  {
+    "name": "Depok",
+    "city_id": "DEP"
+  },
+  {
+    "name": "Duri",
+    "city_id": "DUR"
+  },
+  {
+    "name": "Jakarta",
+    "city_id": "JKT"
+  },
+  {
+    "name": "Jambi",
+    "city_id": "JMB"
+  },
+  {
+    "name": "Jember",
+    "city_id": "JER"
+  },
+  {
+    "name": "Kendari",
+    "city_id": "KEN"
+  },
+  {
+    "name": "Ketapang",
+    "city_id": "KET"
+  },
+  {
+    "name": "Kupang",
+    "city_id": "KUP"
+  },
+  {
+    "name": "Lubuklinggau",
+    "city_id": "LUB"
+  },
+  {
+    "name": "Makassar",
+    "city_id": "MAK"
+  },
+  {
+    "name": "Malang",
+    "city_id": "MAL"
+  },
+  {
+    "name": "Mamuju",
+    "city_id": "MAM"
+  },
+  {
+    "name": "Manado",
+    "city_id": "MAN"
+  },
+  {
+    "name": "Mataram",
+    "city_id": "MAT"
+  },
+  {
+    "name": "Medan",
+    "city_id": "MED"
+  },
+  {
+    "name": "Palembang",
+    "city_id": "PLN"
+  },
+  {
+    "name": "Pekanbaru",
+    "city_id": "PEK"
+  },
+  {
+    "name": "Pematang Siantar",
+    "city_id": "SIA"
+  },
+  {
+    "name": "Ponorogo",
+    "city_id": "PON"
+  },
+  {
+    "name": "Prabumulih",
+    "city_id": "PRA"
+  },
+  {
+    "name": "Sampit",
+    "city_id": "SMP"
+  },
+  {
+    "name": "Semarang",
+    "city_id": "SEM"
+  },
+  {
+    "name": "Serang",
+    "city_id": "SER"
+  },
+  {
+    "name": "Sidoarjo",
+    "city_id": "SID"
+  },
+  {
+    "name": "Surabaya",
+    "city_id": "SBY"
+  },
+  {
+    "name": "Tangerang",
+    "city_id": "TNG"
+  },
+  {
+    "name": "Tegal",
+    "city_id": "TGL"
+  },
+  {
+    "name": "Yogyakarta",
+    "city_id": "YGY"
+  }
+]

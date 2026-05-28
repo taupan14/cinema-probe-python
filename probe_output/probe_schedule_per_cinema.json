@@ -1,0 +1,156 @@
+{
+  "cinema_a_playwright": {
+    "name": "Binjai Supermall",
+    "titles": [
+      "AYAH, INI ARAHNYA KEMANA, YA?",
+      "GHOST IN THE CELL",
+      "SEMUA AKAN BAIK-BAIK SAJA",
+      "TIBA TIBA SETAN",
+      "TUMBAL PROYEK",
+      "YANG LAIN BOLEH HILANG ASAL KAU JANGAN"
+    ]
+  },
+  "cinema_b_playwright": {
+    "name": "Cibubur Junction",
+    "titles": [
+      "DILAN ITB 1997",
+      "GHOST IN THE CELL",
+      "GOHAN",
+      "SEMUA AKAN BAIK-BAIK SAJA",
+      "THE SHEEP DETECTIVES",
+      "TUMBAL PROYEK",
+      "YANG LAIN BOLEH HILANG ASAL KAU JANGAN"
+    ]
+  },
+  "cinema_a_httpx": {
+    "name": "Binjai Supermall",
+    "titles": [
+      "AYAH, INI ARAHNYA KEMANA, YA?",
+      "GHOST IN THE CELL",
+      "SEMUA AKAN BAIK-BAIK SAJA",
+      "TIBA TIBA SETAN",
+      "TUMBAL PROYEK",
+      "YANG LAIN BOLEH HILANG ASAL KAU JANGAN"
+    ],
+    "showtimes": {
+      "TUMBAL PROYEK": [
+        "14:35",
+        "16:55",
+        "19:15",
+        "21:35"
+      ],
+      "SEMUA AKAN BAIK-BAIK SAJA": [
+        "14:10",
+        "19:00"
+      ],
+      "GHOST IN THE CELL": [
+        "21:25"
+      ],
+      "YANG LAIN BOLEH HILANG ASAL KAU JANGAN": [
+        "16:35"
+      ],
+      "AYAH, INI ARAHNYA KEMANA, YA?": [
+        "14:15",
+        "16:30",
+        "18:45",
+        "21:00"
+      ],
+      "TIBA TIBA SETAN": [
+        "13:40",
+        "16:05",
+        "18:30",
+        "20:55"
+      ]
+    },
+    "status": 200,
+    "len": 28897
+  },
+  "cinema_b_httpx": {
+    "name": "Cibubur Junction",
+    "titles": [
+      "AYAH, INI ARAHNYA KEMANA, YA?",
+      "GHOST IN THE CELL",
+      "SEMUA AKAN BAIK-BAIK SAJA",
+      "TIBA TIBA SETAN",
+      "TUMBAL PROYEK",
+      "YANG LAIN BOLEH HILANG ASAL KAU JANGAN"
+    ],
+    "showtimes": {
+      "TUMBAL PROYEK": [
+        "14:35",
+        "16:55",
+        "19:15",
+        "21:35"
+      ],
+      "SEMUA AKAN BAIK-BAIK SAJA": [
+        "14:10",
+        "19:00"
+      ],
+      "GHOST IN THE CELL": [
+        "21:25"
+      ],
+      "YANG LAIN BOLEH HILANG ASAL KAU JANGAN": [
+        "16:35"
+      ],
+      "AYAH, INI ARAHNYA KEMANA, YA?": [
+        "14:15",
+        "16:30",
+        "18:45",
+        "21:00"
+      ],
+      "TIBA TIBA SETAN": [
+        "13:40",
+        "16:05",
+        "18:30",
+        "20:55"
+      ]
+    },
+    "status": 200,
+    "len": 28897
+  },
+  "cinema_c_httpx": {
+    "name": "Citimall Sampit",
+    "titles": [
+      "AYAH, INI ARAHNYA KEMANA, YA?",
+      "GHOST IN THE CELL",
+      "SEMUA AKAN BAIK-BAIK SAJA",
+      "TIBA TIBA SETAN",
+      "TUMBAL PROYEK",
+      "YANG LAIN BOLEH HILANG ASAL KAU JANGAN"
+    ],
+    "showtimes": {
+      "TUMBAL PROYEK": [
+        "14:35",
+        "16:55",
+        "19:15",
+        "21:35"
+      ],
+      "SEMUA AKAN BAIK-BAIK SAJA": [
+        "14:10",
+        "19:00"
+      ],
+      "GHOST IN THE CELL": [
+        "21:25"
+      ],
+      "YANG LAIN BOLEH HILANG ASAL KAU JANGAN": [
+        "16:35"
+      ],
+      "AYAH, INI ARAHNYA KEMANA, YA?": [
+        "14:15",
+        "16:30",
+        "18:45",
+        "21:00"
+      ],
+      "TIBA TIBA SETAN": [
+        "13:40",
+        "16:05",
+        "18:30",
+        "20:55"
+      ]
+    },
+    "status": 200,
+    "len": 28897
+  },
+  "all_same": true,
+  "playwright_same": false
+}

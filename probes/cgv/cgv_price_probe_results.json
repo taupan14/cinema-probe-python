@@ -1,0 +1,971 @@
+{
+  "price_elements_schedule": [
+    {
+      "tag": "div",
+      "class": "price_section",
+      "text": "Features : 12 Auditoriums |TICKET PRICEREGULARMon-Thu:Rp. 56.000Friday:Rp. 66.000Weekend/Holiday:Rp. 76.000STARIUMMon-Thu:Rp. 61.000Friday:Rp. 71.000Weekend/Holiday:Rp. 81.0004DXMon-Thu:Rp. 95.000Frid",
+      "html": "<div class=\"price_section\">\n<div class=\"price_audi\">\n<div class=\"audi-features-text\">\n\t\t\t\t\t\t\t\t\t\tFeatures : 12 Auditoriums |\n\t\t\t\t\t\t\t\t\t</div>\n<div class=\"audi_image\">\n<img alt=\"Image STARIUM\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/6QvdQ-20241230104045.png\"/>\n</div>\n<div class=\""
+    },
+    {
+      "tag": "div",
+      "class": "price_audi",
+      "text": "Features : 12 Auditoriums |",
+      "html": "<div class=\"price_audi\">\n<div class=\"audi-features-text\">\n\t\t\t\t\t\t\t\t\t\tFeatures : 12 Auditoriums |\n\t\t\t\t\t\t\t\t\t</div>\n<div class=\"audi_image\">\n<img alt=\"Image STARIUM\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/6QvdQ-20241230104045.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image"
+    },
+    {
+      "tag": "div",
+      "class": "audi-features-text",
+      "text": "Features : 12 Auditoriums |",
+      "html": "<div class=\"audi-features-text\">\n\t\t\t\t\t\t\t\t\t\tFeatures : 12 Auditoriums |\n\t\t\t\t\t\t\t\t\t</div>"
+    },
+    {
+      "tag": "div",
+      "class": "audi_image",
+      "text": "",
+      "html": "<div class=\"audi_image\">\n<img alt=\"Image STARIUM\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/6QvdQ-20241230104045.png\"/>\n</div>"
+    },
+    {
+      "tag": "div",
+      "class": "audi_image",
+      "text": "",
+      "html": "<div class=\"audi_image\">\n<img alt=\"Image 4DX\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/bzg17-20241230104021.png\"/>\n</div>"
+    },
+    {
+      "tag": "div",
+      "class": "audi_image",
+      "text": "",
+      "html": "<div class=\"audi_image\">\n<img alt=\"Image GOLD CLASS\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/WbZxz-20221114032826.png\"/>\n</div>"
+    },
+    {
+      "tag": "div",
+      "class": "audi_image",
+      "text": "",
+      "html": "<div class=\"audi_image\">\n<img alt=\"Image VELVET\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/YiQyG-20221124095336.png\"/>\n</div>"
+    },
+    {
+      "tag": "div",
+      "class": "audi_image",
+      "text": "",
+      "html": "<div class=\"audi_image\">\n<img alt=\"Image SCREENX\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/JWZij-20241228172615.png\"/>\n</div>"
+    },
+    {
+      "tag": "div",
+      "class": "audi_image",
+      "text": "",
+      "html": "<div class=\"audi_image\">\n<img alt=\"Image SATIN\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/vlxTc-20221124094830.png\"/>\n</div>"
+    },
+    {
+      "tag": "div",
+      "class": "audi_image",
+      "text": "",
+      "html": "<div class=\"audi_image\">\n<img alt=\"Image Private Box\" src=\"https://cdn.cgv.id/assets/images/special_audi/private-box.png\"/>\n</div>"
+    },
+    {
+      "tag": "div",
+      "class": "price_group",
+      "text": "TICKET PRICEREGULARMon-Thu:Rp. 56.000Friday:Rp. 66.000Weekend/Holiday:Rp. 76.000STARIUMMon-Thu:Rp. 61.000Friday:Rp. 71.000Weekend/Holiday:Rp. 81.0004DXMon-Thu:Rp. 95.000Friday:Rp. 125.000Weekend/Holid",
+      "html": "<div class=\"price_group\">\n\t\t\t\t\t\t\t\t\tTICKET PRICE\n\t\t\t\t\t\t\t\t\t<div class=\"sub_group_price\">\n<div class=\"row\">\n<div class=\"col-prices-cinema-sch\">\n<div class=\"row\">\n<div class=\"column\">\n<div class=\"title-price-info\">REGULAR</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padd"
+    },
+    {
+      "tag": "div",
+      "class": "sub_group_price",
+      "text": "REGULARMon-Thu:Rp. 56.000Friday:Rp. 66.000Weekend/Holiday:Rp. 76.000STARIUMMon-Thu:Rp. 61.000Friday:Rp. 71.000Weekend/Holiday:Rp. 81.0004DXMon-Thu:Rp. 95.000Friday:Rp. 125.000Weekend/Holiday:Rp. 135.0",
+      "html": "<div class=\"sub_group_price\">\n<div class=\"row\">\n<div class=\"col-prices-cinema-sch\">\n<div class=\"row\">\n<div class=\"column\">\n<div class=\"title-price-info\">REGULAR</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 56.000</td>\n</tr>\n<tr>\n<td>Friday</td"
+    },
+    {
+      "tag": "div",
+      "class": "col-prices-cinema-sch",
+      "text": "REGULARMon-Thu:Rp. 56.000Friday:Rp. 66.000Weekend/Holiday:Rp. 76.000STARIUMMon-Thu:Rp. 61.000Friday:Rp. 71.000Weekend/Holiday:Rp. 81.0004DXMon-Thu:Rp. 95.000Friday:Rp. 125.000Weekend/Holiday:Rp. 135.0",
+      "html": "<div class=\"col-prices-cinema-sch\">\n<div class=\"row\">\n<div class=\"column\">\n<div class=\"title-price-info\">REGULAR</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 56.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. "
+    },
+    {
+      "tag": "div",
+      "class": "title-price-info",
+      "text": "REGULAR",
+      "html": "<div class=\"title-price-info\">REGULAR</div>"
+    },
+    {
+      "tag": "table",
+      "class": "table_price",
+      "text": "Mon-Thu:Rp. 56.000Friday:Rp. 66.000Weekend/Holiday:Rp. 76.000",
+      "html": "<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 56.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 66.000</td>\n</tr>\n<tr>\n<td>Weekend/Holiday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 76.000</td>\n</tr>\n</table"
+    },
+    {
+      "tag": "div",
+      "class": "title-price-info",
+      "text": "STARIUM",
+      "html": "<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>STARIUM</span>\n</div>"
+    },
+    {
+      "tag": "table",
+      "class": "table_price",
+      "text": "Mon-Thu:Rp. 61.000Friday:Rp. 71.000Weekend/Holiday:Rp. 81.000",
+      "html": "<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 61.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 71.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 81.000 </td>\n</tr>\n</t"
+    },
+    {
+      "tag": "div",
+      "class": "title-price-info",
+      "text": "4DX",
+      "html": "<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>4DX</span>\n</div>"
+    },
+    {
+      "tag": "table",
+      "class": "table_price",
+      "text": "Mon-Thu:Rp. 95.000Friday:Rp. 125.000Weekend/Holiday:Rp. 135.000",
+      "html": "<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 95.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 125.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 135.000 </td>\n</tr>\n<"
+    },
+    {
+      "tag": "div",
+      "class": "title-price-info",
+      "text": "GOLD CLASS",
+      "html": "<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>GOLD CLASS</span>\n</div>"
+    },
+    {
+      "tag": "table",
+      "class": "table_price",
+      "text": "Mon-Thu:Rp. 100.000Friday:Rp. 150.000Weekend/Holiday:Rp. 190.000",
+      "html": "<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 100.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 150.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 190.000 </td>\n</tr>\n"
+    },
+    {
+      "tag": "div",
+      "class": "title-price-info",
+      "text": "VELVET**price is for 1 bed/2 person",
+      "html": "<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>VELVET</span>\n<span style=\"margin-left:5px; font-size:10px; font-weight:normal; color:rgb(158, 158, 158);\">**price is for 1 bed/2 person</span>\n</div>"
+    },
+    {
+      "tag": "table",
+      "class": "table_price",
+      "text": "Mon-Thu:Rp. 200.000Friday:Rp. 300.000Weekend/Holiday:Rp. 380.000",
+      "html": "<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 200.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 300.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 380.000 </td>\n</tr>\n"
+    },
+    {
+      "tag": "div",
+      "class": "title-price-info",
+      "text": "SCREENX**start from",
+      "html": "<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>SCREENX</span>\n<span style=\"margin-left:5px; font-size:10px; font-weight:normal; color:rgb(158, 158, 158);\">**start from</span>\n</div>"
+    },
+    {
+      "tag": "table",
+      "class": "table_price",
+      "text": "Mon-Thu:Rp. 65.000Friday:Rp. 75.000Weekend/Holiday:Rp. 85.000",
+      "html": "<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 65.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 75.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 85.000 </td>\n</tr>\n</t"
+    },
+    {
+      "tag": "div",
+      "class": "title-price-info",
+      "text": "SATIN",
+      "html": "<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>SATIN</span>\n</div>"
+    },
+    {
+      "tag": "table",
+      "class": "table_price",
+      "text": "Mon-Thu:Rp. 75.000Friday:Rp. 85.000Weekend/Holiday:Rp. 95.000",
+      "html": "<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 75.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 85.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 95.000 </td>\n</tr>\n</t"
+    },
+    {
+      "tag": "div",
+      "class": "title-price-info",
+      "text": "Grand Indonesia",
+      "html": "<div class=\"title-price-info\">\n\t\t\t\t\t\t\t\t\t\t\t\t\tGrand Indonesia\n\t\t\t\t\t\t\t\t\t\t\t\t</div>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Audi 6",
+      "html": "<span class=\"audi-nm\">Audi 6</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Audi 3",
+      "html": "<span class=\"audi-nm\">Audi 3</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Velvet by Ocean 10",
+      "html": "<span class=\"audi-nm\">Velvet by Ocean 10</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Starium 2",
+      "html": "<span class=\"audi-nm\">Starium 2</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Satin 8",
+      "html": "<span class=\"audi-nm\">Satin 8</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "4DX 5",
+      "html": "<span class=\"audi-nm\">4DX 5</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Gold Class 9",
+      "html": "<span class=\"audi-nm\">Gold Class 9</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Audi 11",
+      "html": "<span class=\"audi-nm\">Audi 11</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Gold Class 9",
+      "html": "<span class=\"audi-nm\">Gold Class 9</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Audi 6",
+      "html": "<span class=\"audi-nm\">Audi 6</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Velvet by Ocean 10",
+      "html": "<span class=\"audi-nm\">Velvet by Ocean 10</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Satin 8",
+      "html": "<span class=\"audi-nm\">Satin 8</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "4DX 5",
+      "html": "<span class=\"audi-nm\">4DX 5</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Audi 4",
+      "html": "<span class=\"audi-nm\">Audi 4</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Satin 8",
+      "html": "<span class=\"audi-nm\">Satin 8</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Audi 3",
+      "html": "<span class=\"audi-nm\">Audi 3</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Audi 11",
+      "html": "<span class=\"audi-nm\">Audi 11</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Audi 7",
+      "html": "<span class=\"audi-nm\">Audi 7</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Audi 4",
+      "html": "<span class=\"audi-nm\">Audi 4</span>"
+    },
+    {
+      "tag": "span",
+      "class": "audi-nm",
+      "text": "Audi 6",
+      "html": "<span class=\"audi-nm\">Audi 6</span>"
+    }
+  ],
+  "showtime_anchor_attrs": [
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "disabled"
+      ],
+      "id": "9707010",
+      "attr-mov": "CROCODILE TEARS",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "01",
+      "attr-audi-type-name": "Audi 6",
+      "attr-movie-type-id": "01"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9707011",
+      "attr-mov": "CROCODILE TEARS",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "01",
+      "attr-audi-type-name": "Audi 6",
+      "attr-movie-type-id": "01"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9707008",
+      "attr-mov": "FUZE",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "01",
+      "attr-audi-type-name": "Audi 3",
+      "attr-movie-type-id": "01"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9706956",
+      "attr-mov": "FUZE",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "01",
+      "attr-audi-type-name": "Audi 3",
+      "attr-movie-type-id": "01"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9706957",
+      "attr-mov": "FUZE",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "01",
+      "attr-audi-type-name": "Audi 3",
+      "attr-movie-type-id": "01"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9707000",
+      "attr-mov": "MORTAL KOMBAT II",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "13",
+      "attr-audi-type-name": "Velvet by Ocean 10",
+      "attr-movie-type-id": "01"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9707017",
+      "attr-mov": "MORTAL KOMBAT II",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "13",
+      "attr-audi-type-name": "Velvet by Ocean 10",
+      "attr-movie-type-id": "01"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9706948",
+      "attr-mov": "MORTAL KOMBAT II",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "05",
+      "attr-audi-type-name": "Starium 2",
+      "attr-movie-type-id": "01"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9706949",
+      "attr-mov": "MORTAL KOMBAT II",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "05",
+      "attr-audi-type-name": "Starium 2",
+      "attr-movie-type-id": "01"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9706950",
+      "attr-mov": "MORTAL KOMBAT II",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "05",
+      "attr-audi-type-name": "Starium 2",
+      "attr-movie-type-id": "01"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9706980",
+      "attr-mov": "MORTAL KOMBAT II",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "12",
+      "attr-audi-type-name": "Satin 8",
+      "attr-movie-type-id": "01"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9706967",
+      "attr-mov": "MORTAL KOMBAT II",
+      "attr-fmt": "4DX2D",
+      "attr-audi-type-id": "03",
+      "attr-audi-type-name": "4DX 5",
+      "attr-movie-type-id": "03"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9706968",
+      "attr-mov": "MORTAL KOMBAT II",
+      "attr-fmt": "4DX2D",
+      "attr-audi-type-id": "03",
+      "attr-audi-type-name": "4DX 5",
+      "attr-movie-type-id": "03"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9706985",
+      "attr-mov": "MORTAL KOMBAT II",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "04",
+      "attr-audi-type-name": "Gold Class 9",
+      "attr-movie-type-id": "01"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9706994",
+      "attr-mov": "GHOST IN THE CELL",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "01",
+      "attr-audi-type-name": "Audi 11",
+      "attr-movie-type-id": "01"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9707009",
+      "attr-mov": "GHOST IN THE CELL",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "01",
+      "attr-audi-type-name": "Audi 11",
+      "attr-movie-type-id": "01"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9706984",
+      "attr-mov": "THE DEVIL WEARS PRADA 2",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "04",
+      "attr-audi-type-name": "Gold Class 9",
+      "attr-movie-type-id": "01"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9706986",
+      "attr-mov": "THE DEVIL WEARS PRADA 2",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "04",
+      "attr-audi-type-name": "Gold Class 9",
+      "attr-movie-type-id": "01"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9707012",
+      "attr-mov": "THE DEVIL WEARS PRADA 2",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "01",
+      "attr-audi-type-name": "Audi 6",
+      "attr-movie-type-id": "01"
+    },
+    {
+      "href": "javascript:void(0);",
+      "class": [
+        "active"
+      ],
+      "id": "9707003",
+      "attr-mov": "THE DEVIL WEARS PRADA 2",
+      "attr-fmt": "2D",
+      "attr-audi-type-id": "13",
+      "attr-audi-type-name": "Velvet by Ocean 10",
+      "attr-movie-type-id": "01"
+    }
+  ],
+  "class_price_section": [
+    "<div class=\"price_section\">\n<div class=\"price_audi\">\n<div class=\"audi-features-text\">\n\t\t\t\t\t\t\t\t\t\tFeatures : 12 Auditoriums |\n\t\t\t\t\t\t\t\t\t</div>\n<div class=\"audi_image\">\n<img alt=\"Image STARIUM\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/6QvdQ-20241230104045.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image 4DX\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/bzg17-20241230104021.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image GOLD CLASS\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/WbZxz-20221114032826.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image VELVET\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/YiQyG-20221124095336.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image SCREENX\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/JWZij-20241228172615.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image SATIN\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/vlxTc-20221124094830.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image Private Box\" src=\"https://cdn.cgv.id/assets/images/special_audi/private-box.png\"/>\n</div>\n</div>\n<hr/>\n<div class=\"price_group\">\n\t\t\t\t\t\t\t\t\tTICKET PRICE\n\t\t\t\t\t\t\t\t\t<div class=\"sub_group_price\">\n<div class=\"row\">\n<div class=\"col-prices-cinema-sch\">\n<div class=\"row\">\n<div class=\"column\">\n<div class=\"title-price-info\">REGULAR</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 56.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 66.000</td>\n</tr>\n<tr>\n<td>Weekend/Holiday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 76.000</td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>STARIUM</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 61.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 71.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 81.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>4DX</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 95.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 125.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 135.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>GOLD CLASS</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 100.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 150.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 190.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>VELVET</span>\n<span style=\"margin-left:5px; font-size:10px; font-weight:normal; color:rgb(158, 158, 158);\">**price is for 1 bed/2 person</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 200.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 300.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 380.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>SCREENX</span>\n<span style=\"margin-left:5px; font-size:10px; font-weight:normal; color:rgb(158, 158, 158);\">**start from</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 65.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 75.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 85.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>SATIN</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 75.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 85.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 95.000 </td>\n</tr>\n</table>\n</div>\n</div>\n<div style=\"margin-top:10px; margin-bottom:10px;\">\n<span style=\"font-size:12px; font-weight:normal; color:rgb(158, 158, 158);\">\n                                                    *Additional +Rp 5,000 charge applies for 3D movie formats\n                                                    </span>\n</div>\n</div>\n<div class=\"col-info-cinema-sch\">\n<div class=\"title-price-info\">\n\t\t\t\t\t\t\t\t\t\t\t\t\tGrand Indonesia\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\tGrand Indonesia, West Mall Building 8th Floor Jl. M.H. Thamrin No. 1 Jakarta - Pusat\n\n\t\t\t\t\t\t\t\t\t\t\t</div>\n</div>\n</div>\n</div>\n</div>"
+  ],
+  "class_table_price": [
+    "<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 56.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 66.000</td>\n</tr>\n<tr>\n<td>Weekend/Holiday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 76.000</td>\n</tr>\n</table>",
+    "<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 61.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 71.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 81.000 </td>\n</tr>\n</table>",
+    "<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 95.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 125.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 135.000 </td>\n</tr>\n</table>",
+    "<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 100.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 150.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 190.000 </td>\n</tr>\n</table>",
+    "<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 200.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 300.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 380.000 </td>\n</tr>\n</table>"
+  ],
+  "class_price_group": [
+    "<div class=\"price_group\">\n\t\t\t\t\t\t\t\t\tTICKET PRICE\n\t\t\t\t\t\t\t\t\t<div class=\"sub_group_price\">\n<div class=\"row\">\n<div class=\"col-prices-cinema-sch\">\n<div class=\"row\">\n<div class=\"column\">\n<div class=\"title-price-info\">REGULAR</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 56.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 66.000</td>\n</tr>\n<tr>\n<td>Weekend/Holiday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 76.000</td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>STARIUM</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 61.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 71.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 81.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>4DX</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 95.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 125.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 135.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>GOLD CLASS</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 100.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 150.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 190.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>VELVET</span>\n<span style=\"margin-left:5px; font-size:10px; font-weight:normal; color:rgb(158, 158, 158);\">**price is for 1 bed/2 person</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 200.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 300.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 380.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>SCREENX</span>\n<span style=\"margin-left:5px; font-size:10px; font-weight:normal; color:rgb(158, 158, 158);\">**start from</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 65.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 75.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 85.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>SATIN</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 75.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 85.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 95.000 </td>\n</tr>\n</table>\n</div>\n</div>\n<div style=\"margin-top:10px; margin-bottom:10px;\">\n<span style=\"font-size:12px; font-weight:normal; color:rgb(158, 158, 158);\">\n                                                    *Additional +Rp 5,000 charge applies for 3D movie formats\n                                                    </span>\n</div>\n</div>\n<div class=\"col-info-cinema-sch\">\n<div class=\"title-price-info\">\n\t\t\t\t\t\t\t\t\t\t\t\t\tGrand Indonesia\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\tGrand Indonesia, West Mall Building 8th Floor Jl. M.H. Thamrin No. 1 Jakarta - Pusat\n\n\t\t\t\t\t\t\t\t\t\t\t</div>\n</div>\n</div>\n</div>"
+  ],
+  "class_price_audi": [
+    "<div class=\"price_audi\">\n<div class=\"audi-features-text\">\n\t\t\t\t\t\t\t\t\t\tFeatures : 12 Auditoriums |\n\t\t\t\t\t\t\t\t\t</div>\n<div class=\"audi_image\">\n<img alt=\"Image STARIUM\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/6QvdQ-20241230104045.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image 4DX\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/bzg17-20241230104021.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image GOLD CLASS\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/WbZxz-20221114032826.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image VELVET\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/YiQyG-20221124095336.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image SCREENX\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/JWZij-20241228172615.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image SATIN\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/vlxTc-20221124094830.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image Private Box\" src=\"https://cdn.cgv.id/assets/images/special_audi/private-box.png\"/>\n</div>\n</div>"
+  ],
+  "class_sub_group_price": [
+    "<div class=\"sub_group_price\">\n<div class=\"row\">\n<div class=\"col-prices-cinema-sch\">\n<div class=\"row\">\n<div class=\"column\">\n<div class=\"title-price-info\">REGULAR</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 56.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 66.000</td>\n</tr>\n<tr>\n<td>Weekend/Holiday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 76.000</td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>STARIUM</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 61.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 71.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 81.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>4DX</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 95.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 125.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 135.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>GOLD CLASS</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 100.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 150.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 190.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>VELVET</span>\n<span style=\"margin-left:5px; font-size:10px; font-weight:normal; color:rgb(158, 158, 158);\">**price is for 1 bed/2 person</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 200.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 300.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 380.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>SCREENX</span>\n<span style=\"margin-left:5px; font-size:10px; font-weight:normal; color:rgb(158, 158, 158);\">**start from</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 65.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 75.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 85.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>SATIN</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 75.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 85.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 95.000 </td>\n</tr>\n</table>\n</div>\n</div>\n<div style=\"margin-top:10px; margin-bottom:10px;\">\n<span style=\"font-size:12px; font-weight:normal; color:rgb(158, 158, 158);\">\n                                                    *Additional +Rp 5,000 charge applies for 3D movie formats\n                                                    </span>\n</div>\n</div>\n<div class=\"col-info-cinema-sch\">\n<div class=\"title-price-info\">\n\t\t\t\t\t\t\t\t\t\t\t\t\tGrand Indonesia\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\tGrand Indonesia, West Mall Building 8th Floor Jl. M.H. Thamrin No. 1 Jakarta - Pusat\n\n\t\t\t\t\t\t\t\t\t\t\t</div>\n</div>\n</div>"
+  ],
+  "class_col-prices-cinema-sch": [
+    "<div class=\"col-prices-cinema-sch\">\n<div class=\"row\">\n<div class=\"column\">\n<div class=\"title-price-info\">REGULAR</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 56.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 66.000</td>\n</tr>\n<tr>\n<td>Weekend/Holiday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 76.000</td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>STARIUM</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 61.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 71.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 81.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>4DX</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 95.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 125.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 135.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>GOLD CLASS</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 100.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 150.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 190.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>VELVET</span>\n<span style=\"margin-left:5px; font-size:10px; font-weight:normal; color:rgb(158, 158, 158);\">**price is for 1 bed/2 person</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 200.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 300.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 380.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>SCREENX</span>\n<span style=\"margin-left:5px; font-size:10px; font-weight:normal; color:rgb(158, 158, 158);\">**start from</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 65.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 75.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 85.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>SATIN</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 75.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 85.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 95.000 </td>\n</tr>\n</table>\n</div>\n</div>\n<div style=\"margin-top:10px; margin-bottom:10px;\">\n<span style=\"font-size:12px; font-weight:normal; color:rgb(158, 158, 158);\">\n                                                    *Additional +Rp 5,000 charge applies for 3D movie formats\n                                                    </span>\n</div>\n</div>"
+  ],
+  "class_title-price-info": [
+    "<div class=\"title-price-info\">REGULAR</div>",
+    "<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>STARIUM</span>\n</div>",
+    "<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>4DX</span>\n</div>",
+    "<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>GOLD CLASS</span>\n</div>",
+    "<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>VELVET</span>\n<span style=\"margin-left:5px; font-size:10px; font-weight:normal; color:rgb(158, 158, 158);\">**price is for 1 bed/2 person</span>\n</div>"
+  ],
+  "showtime_ids": [
+    {
+      "id": "9707010",
+      "fmt": "2D",
+      "mov": "CROCODILE TEARS",
+      "hall": "Audi 6",
+      "time": "14:10"
+    },
+    {
+      "id": "9707011",
+      "fmt": "2D",
+      "mov": "CROCODILE TEARS",
+      "hall": "Audi 6",
+      "time": "18:45"
+    },
+    {
+      "id": "9707008",
+      "fmt": "2D",
+      "mov": "FUZE",
+      "hall": "Audi 3",
+      "time": "14:20"
+    },
+    {
+      "id": "9706956",
+      "fmt": "2D",
+      "mov": "FUZE",
+      "hall": "Audi 3",
+      "time": "18:50"
+    },
+    {
+      "id": "9706957",
+      "fmt": "2D",
+      "mov": "FUZE",
+      "hall": "Audi 3",
+      "time": "20:55"
+    },
+    {
+      "id": "9707000",
+      "fmt": "2D",
+      "mov": "MORTAL KOMBAT II",
+      "hall": "Velvet by Ocean 10",
+      "time": "14:30"
+    },
+    {
+      "id": "9707017",
+      "fmt": "2D",
+      "mov": "MORTAL KOMBAT II",
+      "hall": "Velvet by Ocean 10",
+      "time": "19:45"
+    },
+    {
+      "id": "9706948",
+      "fmt": "2D",
+      "mov": "MORTAL KOMBAT II",
+      "hall": "Starium 2",
+      "time": "16:00"
+    },
+    {
+      "id": "9706949",
+      "fmt": "2D",
+      "mov": "MORTAL KOMBAT II",
+      "hall": "Starium 2",
+      "time": "18:30"
+    },
+    {
+      "id": "9706950",
+      "fmt": "2D",
+      "mov": "MORTAL KOMBAT II",
+      "hall": "Starium 2",
+      "time": "21:00"
+    },
+    {
+      "id": "9706980",
+      "fmt": "2D",
+      "mov": "MORTAL KOMBAT II",
+      "hall": "Satin 8",
+      "time": "16:15"
+    },
+    {
+      "id": "9706967",
+      "fmt": "4DX2D",
+      "mov": "MORTAL KOMBAT II",
+      "hall": "4DX 5",
+      "time": "17:40"
+    },
+    {
+      "id": "9706968",
+      "fmt": "4DX2D",
+      "mov": "MORTAL KOMBAT II",
+      "hall": "4DX 5",
+      "time": "20:15"
+    },
+    {
+      "id": "9706985",
+      "fmt": "2D",
+      "mov": "MORTAL KOMBAT II",
+      "hall": "Gold Class 9",
+      "time": "20:35"
+    },
+    {
+      "id": "9706994",
+      "fmt": "2D",
+      "mov": "GHOST IN THE CELL",
+      "hall": "Audi 11",
+      "time": "15:00"
+    },
+    {
+      "id": "9707009",
+      "fmt": "2D",
+      "mov": "GHOST IN THE CELL",
+      "hall": "Audi 11",
+      "time": "20:00"
+    },
+    {
+      "id": "9706984",
+      "fmt": "2D",
+      "mov": "THE DEVIL WEARS PRADA 2",
+      "hall": "Gold Class 9",
+      "time": "15:30"
+    },
+    {
+      "id": "9706986",
+      "fmt": "2D",
+      "mov": "THE DEVIL WEARS PRADA 2",
+      "hall": "Gold Class 9",
+      "time": "18:00"
+    },
+    {
+      "id": "9707012",
+      "fmt": "2D",
+      "mov": "THE DEVIL WEARS PRADA 2",
+      "hall": "Audi 6",
+      "time": "16:15"
+    },
+    {
+      "id": "9707003",
+      "fmt": "2D",
+      "mov": "THE DEVIL WEARS PRADA 2",
+      "hall": "Velvet by Ocean 10",
+      "time": "17:10"
+    },
+    {
+      "id": "9707021",
+      "fmt": "2D",
+      "mov": "THE DEVIL WEARS PRADA 2",
+      "hall": "Satin 8",
+      "time": "20:50"
+    },
+    {
+      "id": "9706965",
+      "fmt": "4DX2D",
+      "mov": "SALMOKJI: WHISPERING WATER",
+      "hall": "4DX 5",
+      "time": "15:30"
+    },
+    {
+      "id": "9706961",
+      "fmt": "2D",
+      "mov": "SALMOKJI: WHISPERING WATER",
+      "hall": "Audi 4",
+      "time": "16:10"
+    },
+    {
+      "id": "9706963",
+      "fmt": "2D",
+      "mov": "SALMOKJI: WHISPERING WATER",
+      "hall": "Audi 4",
+      "time": "20:45"
+    },
+    {
+      "id": "9707020",
+      "fmt": "2D",
+      "mov": "SALMOKJI: WHISPERING WATER",
+      "hall": "Satin 8",
+      "time": "18:40"
+    },
+    {
+      "id": "9706958",
+      "fmt": "2D",
+      "mov": "DILAN ITB 1997",
+      "hall": "Audi 3",
+      "time": "16:30"
+    },
+    {
+      "id": "9707019",
+      "fmt": "2D",
+      "mov": "MICHAEL",
+      "hall": "Audi 11",
+      "time": "17:20"
+    },
+    {
+      "id": "9706975",
+      "fmt": "2D",
+      "mov": "THAT TIME I GOT REINCARNATED AS A SLIME THE MOVIE: TEARS OF THE AZURE SEA",
+      "hall": "Audi 7",
+      "time": "18:00"
+    },
+    {
+      "id": "9707018",
+      "fmt": "2D",
+      "mov": "THAT TIME I GOT REINCARNATED AS A SLIME THE MOVIE: TEARS OF THE AZURE SEA",
+      "hall": "Audi 7",
+      "time": "20:20"
+    },
+    {
+      "id": "9706964",
+      "fmt": "3D",
+      "mov": "BILLIE EILISH: HIT ME HARD AND SOFT - THE TOUR LIVE IN 3D (3D)",
+      "hall": "Audi 4",
+      "time": "18:15"
+    },
+    {
+      "id": "9707014",
+      "fmt": "2D",
+      "mov": "THE KING'S WARDEN",
+      "hall": "Audi 6",
+      "time": "21:00"
+    }
+  ],
+  "booking_endpoints": [
+    {
+      "method": "GET",
+      "url": "https://www.cgv.id/en/booking/9707010",
+      "data": {},
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html>\n<head>\n\t<!-- Google Tag Manager -->\n\t<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n\tnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n\tj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n\t'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n\t})(window,document,'script','dataLayer','GTM-KJQKZ7NX');</script>\n\t<!-- End Google Tag Manager -->\n\t<meta itemprop=\"name\" content=\"CGV Indones",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "method": "GET",
+      "url": "https://www.cgv.id/en/schedule/detail/9707010",
+      "data": {},
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html>\n<head>\n\t<!-- Google Tag Manager -->\n\t<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n\tnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n\tj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n\t'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n\t})(window,document,'script','dataLayer','GTM-KJQKZ7NX');</script>\n\t<!-- End Google Tag Manager -->\n\t<meta itemprop=\"name\" content=\"CGV Indones",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "method": "GET",
+      "url": "https://www.cgv.id/en/movies/schedule/9707010",
+      "data": {},
+      "status": 404,
+      "body": "<!DOCTYPE html>\n<html>\n<head>\n\t<!-- Google Tag Manager -->\n\t<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n\tnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n\tj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n\t'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n\t})(window,document,'script','dataLayer','GTM-KJQKZ7NX');</script>\n\t<!-- End Google Tag Manager -->\n\t<meta itemprop=\"name\" content=\"CGV Indones",
+      "content_type": "text/html; charset=UTF-8"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.cgv.id/en/execute",
+      "data": {
+        "action": "get_schedule_detail",
+        "schedule_id": "9707010"
+      },
+      "status": 500,
+      "body": "{\n    \"message\": \"Server Error\"\n}",
+      "content_type": "application/json"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.cgv.id/en/execute",
+      "data": {
+        "action": "get_seat_price",
+        "schedule_id": "9707010"
+      },
+      "status": 500,
+      "body": "{\n    \"message\": \"Server Error\"\n}",
+      "content_type": "application/json"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.cgv.id/en/execute",
+      "data": {
+        "action": "get_studio_info",
+        "schedule_id": "9707010"
+      },
+      "status": 500,
+      "body": "{\n    \"message\": \"Server Error\"\n}",
+      "content_type": "application/json"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.cgv.id/en/execute",
+      "data": {
+        "action": "schedule_detail",
+        "id": "9707010"
+      },
+      "status": 500,
+      "body": "{\n    \"message\": \"Server Error\"\n}",
+      "content_type": "application/json"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.cgv.id/en/loader/schedule_detail",
+      "data": {
+        "schedule_id": "9707010"
+      },
+      "status": 404,
+      "body": "{\n    \"message\": \"\"\n}",
+      "content_type": "application/json"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.cgv.id/en/loader/get_price",
+      "data": {
+        "schedule_id": "9707010",
+        "cinema_id": "002"
+      },
+      "status": 404,
+      "body": "{\n    \"message\": \"\"\n}",
+      "content_type": "application/json"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.cgv.id/en/loader/ticket_price",
+      "data": {
+        "schedule_id": "9707010"
+      },
+      "status": 404,
+      "body": "{\n    \"message\": \"\"\n}",
+      "content_type": "application/json"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.cgv.id/en/loader/seat_price",
+      "data": {
+        "schedule_id": "9707010",
+        "cinema_id": "002"
+      },
+      "status": 404,
+      "body": "{\n    \"message\": \"\"\n}",
+      "content_type": "application/json"
+    },
+    {
+      "method": "POST",
+      "url": "https://www.cgv.id/en/loader/studio",
+      "data": {
+        "schedule_id": "9707010",
+        "cinema_id": "002"
+      },
+      "status": 404,
+      "body": "{\n    \"message\": \"\"\n}",
+      "content_type": "application/json"
+    }
+  ],
+  "price_section_html": "<div class=\"price_section\">\n<div class=\"price_audi\">\n<div class=\"audi-features-text\">\n\t\t\t\t\t\t\t\t\t\tFeatures : 12 Auditoriums |\n\t\t\t\t\t\t\t\t\t</div>\n<div class=\"audi_image\">\n<img alt=\"Image STARIUM\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/6QvdQ-20241230104045.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image 4DX\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/bzg17-20241230104021.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image GOLD CLASS\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/WbZxz-20221114032826.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image VELVET\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/YiQyG-20221124095336.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image SCREENX\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/JWZij-20241228172615.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image SATIN\" src=\"https://cdn.cgv.id/uploads_v2/auditorium-types/logo-white/vlxTc-20221124094830.png\"/>\n</div>\n<div class=\"audi_image\">\n<img alt=\"Image Private Box\" src=\"https://cdn.cgv.id/assets/images/special_audi/private-box.png\"/>\n</div>\n</div>\n<hr/>\n<div class=\"price_group\">\n\t\t\t\t\t\t\t\t\tTICKET PRICE\n\t\t\t\t\t\t\t\t\t<div class=\"sub_group_price\">\n<div class=\"row\">\n<div class=\"col-prices-cinema-sch\">\n<div class=\"row\">\n<div class=\"column\">\n<div class=\"title-price-info\">REGULAR</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 56.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 66.000</td>\n</tr>\n<tr>\n<td>Weekend/Holiday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 76.000</td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>STARIUM</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 61.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 71.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 81.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>4DX</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 95.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 125.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 135.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>GOLD CLASS</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 100.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 150.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 190.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>VELVET</span>\n<span style=\"margin-left:5px; font-size:10px; font-weight:normal; color:rgb(158, 158, 158);\">**price is for 1 bed/2 person</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 200.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 300.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 380.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>SCREENX</span>\n<span style=\"margin-left:5px; font-size:10px; font-weight:normal; color:rgb(158, 158, 158);\">**start from</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 65.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 75.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 85.000 </td>\n</tr>\n</table>\n</div>\n<div class=\"column\">\n<div class=\"title-price-info\" style=\"display:flex; align-items:center;\">\n<span>SATIN</span>\n</div>\n<table class=\"table_price\">\n<tr>\n<td>Mon-Thu</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 75.000</td>\n</tr>\n<tr>\n<td>Friday</td>\n<td class=\"double-dot-padding\">:</td>\n<td>Rp. 85.000</td>\n</tr>\n<tr>\n<td> Weekend/Holiday </td>\n<td class=\"double-dot-padding\">:</td>\n<td> Rp. 95.000 </td>\n</tr>\n</table>\n</div>\n</div>\n<div style=\"margin-top:10px; margin-bottom:10px;\">\n<span style=\"font-size:12px; font-weight:normal; color:rgb(158, 158, 158);\">\n                                                    *Additional +Rp 5,000 charge applies for 3D movie formats\n                                                    </span>\n</div>\n</div>\n<div class=\"col-info-cinema-sch\">\n<div class=\"title-price-info\">\n\t\t\t\t\t\t\t\t\t\t\t\t\tGrand Indonesia\n\t\t\t\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t\t\t\tGrand Indonesia, West Mall Building 8th Floor Jl. M.H. Thamrin No. 1 Jakarta - Pusat\n\n\t\t\t\t\t\t\t\t\t\t\t</div>\n</div>\n</div>\n</div>\n</div>",
+  "execute_price_actions": [
+    {
+      "payload": {
+        "action": "get_price_list",
+        "cinema_id": "002"
+      },
+      "status": 500,
+      "body": "{\n    \"message\": \"Server Error\"\n}"
+    },
+    {
+      "payload": {
+        "action": "price_list",
+        "cinema_id": "002"
+      },
+      "status": 500,
+      "body": "{\n    \"message\": \"Server Error\"\n}"
+    },
+    {
+      "payload": {
+        "action": "get_prices",
+        "cinema_id": "002"
+      },
+      "status": 500,
+      "body": "{\n    \"message\": \"Server Error\"\n}"
+    },
+    {
+      "payload": {
+        "action": "get_ticket_price",
+        "cinema_id": "002"
+      },
+      "status": 500,
+      "body": "{\n    \"message\": \"Server Error\"\n}"
+    },
+    {
+      "payload": {
+        "action": "studio_list",
+        "cinema_id": "002"
+      },
+      "status": 500,
+      "body": "{\n    \"message\": \"Server Error\"\n}"
+    },
+    {
+      "payload": {
+        "action": "get_studio",
+        "cinema_id": "002"
+      },
+      "status": 500,
+      "body": "{\n    \"message\": \"Server Error\"\n}"
+    },
+    {
+      "payload": {
+        "action": "audi_list",
+        "cinema_id": "002"
+      },
+      "status": 500,
+      "body": "{\n    \"message\": \"Server Error\"\n}"
+    }
+  ],
+  "js_price_analysis": {
+    "price_funcs": [],
+    "studio_funcs": [],
+    "price_urls": [],
+    "ajax_urls": [],
+    "js_size": 2947
+  }
+}

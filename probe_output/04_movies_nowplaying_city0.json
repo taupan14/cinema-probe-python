@@ -1,0 +1,13 @@
+{
+  "status": "Bad Request",
+  "data": {
+    "is_success": false,
+    "message": "invalid value 0",
+    "value": {
+      "status": 0,
+      "url": null,
+      "content": null
+    }
+  },
+  "accessTime": "10-05-2026 01:47:15"
+}

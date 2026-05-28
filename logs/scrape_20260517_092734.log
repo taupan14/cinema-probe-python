@@ -1,0 +1,300 @@
+2026-05-17 09:27:35,031 [INFO] CinepolisScraper: 🎬 Starting scrape: cinepolis (Cinepolis)
+2026-05-17 09:27:36,294 [INFO] CinepolisScraper: Playwright initialized
+2026-05-17 09:27:36,611 [INFO] CinepolisScraper: Playwright: membuka /cinema-page.aspx ...
+2026-05-17 09:27:43,060 [INFO] CinepolisScraper: cinema-page.aspx: 90916 chars
+2026-05-17 09:27:43,063 [INFO] CinepolisScraper: Session: ASP.NET_SessionId=53qxe2jizfeny2ui1nnoptdg
+2026-05-17 09:27:43,117 [INFO] CinepolisScraper: cinema-page.aspx: 58 cinema
+2026-05-17 09:27:43,117 [INFO] CinepolisScraper: Cinepolis: 58 cinema raw, fetch detail ...
+2026-05-17 09:27:44,494 [DEBUG] CinepolisScraper: Cinema OK: Binjai Supermall | Binjai | Jl. Soekarno- Hatta No.14, Timbang Langkat, Binjai
+2026-05-17 09:27:44,939 [DEBUG] CinepolisScraper: Cinema OK: Blu Plaza | Bekasi Timur | Jl. Chairil anwar no.27-36 RT 004/009, Margahayu, 
+2026-05-17 09:27:46,366 [DEBUG] CinepolisScraper: Cinema OK: Cibubur Junction | Cibubur | Jalan Jambore No.1, RT.8/RW.7, Cibubur, Ciracas, K
+2026-05-17 09:27:47,858 [DEBUG] CinepolisScraper: Cinema OK: Citimall Ketapang | Ketapang | Sampit, Delta Pawan, Payah Kumang, Delta Pawan, Ka
+2026-05-17 09:27:49,375 [DEBUG] CinepolisScraper: Cinema OK: Citimall Prabumulih | Prabumulih | Citimall Jalan Lingkar Timur RT 11 RW 01 Kelurahan
+2026-05-17 09:27:50,969 [DEBUG] CinepolisScraper: Cinema OK: Citimall Sampit | Sampit | Jl. Jenderal Sudirman KM 1,5 (Citimall) Sampit, RT
+2026-05-17 09:27:52,633 [DEBUG] CinepolisScraper: Cinema OK: Citiplaza Kutabumi | Kutabumi | Citiplaza Kutabumi Lt.2, Jl. Raya Kutabumi No.8, K
+2026-05-17 09:27:53,866 [DEBUG] CinepolisScraper: Cinema OK: City Of Tomorrow | Surabaya | Jl. A. Yani No 288, Dukuh Menanggal, Gayungan, Kot
+2026-05-17 09:27:55,365 [DEBUG] CinepolisScraper: Cinema OK: Depok Town Square | Depok | Jalan Margonda Raya No 1, RT 002/RW 008, Kelurahan
+2026-05-17 09:27:56,913 [DEBUG] CinepolisScraper: Cinema OK: Distrik 1 Meikarta | Cikarang | District 1 Meikarta Jl. Orange County Boulevard, C
+2026-05-17 09:27:58,640 [DEBUG] CinepolisScraper: Cinema OK: Gajah Mada Plaza | Jakarta | Gajah Mada Plaza, Jl. Gajah Mada No. 19-26 Jakarta
+2026-05-17 09:27:59,868 [DEBUG] CinepolisScraper: Cinema OK: Istana Plaza | Bandung | Jalan Pasirkaliki No.121-123, Pamoyanan, Cicendo, 
+2026-05-17 09:28:01,429 [DEBUG] CinepolisScraper: Cinema OK: Java Supermall Semarang | Semarang | Jl. Letjen MT. Hryono No.992-994 Lamper Kidul, Sem
+2026-05-17 09:28:02,931 [DEBUG] CinepolisScraper: Cinema OK: Kalibata City Square | Kalibata | Jalan Raya Kalibata No.1, RT.9/RW.4, Rawajati, Pan
+2026-05-17 09:28:04,365 [DEBUG] CinepolisScraper: Cinema OK: Kebayoran Park Mall | Kebayoran Lama | Jl. Ciledug Raya, RT.1/RW.1, Kby. Lama Utara, Kec.
+2026-05-17 09:28:05,872 [DEBUG] CinepolisScraper: Cinema OK: KSquare Batam | Batam | K SQUARE, Jl. Sudirman No.25-35, Sukajadi, Batam K
+2026-05-17 09:28:07,506 [DEBUG] CinepolisScraper: Cinema OK: Lippo Mall Kuta | Kuta | Jalan Kartika Plaza Lingkar Segara, Kuta, Bali, Un
+2026-05-17 09:28:08,971 [DEBUG] CinepolisScraper: Cinema OK: Lippo Mall Nusantara | Semanggi | Kawasan GRANADHA, lantai 5, Plaza Semanggi, Jalan 
+2026-05-17 09:28:10,431 [DEBUG] CinepolisScraper: Cinema OK: Lippo Plaza Batu | Batu | Mall Lippo Plaza Batu lantai 4, Jl. Gajah Mada, Si
+2026-05-17 09:28:12,055 [DEBUG] CinepolisScraper: Cinema OK: Lippo Plaza Buton | Baubau | Lippo Plaza Buton Jalan Sultan Hasanudin No 58, Ke
+2026-05-17 09:28:13,381 [DEBUG] CinepolisScraper: Cinema OK: Lippo Plaza Ekalokasari | Bogor | Jalan Siliwangi 123 L3M #5 Kelurahan Sukasari Keca
+2026-05-17 09:28:14,875 [DEBUG] CinepolisScraper: Cinema OK: Lippo Plaza Jambi | Jambi | Lippo Plaza Jambi, Jalan Mayor Abd. Kartawirana RT
+2026-05-17 09:28:16,414 [DEBUG] CinepolisScraper: Cinema OK: Lippo Plaza Jember | Jember | Jalan Gajah Mada no 175, Kelurahan Jember Kidul, K
+2026-05-17 09:28:17,880 [DEBUG] CinepolisScraper: Cinema OK: Lippo Plaza Jogja | Yogyakarta | Lippo Plaza Yogya Lt 1 dan 4, Jl. LAKSDA ADSUCIPTO
+2026-05-17 09:28:19,381 [DEBUG] CinepolisScraper: Cinema OK: Lippo Plaza Keboen Raya Bogor | Keboen Raya | Jalan Raya Pajajaran No. 27, Bogor Tengah - Kota, 
+2026-05-17 09:28:20,883 [DEBUG] CinepolisScraper: Cinema OK: Lippo Plaza Kendari | Kendari | Jalan MT Haryono no 61-63 Kendari, Kelurahan Dende
+2026-05-17 09:28:22,486 [DEBUG] CinepolisScraper: Cinema OK: Lippo Plaza Kupang | Kupang | Lippo Plaza Kupang,Jalan Veteran RT 014 RW 004 Kel
+2026-05-17 09:28:23,878 [DEBUG] CinepolisScraper: Cinema OK: Lippo Plaza Lubuk Linggau | Lubuklinggau | Jalan Taba Jemekeh, Lubuk Linggau Timur I, Kota Lu
+2026-05-17 09:28:25,601 [DEBUG] CinepolisScraper: Cinema OK: Lippo Plaza Manado | Kairagi | Jalan MR.A.Maramis, Kairagi Dua, Lingkungan IV, Ma
+2026-05-17 09:28:26,928 [DEBUG] CinepolisScraper: Cinema OK: Lippo Plaza Medan | Medan | Jalan Imam Bonjol no.6 , LT.2 no.02- 09 , Medan
+2026-05-17 09:28:28,462 [DEBUG] CinepolisScraper: Cinema OK: Lippo Plaza Sidoarjo | Sidoarjo | Lippo Plaza Sidoarjo Lt. 1 Jl. Jati Raya No. 1 Jat
+2026-05-17 09:28:29,884 [DEBUG] CinepolisScraper: Cinema OK: Lippo Plaza Sunset | Badung | Jl. Sunset Road, Kuta, Kabupaten Badung, Bali , Ba
+2026-05-17 09:28:31,411 [DEBUG] CinepolisScraper: Cinema OK: Living Plaza Balikpapan | Balikpapan | Living Plaza Balikpapan Lantai 3, Jalan MT. Haryon
+2026-05-17 09:28:32,891 [DEBUG] CinepolisScraper: Cinema OK: Living World Pekanbaru | Pekanbaru | Jl. Soekarno Hatta (Living World Lt 3) RT. 001 RW 
+2026-05-17 09:28:34,420 [DEBUG] CinepolisScraper: Cinema OK: Mal Botania 2 | Batam | Jl. Raya M. Saleh, Kelurahan Belian, Kecamatan Bat
+2026-05-17 09:28:35,921 [DEBUG] CinepolisScraper: Cinema OK: Mal Mandau City | Mandau | Mal Mandau City, Jl. Jend. Sudirman, Komplek Duri 
+2026-05-17 09:28:37,399 [DEBUG] CinepolisScraper: Cinema OK: Mal Pekanbaru | Pekanbaru | Jl. Jendral Sudirman N0.61, Rintis, Kecamatan Lima
+2026-05-17 09:28:38,945 [DEBUG] CinepolisScraper: Cinema OK: Malang Town Square | Malang | Jalan Veteran No 2, Malang Town Square, Lantai Upp
+2026-05-17 09:28:40,421 [DEBUG] CinepolisScraper: Cinema OK: Mall Lippo Cikarang | Cikarang | Mall Lippo Cikarang, Lantai 1 No 46, Jalan MH. Tha
+2026-05-17 09:28:41,896 [DEBUG] CinepolisScraper: Cinema OK: Mall Of Serang | Serang | Jalan Akses Tol Serang Timur, Lingkungan Kemang, K
+2026-05-17 09:28:43,403 [DEBUG] CinepolisScraper: Cinema OK: Mall Phinisi Point | Makassar | Jalan Metro Tj. Bunga No.2, Panambungan, Mariso, K
+2026-05-17 09:28:44,906 [DEBUG] CinepolisScraper: Cinema OK: Mall The Galeria | Banjarmasin | Banua Hanyar, Kertak Hanyar, Banjar Regency, South
+2026-05-17 09:28:46,659 [DEBUG] CinepolisScraper: Cinema OK: Mangga Dua Square | Pademangan | Mangga Dua Square Lt 3 Hall A Jl. Gunung Sahari Ra
+2026-05-17 09:28:47,905 [DEBUG] CinepolisScraper: Cinema OK: Maxxbox Lippo Village | Lippo Karawaci | MaxxBox Lippo Karawaci, Jl. Boulevard Palem Raya L
+2026-05-17 09:28:49,434 [DEBUG] CinepolisScraper: Cinema OK: Pacific Tegal | Tegal | Jalan Mayjen Sutoyo No 35, Kelurahan Pekauman, Kec
+2026-05-17 09:28:50,902 [DEBUG] CinepolisScraper: Cinema OK: Palembang Icon | Palembang | Palembang Icon Mall Lantai 3 No. 55 (L3-55), Jl. P
+2026-05-17 09:28:52,408 [DEBUG] CinepolisScraper: Cinema OK: Plaza Medan Fair | Medan | Jalan Gatot Subroto No.30, Sekip, Medan Petisah, S
+2026-05-17 09:28:53,912 [DEBUG] CinepolisScraper: Cinema OK: Plaza Renon | Renon | Jalan Raya Puputan, Niti Mandala Renon, Desa Sumer
+2026-05-17 09:28:55,618 [DEBUG] CinepolisScraper: Cinema OK: Pluit Village | Pluit | Jalan Pluit Indah Raya RT.1/RW.4, Pluit, Penjaring
+2026-05-17 09:28:57,003 [DEBUG] CinepolisScraper: Cinema OK: Pondok Kelapa Town Square | Pondok Kelapa | Jl. Pondok Kelapa Raya, RT.16/RW.2, Pondok Kelapa.
+2026-05-17 09:28:58,503 [DEBUG] CinepolisScraper: Cinema OK: Ponorogo City Center | Ponorogo | Ponorogo City Center, 1st Floor, AT 1 No 19-21 Ir.
+2026-05-17 09:28:59,919 [DEBUG] CinepolisScraper: Cinema OK: Q mall Banjarbaru | Banjarbaru | Jalan A. Yani KM 36,8 RT 001 RW 001 Kelurahan Sung
+2026-05-17 09:29:01,416 [DEBUG] CinepolisScraper: Cinema OK: Senayan Park | Jakarta Pusat | Taman Ria Senayan Jl. Gerbang Pemuda No.3 Gelora ,
+2026-05-17 09:29:02,929 [DEBUG] CinepolisScraper: Cinema OK: Siantar City Square | Pematang Siantar | Gedung siantar city square, Jl. Raya Medan no 88, 
+2026-05-17 09:29:04,415 [DEBUG] CinepolisScraper: Cinema OK: Sidewalk Jimbaran | Jimbaran | Jl Raya Uluwatu, Jimbaran, Kuta Selatan, Badung, B
+2026-05-17 09:29:05,942 [DEBUG] CinepolisScraper: Cinema OK: Sun Plaza | Medan | Jalan K.H Zainul Arifin no.7 ,Level 4 zone A-22,ke
+2026-05-17 09:29:07,550 [DEBUG] CinepolisScraper: Cinema OK: Tamini Square | Tamini Square | Tamini Square Lantai 2 SB-6, Jalan Taman Mini Raya
+2026-05-17 09:29:08,919 [DEBUG] CinepolisScraper: Cinema OK: The Park Pejaten | Pejaten | Jl. Warung Jati Barat No.39, Jati Padang, Ps. Ming
+2026-05-17 09:29:08,920 [INFO] CinepolisScraper: Cinepolis: 58 cinema final
+2026-05-17 09:29:08,920 [INFO] CinepolisScraper: ✅ Found 58 cinemas for cinepolis
+2026-05-17 09:29:10,788 [INFO] CinepolisScraper: [Binjai Supermall] loadScheduleTimesByDate: status=200 len=30650
+2026-05-17 09:29:10,810 [DEBUG] CinepolisScraper: [Binjai Supermall] 6 DivMovie blocks
+2026-05-17 09:29:11,929 [INFO] CinepolisScraper: [Blu Plaza] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:29:11,937 [DEBUG] CinepolisScraper: [Blu Plaza] 6 DivMovie blocks
+2026-05-17 09:29:13,440 [INFO] CinepolisScraper: [Cibubur Junction] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:29:13,458 [DEBUG] CinepolisScraper: [Cibubur Junction] 6 DivMovie blocks
+2026-05-17 09:29:37,502 [INFO] CinepolisScraper: [Binjai Supermall]: 6 movies, 20 showtimes
+2026-05-17 09:29:37,505 [INFO] CinepolisScraper: [1/58] Binjai Supermall → 6 movies, 20 showtimes
+2026-05-17 09:29:39,092 [INFO] CinepolisScraper: [Blu Plaza]: 6 movies, 20 showtimes
+2026-05-17 09:29:39,092 [INFO] CinepolisScraper: [2/58] Blu Plaza → 6 movies, 20 showtimes
+2026-05-17 09:29:40,827 [INFO] CinepolisScraper: [Cibubur Junction]: 6 movies, 20 showtimes
+2026-05-17 09:29:40,827 [INFO] CinepolisScraper: [3/58] Cibubur Junction → 6 movies, 20 showtimes
+2026-05-17 09:29:42,283 [INFO] CinepolisScraper: [Citimall Ketapang] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:29:42,300 [DEBUG] CinepolisScraper: [Citimall Ketapang] 6 DivMovie blocks
+2026-05-17 09:29:42,310 [INFO] CinepolisScraper: [Citimall Ketapang]: 6 movies, 20 showtimes
+2026-05-17 09:29:42,310 [INFO] CinepolisScraper: [4/58] Citimall Ketapang → 6 movies, 20 showtimes
+2026-05-17 09:29:43,634 [INFO] CinepolisScraper: [Citimall Prabumulih] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:29:43,640 [DEBUG] CinepolisScraper: [Citimall Prabumulih] 6 DivMovie blocks
+2026-05-17 09:29:43,645 [INFO] CinepolisScraper: [Citimall Prabumulih]: 6 movies, 20 showtimes
+2026-05-17 09:29:43,645 [INFO] CinepolisScraper: [5/58] Citimall Prabumulih → 6 movies, 20 showtimes
+2026-05-17 09:29:45,101 [INFO] CinepolisScraper: [Citimall Sampit] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:29:45,113 [DEBUG] CinepolisScraper: [Citimall Sampit] 6 DivMovie blocks
+2026-05-17 09:29:45,123 [INFO] CinepolisScraper: [Citimall Sampit]: 6 movies, 20 showtimes
+2026-05-17 09:29:45,123 [INFO] CinepolisScraper: [6/58] Citimall Sampit → 6 movies, 20 showtimes
+2026-05-17 09:29:46,606 [INFO] CinepolisScraper: [Citiplaza Kutabumi] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:29:46,621 [DEBUG] CinepolisScraper: [Citiplaza Kutabumi] 6 DivMovie blocks
+2026-05-17 09:29:46,631 [INFO] CinepolisScraper: [Citiplaza Kutabumi]: 6 movies, 20 showtimes
+2026-05-17 09:29:46,632 [INFO] CinepolisScraper: [7/58] Citiplaza Kutabumi → 6 movies, 20 showtimes
+2026-05-17 09:29:48,151 [INFO] CinepolisScraper: [City Of Tomorrow] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:29:48,166 [DEBUG] CinepolisScraper: [City Of Tomorrow] 6 DivMovie blocks
+2026-05-17 09:29:48,175 [INFO] CinepolisScraper: [City Of Tomorrow]: 6 movies, 20 showtimes
+2026-05-17 09:29:48,175 [INFO] CinepolisScraper: [8/58] City Of Tomorrow → 6 movies, 20 showtimes
+2026-05-17 09:29:49,557 [INFO] CinepolisScraper: [Depok Town Square] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:29:49,572 [DEBUG] CinepolisScraper: [Depok Town Square] 6 DivMovie blocks
+2026-05-17 09:29:49,581 [INFO] CinepolisScraper: [Depok Town Square]: 6 movies, 20 showtimes
+2026-05-17 09:29:49,581 [INFO] CinepolisScraper: [9/58] Depok Town Square → 6 movies, 20 showtimes
+2026-05-17 09:29:51,045 [INFO] CinepolisScraper: [Distrik 1 Meikarta] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:29:51,061 [DEBUG] CinepolisScraper: [Distrik 1 Meikarta] 6 DivMovie blocks
+2026-05-17 09:29:51,069 [INFO] CinepolisScraper: [Distrik 1 Meikarta]: 6 movies, 20 showtimes
+2026-05-17 09:29:51,069 [INFO] CinepolisScraper: [10/58] Distrik 1 Meikarta → 6 movies, 20 showtimes
+2026-05-17 09:29:52,546 [INFO] CinepolisScraper: [Gajah Mada Plaza] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:29:52,561 [DEBUG] CinepolisScraper: [Gajah Mada Plaza] 6 DivMovie blocks
+2026-05-17 09:29:52,570 [INFO] CinepolisScraper: [Gajah Mada Plaza]: 6 movies, 20 showtimes
+2026-05-17 09:29:52,570 [INFO] CinepolisScraper: [11/58] Gajah Mada Plaza → 6 movies, 20 showtimes
+2026-05-17 09:29:54,029 [INFO] CinepolisScraper: [Istana Plaza] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:29:54,039 [DEBUG] CinepolisScraper: [Istana Plaza] 6 DivMovie blocks
+2026-05-17 09:29:54,043 [INFO] CinepolisScraper: [Istana Plaza]: 6 movies, 20 showtimes
+2026-05-17 09:29:54,043 [INFO] CinepolisScraper: [12/58] Istana Plaza → 6 movies, 20 showtimes
+2026-05-17 09:29:55,519 [INFO] CinepolisScraper: [Java Supermall Semarang] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:29:55,526 [DEBUG] CinepolisScraper: [Java Supermall Semarang] 6 DivMovie blocks
+2026-05-17 09:29:55,531 [INFO] CinepolisScraper: [Java Supermall Semarang]: 6 movies, 20 showtimes
+2026-05-17 09:29:55,532 [INFO] CinepolisScraper: [13/58] Java Supermall Semarang → 6 movies, 20 showtimes
+2026-05-17 09:29:57,016 [INFO] CinepolisScraper: [Kalibata City Square] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:29:57,023 [DEBUG] CinepolisScraper: [Kalibata City Square] 6 DivMovie blocks
+2026-05-17 09:29:57,029 [INFO] CinepolisScraper: [Kalibata City Square]: 6 movies, 20 showtimes
+2026-05-17 09:29:57,029 [INFO] CinepolisScraper: [14/58] Kalibata City Square → 6 movies, 20 showtimes
+2026-05-17 09:29:58,508 [INFO] CinepolisScraper: [Kebayoran Park Mall] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:29:58,520 [DEBUG] CinepolisScraper: [Kebayoran Park Mall] 6 DivMovie blocks
+2026-05-17 09:29:58,529 [INFO] CinepolisScraper: [Kebayoran Park Mall]: 6 movies, 20 showtimes
+2026-05-17 09:29:58,529 [INFO] CinepolisScraper: [15/58] Kebayoran Park Mall → 6 movies, 20 showtimes
+2026-05-17 09:30:00,014 [INFO] CinepolisScraper: [KSquare Batam] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:00,025 [DEBUG] CinepolisScraper: [KSquare Batam] 6 DivMovie blocks
+2026-05-17 09:30:00,037 [INFO] CinepolisScraper: [KSquare Batam]: 6 movies, 20 showtimes
+2026-05-17 09:30:00,037 [INFO] CinepolisScraper: [16/58] KSquare Batam → 6 movies, 20 showtimes
+2026-05-17 09:30:01,512 [INFO] CinepolisScraper: [Lippo Mall Kuta] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:01,517 [DEBUG] CinepolisScraper: [Lippo Mall Kuta] 6 DivMovie blocks
+2026-05-17 09:30:01,521 [INFO] CinepolisScraper: [Lippo Mall Kuta]: 6 movies, 20 showtimes
+2026-05-17 09:30:01,522 [INFO] CinepolisScraper: [17/58] Lippo Mall Kuta → 6 movies, 20 showtimes
+2026-05-17 09:30:03,010 [INFO] CinepolisScraper: [Lippo Mall Nusantara] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:03,018 [DEBUG] CinepolisScraper: [Lippo Mall Nusantara] 6 DivMovie blocks
+2026-05-17 09:30:03,023 [INFO] CinepolisScraper: [Lippo Mall Nusantara]: 6 movies, 20 showtimes
+2026-05-17 09:30:03,023 [INFO] CinepolisScraper: [18/58] Lippo Mall Nusantara → 6 movies, 20 showtimes
+2026-05-17 09:30:04,616 [INFO] CinepolisScraper: [Lippo Plaza Batu] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:04,630 [DEBUG] CinepolisScraper: [Lippo Plaza Batu] 6 DivMovie blocks
+2026-05-17 09:30:04,639 [INFO] CinepolisScraper: [Lippo Plaza Batu]: 6 movies, 20 showtimes
+2026-05-17 09:30:04,639 [INFO] CinepolisScraper: [19/58] Lippo Plaza Batu → 6 movies, 20 showtimes
+2026-05-17 09:30:06,010 [INFO] CinepolisScraper: [Lippo Plaza Buton] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:06,016 [DEBUG] CinepolisScraper: [Lippo Plaza Buton] 6 DivMovie blocks
+2026-05-17 09:30:06,020 [INFO] CinepolisScraper: [Lippo Plaza Buton]: 6 movies, 20 showtimes
+2026-05-17 09:30:06,020 [INFO] CinepolisScraper: [20/58] Lippo Plaza Buton → 6 movies, 20 showtimes
+2026-05-17 09:30:07,538 [INFO] CinepolisScraper: [Lippo Plaza Ekalokasari] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:07,556 [DEBUG] CinepolisScraper: [Lippo Plaza Ekalokasari] 6 DivMovie blocks
+2026-05-17 09:30:07,565 [INFO] CinepolisScraper: [Lippo Plaza Ekalokasari]: 6 movies, 20 showtimes
+2026-05-17 09:30:07,566 [INFO] CinepolisScraper: [21/58] Lippo Plaza Ekalokasari → 6 movies, 20 showtimes
+2026-05-17 09:30:09,214 [INFO] CinepolisScraper: [Lippo Plaza Jambi] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:09,227 [DEBUG] CinepolisScraper: [Lippo Plaza Jambi] 6 DivMovie blocks
+2026-05-17 09:30:09,236 [INFO] CinepolisScraper: [Lippo Plaza Jambi]: 6 movies, 20 showtimes
+2026-05-17 09:30:09,236 [INFO] CinepolisScraper: [22/58] Lippo Plaza Jambi → 6 movies, 20 showtimes
+2026-05-17 09:30:10,523 [INFO] CinepolisScraper: [Lippo Plaza Jember] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:10,537 [DEBUG] CinepolisScraper: [Lippo Plaza Jember] 6 DivMovie blocks
+2026-05-17 09:30:10,547 [INFO] CinepolisScraper: [Lippo Plaza Jember]: 6 movies, 20 showtimes
+2026-05-17 09:30:10,547 [INFO] CinepolisScraper: [23/58] Lippo Plaza Jember → 6 movies, 20 showtimes
+2026-05-17 09:30:12,055 [INFO] CinepolisScraper: [Lippo Plaza Jogja] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:12,066 [DEBUG] CinepolisScraper: [Lippo Plaza Jogja] 6 DivMovie blocks
+2026-05-17 09:30:12,073 [INFO] CinepolisScraper: [Lippo Plaza Jogja]: 6 movies, 20 showtimes
+2026-05-17 09:30:12,073 [INFO] CinepolisScraper: [24/58] Lippo Plaza Jogja → 6 movies, 20 showtimes
+2026-05-17 09:30:13,718 [INFO] CinepolisScraper: [Lippo Plaza Keboen Raya Bogor] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:13,731 [DEBUG] CinepolisScraper: [Lippo Plaza Keboen Raya Bogor] 6 DivMovie blocks
+2026-05-17 09:30:13,739 [INFO] CinepolisScraper: [Lippo Plaza Keboen Raya Bogor]: 6 movies, 20 showtimes
+2026-05-17 09:30:13,740 [INFO] CinepolisScraper: [25/58] Lippo Plaza Keboen Raya Bogor → 6 movies, 20 showtimes
+2026-05-17 09:30:15,025 [INFO] CinepolisScraper: [Lippo Plaza Kendari] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:15,043 [DEBUG] CinepolisScraper: [Lippo Plaza Kendari] 6 DivMovie blocks
+2026-05-17 09:30:15,056 [INFO] CinepolisScraper: [Lippo Plaza Kendari]: 6 movies, 20 showtimes
+2026-05-17 09:30:15,056 [INFO] CinepolisScraper: [26/58] Lippo Plaza Kendari → 6 movies, 20 showtimes
+2026-05-17 09:30:16,551 [INFO] CinepolisScraper: [Lippo Plaza Kupang] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:16,629 [DEBUG] CinepolisScraper: [Lippo Plaza Kupang] 6 DivMovie blocks
+2026-05-17 09:30:16,633 [INFO] CinepolisScraper: [Lippo Plaza Kupang]: 6 movies, 20 showtimes
+2026-05-17 09:30:16,634 [INFO] CinepolisScraper: [27/58] Lippo Plaza Kupang → 6 movies, 20 showtimes
+2026-05-17 09:30:18,019 [INFO] CinepolisScraper: [Lippo Plaza Lubuk Linggau] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:18,028 [DEBUG] CinepolisScraper: [Lippo Plaza Lubuk Linggau] 6 DivMovie blocks
+2026-05-17 09:30:18,032 [INFO] CinepolisScraper: [Lippo Plaza Lubuk Linggau]: 6 movies, 20 showtimes
+2026-05-17 09:30:18,032 [INFO] CinepolisScraper: [28/58] Lippo Plaza Lubuk Linggau → 6 movies, 20 showtimes
+2026-05-17 09:30:19,646 [INFO] CinepolisScraper: [Lippo Plaza Manado] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:19,651 [DEBUG] CinepolisScraper: [Lippo Plaza Manado] 6 DivMovie blocks
+2026-05-17 09:30:19,655 [INFO] CinepolisScraper: [Lippo Plaza Manado]: 6 movies, 20 showtimes
+2026-05-17 09:30:19,655 [INFO] CinepolisScraper: [29/58] Lippo Plaza Manado → 6 movies, 20 showtimes
+2026-05-17 09:30:21,081 [INFO] CinepolisScraper: [Lippo Plaza Medan] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:21,095 [DEBUG] CinepolisScraper: [Lippo Plaza Medan] 6 DivMovie blocks
+2026-05-17 09:30:21,104 [INFO] CinepolisScraper: [Lippo Plaza Medan]: 6 movies, 20 showtimes
+2026-05-17 09:30:21,104 [INFO] CinepolisScraper: [30/58] Lippo Plaza Medan → 6 movies, 20 showtimes
+2026-05-17 09:30:22,528 [INFO] CinepolisScraper: [Lippo Plaza Sidoarjo] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:22,535 [DEBUG] CinepolisScraper: [Lippo Plaza Sidoarjo] 6 DivMovie blocks
+2026-05-17 09:30:22,539 [INFO] CinepolisScraper: [Lippo Plaza Sidoarjo]: 6 movies, 20 showtimes
+2026-05-17 09:30:22,539 [INFO] CinepolisScraper: [31/58] Lippo Plaza Sidoarjo → 6 movies, 20 showtimes
+2026-05-17 09:30:24,055 [INFO] CinepolisScraper: [Lippo Plaza Sunset] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:24,073 [DEBUG] CinepolisScraper: [Lippo Plaza Sunset] 6 DivMovie blocks
+2026-05-17 09:30:24,082 [INFO] CinepolisScraper: [Lippo Plaza Sunset]: 6 movies, 20 showtimes
+2026-05-17 09:30:24,082 [INFO] CinepolisScraper: [32/58] Lippo Plaza Sunset → 6 movies, 20 showtimes
+2026-05-17 09:30:25,527 [INFO] CinepolisScraper: [Living Plaza Balikpapan] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:25,542 [DEBUG] CinepolisScraper: [Living Plaza Balikpapan] 6 DivMovie blocks
+2026-05-17 09:30:25,551 [INFO] CinepolisScraper: [Living Plaza Balikpapan]: 6 movies, 20 showtimes
+2026-05-17 09:30:25,551 [INFO] CinepolisScraper: [33/58] Living Plaza Balikpapan → 6 movies, 20 showtimes
+2026-05-17 09:30:27,027 [INFO] CinepolisScraper: [Living World Pekanbaru] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:27,080 [DEBUG] CinepolisScraper: [Living World Pekanbaru] 6 DivMovie blocks
+2026-05-17 09:30:27,098 [INFO] CinepolisScraper: [Living World Pekanbaru]: 6 movies, 20 showtimes
+2026-05-17 09:30:27,098 [INFO] CinepolisScraper: [34/58] Living World Pekanbaru → 6 movies, 20 showtimes
+2026-05-17 09:30:28,646 [INFO] CinepolisScraper: [Mal Botania 2] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:28,663 [DEBUG] CinepolisScraper: [Mal Botania 2] 6 DivMovie blocks
+2026-05-17 09:30:28,672 [INFO] CinepolisScraper: [Mal Botania 2]: 6 movies, 20 showtimes
+2026-05-17 09:30:28,672 [INFO] CinepolisScraper: [35/58] Mal Botania 2 → 6 movies, 20 showtimes
+2026-05-17 09:30:30,094 [INFO] CinepolisScraper: [Mal Mandau City] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:30,105 [DEBUG] CinepolisScraper: [Mal Mandau City] 6 DivMovie blocks
+2026-05-17 09:30:30,111 [INFO] CinepolisScraper: [Mal Mandau City]: 6 movies, 20 showtimes
+2026-05-17 09:30:30,112 [INFO] CinepolisScraper: [36/58] Mal Mandau City → 6 movies, 20 showtimes
+2026-05-17 09:30:31,560 [INFO] CinepolisScraper: [Mal Pekanbaru] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:31,577 [DEBUG] CinepolisScraper: [Mal Pekanbaru] 6 DivMovie blocks
+2026-05-17 09:30:31,586 [INFO] CinepolisScraper: [Mal Pekanbaru]: 6 movies, 20 showtimes
+2026-05-17 09:30:31,586 [INFO] CinepolisScraper: [37/58] Mal Pekanbaru → 6 movies, 20 showtimes
+2026-05-17 09:30:33,032 [INFO] CinepolisScraper: [Malang Town Square] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:33,046 [DEBUG] CinepolisScraper: [Malang Town Square] 6 DivMovie blocks
+2026-05-17 09:30:33,056 [INFO] CinepolisScraper: [Malang Town Square]: 6 movies, 20 showtimes
+2026-05-17 09:30:33,056 [INFO] CinepolisScraper: [38/58] Malang Town Square → 6 movies, 20 showtimes
+2026-05-17 09:30:34,551 [INFO] CinepolisScraper: [Mall Lippo Cikarang] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:34,565 [DEBUG] CinepolisScraper: [Mall Lippo Cikarang] 6 DivMovie blocks
+2026-05-17 09:30:34,573 [INFO] CinepolisScraper: [Mall Lippo Cikarang]: 6 movies, 20 showtimes
+2026-05-17 09:30:34,574 [INFO] CinepolisScraper: [39/58] Mall Lippo Cikarang → 6 movies, 20 showtimes
+2026-05-17 09:30:36,033 [INFO] CinepolisScraper: [Mall Of Serang] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:36,042 [DEBUG] CinepolisScraper: [Mall Of Serang] 6 DivMovie blocks
+2026-05-17 09:30:36,048 [INFO] CinepolisScraper: [Mall Of Serang]: 6 movies, 20 showtimes
+2026-05-17 09:30:36,048 [INFO] CinepolisScraper: [40/58] Mall Of Serang → 6 movies, 20 showtimes
+2026-05-17 09:30:37,522 [INFO] CinepolisScraper: [Mall Phinisi Point] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:37,536 [DEBUG] CinepolisScraper: [Mall Phinisi Point] 6 DivMovie blocks
+2026-05-17 09:30:37,545 [INFO] CinepolisScraper: [Mall Phinisi Point]: 6 movies, 20 showtimes
+2026-05-17 09:30:37,545 [INFO] CinepolisScraper: [41/58] Mall Phinisi Point → 6 movies, 20 showtimes
+2026-05-17 09:30:39,059 [INFO] CinepolisScraper: [Mall The Galeria] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:39,072 [DEBUG] CinepolisScraper: [Mall The Galeria] 6 DivMovie blocks
+2026-05-17 09:30:39,081 [INFO] CinepolisScraper: [Mall The Galeria]: 6 movies, 20 showtimes
+2026-05-17 09:30:39,081 [INFO] CinepolisScraper: [42/58] Mall The Galeria → 6 movies, 20 showtimes
+2026-05-17 09:30:40,593 [INFO] CinepolisScraper: [Mangga Dua Square] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:40,617 [DEBUG] CinepolisScraper: [Mangga Dua Square] 6 DivMovie blocks
+2026-05-17 09:30:40,621 [INFO] CinepolisScraper: [Mangga Dua Square]: 6 movies, 20 showtimes
+2026-05-17 09:30:40,621 [INFO] CinepolisScraper: [43/58] Mangga Dua Square → 6 movies, 20 showtimes
+2026-05-17 09:30:42,067 [INFO] CinepolisScraper: [Maxxbox Lippo Village] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:42,076 [DEBUG] CinepolisScraper: [Maxxbox Lippo Village] 6 DivMovie blocks
+2026-05-17 09:30:42,081 [INFO] CinepolisScraper: [Maxxbox Lippo Village]: 6 movies, 20 showtimes
+2026-05-17 09:30:42,081 [INFO] CinepolisScraper: [44/58] Maxxbox Lippo Village → 6 movies, 20 showtimes
+2026-05-17 09:30:43,529 [INFO] CinepolisScraper: [Pacific Tegal] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:43,535 [DEBUG] CinepolisScraper: [Pacific Tegal] 6 DivMovie blocks
+2026-05-17 09:30:43,539 [INFO] CinepolisScraper: [Pacific Tegal]: 6 movies, 20 showtimes
+2026-05-17 09:30:43,539 [INFO] CinepolisScraper: [45/58] Pacific Tegal → 6 movies, 20 showtimes
+2026-05-17 09:30:45,034 [INFO] CinepolisScraper: [Palembang Icon] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:45,047 [DEBUG] CinepolisScraper: [Palembang Icon] 6 DivMovie blocks
+2026-05-17 09:30:45,056 [INFO] CinepolisScraper: [Palembang Icon]: 6 movies, 20 showtimes
+2026-05-17 09:30:45,056 [INFO] CinepolisScraper: [46/58] Palembang Icon → 6 movies, 20 showtimes
+2026-05-17 09:30:46,526 [INFO] CinepolisScraper: [Plaza Medan Fair] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:46,538 [DEBUG] CinepolisScraper: [Plaza Medan Fair] 6 DivMovie blocks
+2026-05-17 09:30:46,546 [INFO] CinepolisScraper: [Plaza Medan Fair]: 6 movies, 20 showtimes
+2026-05-17 09:30:46,546 [INFO] CinepolisScraper: [47/58] Plaza Medan Fair → 6 movies, 20 showtimes
+2026-05-17 09:30:48,113 [INFO] CinepolisScraper: [Plaza Renon] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:48,123 [DEBUG] CinepolisScraper: [Plaza Renon] 6 DivMovie blocks
+2026-05-17 09:30:48,129 [INFO] CinepolisScraper: [Plaza Renon]: 6 movies, 20 showtimes
+2026-05-17 09:30:48,129 [INFO] CinepolisScraper: [48/58] Plaza Renon → 6 movies, 20 showtimes
+2026-05-17 09:30:49,553 [INFO] CinepolisScraper: [Pluit Village] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:49,562 [DEBUG] CinepolisScraper: [Pluit Village] 6 DivMovie blocks
+2026-05-17 09:30:49,565 [INFO] CinepolisScraper: [Pluit Village]: 6 movies, 20 showtimes
+2026-05-17 09:30:49,566 [INFO] CinepolisScraper: [49/58] Pluit Village → 6 movies, 20 showtimes
+2026-05-17 09:30:51,064 [INFO] CinepolisScraper: [Pondok Kelapa Town Square] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:51,076 [DEBUG] CinepolisScraper: [Pondok Kelapa Town Square] 6 DivMovie blocks
+2026-05-17 09:30:51,085 [INFO] CinepolisScraper: [Pondok Kelapa Town Square]: 6 movies, 20 showtimes
+2026-05-17 09:30:51,085 [INFO] CinepolisScraper: [50/58] Pondok Kelapa Town Square → 6 movies, 20 showtimes
+2026-05-17 09:30:52,540 [INFO] CinepolisScraper: [Ponorogo City Center] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:52,554 [DEBUG] CinepolisScraper: [Ponorogo City Center] 6 DivMovie blocks
+2026-05-17 09:30:52,563 [INFO] CinepolisScraper: [Ponorogo City Center]: 6 movies, 20 showtimes
+2026-05-17 09:30:52,563 [INFO] CinepolisScraper: [51/58] Ponorogo City Center → 6 movies, 20 showtimes
+2026-05-17 09:30:54,034 [INFO] CinepolisScraper: [Q mall Banjarbaru] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:54,048 [DEBUG] CinepolisScraper: [Q mall Banjarbaru] 6 DivMovie blocks
+2026-05-17 09:30:54,058 [INFO] CinepolisScraper: [Q mall Banjarbaru]: 6 movies, 20 showtimes
+2026-05-17 09:30:54,058 [INFO] CinepolisScraper: [52/58] Q mall Banjarbaru → 6 movies, 20 showtimes
+2026-05-17 09:30:55,578 [INFO] CinepolisScraper: [Senayan Park] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:55,593 [DEBUG] CinepolisScraper: [Senayan Park] 6 DivMovie blocks
+2026-05-17 09:30:55,603 [INFO] CinepolisScraper: [Senayan Park]: 6 movies, 20 showtimes
+2026-05-17 09:30:55,603 [INFO] CinepolisScraper: [53/58] Senayan Park → 6 movies, 20 showtimes
+2026-05-17 09:30:57,038 [INFO] CinepolisScraper: [Siantar City Square] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:57,055 [DEBUG] CinepolisScraper: [Siantar City Square] 6 DivMovie blocks
+2026-05-17 09:30:57,064 [INFO] CinepolisScraper: [Siantar City Square]: 6 movies, 20 showtimes
+2026-05-17 09:30:57,064 [INFO] CinepolisScraper: [54/58] Siantar City Square → 6 movies, 20 showtimes
+2026-05-17 09:30:58,534 [INFO] CinepolisScraper: [Sidewalk Jimbaran] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:30:58,547 [DEBUG] CinepolisScraper: [Sidewalk Jimbaran] 6 DivMovie blocks
+2026-05-17 09:30:58,556 [INFO] CinepolisScraper: [Sidewalk Jimbaran]: 6 movies, 20 showtimes
+2026-05-17 09:30:58,556 [INFO] CinepolisScraper: [55/58] Sidewalk Jimbaran → 6 movies, 20 showtimes
+2026-05-17 09:31:00,077 [INFO] CinepolisScraper: [Sun Plaza] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:31:00,084 [DEBUG] CinepolisScraper: [Sun Plaza] 6 DivMovie blocks
+2026-05-17 09:31:00,089 [INFO] CinepolisScraper: [Sun Plaza]: 6 movies, 20 showtimes
+2026-05-17 09:31:00,090 [INFO] CinepolisScraper: [56/58] Sun Plaza → 6 movies, 20 showtimes
+2026-05-17 09:31:01,549 [INFO] CinepolisScraper: [Tamini Square] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:31:01,556 [DEBUG] CinepolisScraper: [Tamini Square] 6 DivMovie blocks
+2026-05-17 09:31:01,564 [INFO] CinepolisScraper: [Tamini Square]: 6 movies, 20 showtimes
+2026-05-17 09:31:01,564 [INFO] CinepolisScraper: [57/58] Tamini Square → 6 movies, 20 showtimes
+2026-05-17 09:31:03,037 [INFO] CinepolisScraper: [The Park Pejaten] loadScheduleTimesByDate: status=200 len=30073
+2026-05-17 09:31:03,054 [DEBUG] CinepolisScraper: [The Park Pejaten] 6 DivMovie blocks
+2026-05-17 09:31:03,063 [INFO] CinepolisScraper: [The Park Pejaten]: 6 movies, 20 showtimes
+2026-05-17 09:31:03,063 [INFO] CinepolisScraper: [58/58] The Park Pejaten → 6 movies, 20 showtimes
+2026-05-17 09:31:04,566 [INFO] CinepolisScraper: ✅ Done cinepolis: 58 cinemas, 348 movies, 1160 showtimes

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "ASP.NET_SessionId",
+    "value": "lpjblss0ljtaokqnlfxc5nv1",
+    "domain": "cinepolis.co.id",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_gcl_au",
+    "value": "1.1.449431196.1778866364",
+    "domain": ".cinepolis.co.id",
+    "path": "/",
+    "expires": 1786642364,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_VT8XNPESW8",
+    "value": "GS2.1.s1778866364$o1$g0$t1778866364$j60$l0$h0",
+    "domain": ".cinepolis.co.id",
+    "path": "/",
+    "expires": 1813426364.308989,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.1.339642204.1778866364",
+    "domain": ".cinepolis.co.id",
+    "path": "/",
+    "expires": 1813426364.309425,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "test_cookie",
+    "value": "CheckForPermission",
+    "domain": ".doubleclick.net",
+    "path": "/",
+    "expires": 1778867264.649496,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_tt_enable_cookie",
+    "value": "1",
+    "domain": ".cinepolis.co.id",
+    "path": "/",
+    "expires": 1812562364,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ttp",
+    "value": "01KRPB58E7YQVRAGWX590QQE17_.tt.2",
+    "domain": ".cinepolis.co.id",
+    "path": "/",
+    "expires": 1812562364,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ttcsid",
+    "value": "1778866364874::ZXf178wUWXWc6uQhnciu.1.1778866365084.0::1.-3438.0::0.0.0.0::0.0.0",
+    "domain": ".cinepolis.co.id",
+    "path": "/",
+    "expires": 1812562365,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ttcsid_CVVD70JC77UFA07AEFQ0",
+    "value": "1778866364874::nKP7DYRxLpsNC-BBJRhY.1.1778866365084.0",
+    "domain": ".cinepolis.co.id",
+    "path": "/",
+    "expires": 1812562365,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]

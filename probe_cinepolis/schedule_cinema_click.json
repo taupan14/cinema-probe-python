@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://www.googleadservices.com/pagead/conversion/17012034623/?random=1778507164980&cv=11&fst=1778507164980&fmt=7&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6562z8893721986za20gzb893721986zd893721986xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~118463261~118494633&u_w=1280&u_h=800&url=https%3A%2F%2Fcinepolis.co.id%2Fmovie%2FcinemaDetail.aspx%3Fid%3D525e66bd-4934-4314-aa66-62c2cdf3541d%26title%3Dbinjai-supermall&ref=https%3A%2F%2Fcinepolis.co.id%2F&rcb=1&label=i-55COrhp7kaEL-Y_K8_&capi=1&frm=0&tiba=Cinepolis&bttype=purchase&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2014642950.1778507147&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&ec_mode=a&_tu=CA&gcl_ctr=5~0~0~0&category=acrcp_v1_512&em=tv.1",
+    "method": "GET",
+    "payload": "",
+    "status": 200,
+    "len": 3530,
+    "body": "event: message\ndata: {\"fetch\":[\"https://googleads.g.doubleclick.net/pagead/viewthroughconversion/17012034623/?random=1119597504&cv=11&fst=1778507164980&fmt=8&bg=ffffff&guid=ON&async=1&en=conversion&gtm=45be6562z8893721986za20gzb893721986zd893721986xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=0~115938466~115938468~118463261~118494633&u_w=1280&u_h=800&url=https%3A%2F%2Fcinepolis.co.id%2Fmovie%2FcinemaDetail.aspx%3Fid%3D525e66bd-4934-4314-aa66-62c2cdf3541d%26title%3Dbinjai-supermall&ref=https%3A%2F%2Fcinepolis.co.id%2F&rcb=1&label=i-55COrhp7kaEL-Y_K8_&capi=1&frm=0&tiba=Cinepolis&value=0&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=2014642950.1778507147&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uamb=0&uam=&uap=Windows&uapv=10.0&uaw=0&ec_mode=a&_tu=CA&gcl_ctr=5~0~0~0&category=acrcp_v1_512&em=tv.1&ct_cookie_present=false&crd=CLTesQII8t-xAgit4bECCKG4sQIIscGxAgiwwbECCLHDsQIIisWxAgjCybECCLTGsQIIk9qxAgjb3LECCIfbsQII08WxAgjrzLECCO3OsQII1c-xAgj02rECCJfUsQIIyduxAgix4bECCLPhsQIIpt2xAgiw3rECCIDbsQJKMG5vdC1uYXZpZ2F0aW9uLXNvdXJjZSwgbm90LWV2ZW50LXNvdXJjZSwgdHJpZ2dlcloDCgEBYgMKAQM&cerd=CgSO4b0t&eitems=ChAI8PyF0AYQs4HFp7G2798CEh0AniSlby_Te4D"
+  },
+  {
+    "url": "https://cinepolis.co.id/helper/CommonPageHelper.aspx/GetLocation",
+    "method": "POST",
+    "payload": "",
+    "status": 200,
+    "len": 208,
+    "body": "{\"d\":\"{\\\"DataObject\\\":{\\\"Id\\\":0,\\\"Code\\\":\\\"BDG\\\",\\\"Title\\\":\\\"Bandung\\\",\\\"Latitude\\\":-6.9032719,\\\"Longitude\\\":107.5607539},\\\"ErrDescription\\\":{\\\"ErrorCode\\\":0,\\\"ErrorMessage\\\":\\\"\\\",\\\"ErrorMessageLng\\\":null}}\"}"
+  },
+  {
+    "url": "https://cinepolis.co.id/helper/CommonPageHelper.aspx/loadHdrSearchList",
+    "method": "POST",
+    "payload": "",
+    "status": 200,
+    "len": 74804,
+    "body": "{\"d\":\"{\\\"DataObject\\\":\\\"\\u003cdiv class=\\u0027head\\u0027 id=\\u0027divHdrPopular\\u0027\\u003ePopular Search\\u003c/div\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003cul id=\\u0027ulHdrPopular\\u0027\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003cli \\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003ca href=\\u0027#\\u0027 onclick=\\\\\\\" javascript: CommonPageHelper.SelMovie(\\u0027db3afc9d-025f-4e77-876e-a02de3e436ae\\u0027,\\u0027Gak-Ada-Matinya\\u0027); return false;\\\\\\\"\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003cimg class=\\u0027icn recent\\u0027 src=\\u0027https://cinepolis.co.id/images/icn_movie.svg\\u0027 /\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003cspan class=\\u0027srchItem\\u0027\\u003eGAK ADA MATINYA \\u003c/span\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003cimg class=\\u0027icn\\u0027 src=\\u0027https://cinepolis.co.id/images/icn_arr.svg\\u0027 /\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003c/a\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003c/li\\u003e\\u003cli \\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003ca href=\\u0027#\\u0027 onclick=\\\\\\\" javascript: CommonPageHelper.SelMovie(\\u00276fe56d11-3622-4a60-93cb-5a8fa5596955\\u0027,\\u0027402-Rumah-Sakit-Angker-Korea\\u0027); return false;\\\\\\\"\\u003e\\\\r\\\\n\\\\t\\\\t"
+  },
+  {
+    "url": "https://cinepolis.co.id/helper/AccountPageHelper.aspx/GenrateCaptcha",
+    "method": "POST",
+    "payload": "",
+    "status": 200,
+    "len": 3723,
+    "body": "{\"d\":\"{\\\"DataObject\\\":\\\"data:image/gif;base64,R0lGODlhyAAyAPcAAAAAAAAAMwAAZgAAmQAAzAAA/wArAAArMwArZgArmQArzAAr/wBVAABVMwBVZgBVmQBVzABV/wCAAACAMwCAZgCAmQCAzACA/wCqAACqMwCqZgCqmQCqzACq/wDVAADVMwDVZgDVmQDVzADV/wD/AAD/MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMrADMrMzMrZjMrmTMrzDMr/zNVADNVMzNVZjNVmTNVzDNV/zOAADOAMzOAZjOAmTOAzDOA/zOqADOqMzOqZjOqmTOqzDOq/zPVADPVMzPVZjPVmTPVzDPV/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YrAGYrM2YrZmYrmWYrzGYr/2ZVAGZVM2ZVZmZVmWZVzGZV/2aAAGaAM2aAZmaAmWaAzGaA/2aqAGaqM2aqZmaqmWaqzGaq/2bVAGbVM2bVZmbVmWbVzGbV/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5krAJkrM5krZpkrmZkrzJkr/5lVAJlVM5lVZplVmZlVzJlV/5mAAJmAM5mAZpmAmZmAzJmA/5mqAJmqM5mqZpmqmZmqzJmq/5nVAJnVM5nVZpnVmZnVzJnV/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA/8wrAMwrM8wrZswrmcwrzMwr/8xVAMxVM8xVZsxVmcxVzMxV/8yAAMyAM8yAZsyAmcyAzMyA/8yqAMyqM8yqZsyqmcyqzMyq/8zVAMzVM8zVZszVmczVzMzV/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8rAP8rM/8rZv8rmf8rzP8r//9VAP9VM/9VZv9Vmf9VzP9V//+AAP+AM/+AZv+Amf+AzP+A//+qAP+qM/+qZv+qmf+qzP+q///VAP/VM//VZv/Vmf/VzP/V////AP//M///Zv//mf//zP///wAAAAAAAAAAAAAAACH5BAEAAPwALAAAAADIADIAAAj/AJXtG0hwn8CCAw8iVFiQIUGHCRFGlAjRoESLFC9W3KixY8aPCz2GBNlQ5EWMI1OWdMiR5EOTL11OVBlzYkuaM0"
+  },
+  {
+    "url": "https://cinepolis.co.id/helper/AccountPageHelper.aspx/GetLoginDetails",
+    "method": "POST",
+    "payload": "",
+    "status": 200,
+    "len": 113,
+    "body": "{\"d\":\"{\\\"DataObject\\\":null,\\\"ErrDescription\\\":{\\\"ErrorCode\\\":0,\\\"ErrorMessage\\\":\\\"\\\",\\\"ErrorMessageLng\\\":null}}\"}"
+  },
+  {
+    "url": "https://cinepolis.co.id/helper/AccountPageHelper.aspx/GenrateCaptcha",
+    "method": "POST",
+    "payload": "",
+    "status": 200,
+    "len": 3763,
+    "body": "{\"d\":\"{\\\"DataObject\\\":\\\"data:image/gif;base64,R0lGODlhyAAyAPcAAAAAAAAAMwAAZgAAmQAAzAAA/wArAAArMwArZgArmQArzAAr/wBVAABVMwBVZgBVmQBVzABV/wCAAACAMwCAZgCAmQCAzACA/wCqAACqMwCqZgCqmQCqzACq/wDVAADVMwDVZgDVmQDVzADV/wD/AAD/MwD/ZgD/mQD/zAD//zMAADMAMzMAZjMAmTMAzDMA/zMrADMrMzMrZjMrmTMrzDMr/zNVADNVMzNVZjNVmTNVzDNV/zOAADOAMzOAZjOAmTOAzDOA/zOqADOqMzOqZjOqmTOqzDOq/zPVADPVMzPVZjPVmTPVzDPV/zP/ADP/MzP/ZjP/mTP/zDP//2YAAGYAM2YAZmYAmWYAzGYA/2YrAGYrM2YrZmYrmWYrzGYr/2ZVAGZVM2ZVZmZVmWZVzGZV/2aAAGaAM2aAZmaAmWaAzGaA/2aqAGaqM2aqZmaqmWaqzGaq/2bVAGbVM2bVZmbVmWbVzGbV/2b/AGb/M2b/Zmb/mWb/zGb//5kAAJkAM5kAZpkAmZkAzJkA/5krAJkrM5krZpkrmZkrzJkr/5lVAJlVM5lVZplVmZlVzJlV/5mAAJmAM5mAZpmAmZmAzJmA/5mqAJmqM5mqZpmqmZmqzJmq/5nVAJnVM5nVZpnVmZnVzJnV/5n/AJn/M5n/Zpn/mZn/zJn//8wAAMwAM8wAZswAmcwAzMwA/8wrAMwrM8wrZswrmcwrzMwr/8xVAMxVM8xVZsxVmcxVzMxV/8yAAMyAM8yAZsyAmcyAzMyA/8yqAMyqM8yqZsyqmcyqzMyq/8zVAMzVM8zVZszVmczVzMzV/8z/AMz/M8z/Zsz/mcz/zMz///8AAP8AM/8AZv8Amf8AzP8A//8rAP8rM/8rZv8rmf8rzP8r//9VAP9VM/9VZv9Vmf9VzP9V//+AAP+AM/+AZv+Amf+AzP+A//+qAP+qM/+qZv+qmf+qzP+q///VAP/VM//VZv/Vmf/VzP/V////AP//M///Zv//mf//zP///wAAAAAAAAAAAAAAACH5BAEAAPwALAAAAADIADIAAAj/AJXtG0hwn8CCAw8iVMgQYUKHBiEqLDiRYMWHDi9GzCixI8WNCz2GJEgM40iMGlNC/MixZUmCmeq1PMmSpkWRLC"
+  },
+  {
+    "url": "https://cinepolis.co.id/helper/CommonPageHelper.aspx/loadCities",
+    "method": "POST",
+    "payload": "",
+    "status": 200,
+    "len": 5657,
+    "body": "{\"d\":\"{\\\"DataObject\\\":\\\"\\u003cdiv class=\\u0027list_hdr\\u0027\\u003e\\\\r\\\\n\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\\\t\\u003ch3\\u003eB\\u003c/h3\\u003e\\u003cdiv class=\\u0027citis\\u0027\\u003e\\u003ca href=\\u0027#\\u0027 onclick=\\\\\\\"CommonPageHelper.SelCity(\\u0027BAL\\u0027);\\\\\\\"\\u003eBali\\u003c/a\\u003e\\u003ca href=\\u0027#\\u0027 onclick=\\\\\\\"CommonPageHelper.SelCity(\\u0027BLP\\u0027);\\\\\\\"\\u003eBalikpapan\\u003c/a\\u003e\\u003ca href=\\u0027#\\u0027 onclick=\\\\\\\"CommonPageHelper.SelCity(\\u0027BDG\\u0027);\\\\\\\"\\u003eBandung\\u003c/a\\u003e\\u003ca href=\\u0027#\\u0027 onclick=\\\\\\\"CommonPageHelper.SelCity(\\u0027BAN\\u0027);\\\\\\\"\\u003eBanjarbaru\\u003c/a\\u003e\\u003ca href=\\u0027#\\u0027 onclick=\\\\\\\"CommonPageHelper.SelCity(\\u0027BJM\\u0027);\\\\\\\"\\u003eBanjarmasin\\u003c/a\\u003e\\u003ca href=\\u0027#\\u0027 onclick=\\\\\\\"CommonPageHelper.SelCity(\\u0027BTM\\u0027);\\\\\\\"\\u003eBatam\\u003c/a\\u003e\\u003ca href=\\u0027#\\u0027 onclick=\\\\\\\"CommonPageHelper.SelCity(\\u0027BTU\\u0027);\\\\\\\"\\u003eBatu\\u003c/a\\u003e\\u003ca href=\\u0027#\\u0027 onclick=\\\\\\\"CommonPageHelper.SelCity(\\u0027BAU\\u0027);\\\\\\\"\\u003eBaubau\\u003c/a\\u003e\\u003ca href=\\u0027#\\u0027 onclick=\\\\\\\"CommonPageHelper.SelCity(\\u0027BKS\\u0027);\\\\\\\"\\u003eBekasi\\u003c/a\\u003e\\u003ca href=\\u0027#\\u0027 "
+  },
+  {
+    "url": "https://cinepolis.co.id/movie/cinemaDetail.aspx/loadCinemaDetails",
+    "method": "POST",
+    "payload": "",
+    "status": 200,
+    "len": 1884,
+    "body": "{\"d\":\"{\\\"DataObject\\\":{\\\"CinemaInfo\\\":{\\\"CinemaDet\\\":{\\\"Id\\\":0,\\\"ConfigId\\\":\\\"525e66bd-4934-4314-aa66-62c2cdf3541d\\\",\\\"Title\\\":\\\"Binjai Supermall\\\",\\\"SubTitle\\\":\\\"Binjai, Sumatera Utara\\\",\\\"FullAddress\\\":\\\"Jl. Soekarno- Hatta No.14, \\\\nTimbang Langkat, Binjai, Sumatra utara, LT UG , Binjai\\\",\\\"ContactNo\\\":\\\"061-8820757\\\",\\\"Email\\\":\\\"mod.binjaisupermall@cinepolis.co.id\\\",\\\"Thumbnail\\\":\\\"https://cms2.cinepolis.co.id/Gallery/CPL/ENT/EntityBranch/Thumbnail/8d6e3e7bd5814758b73cbcb8c358193e.jpg\\\",\\\"BannerSM\\\":\\\"https://cms2.cinepolis.co.id/Gallery/CPL/ENT/EntityBranch/Banner/074324c79ecd4cb49067f7e0ff91614b.jpg\\\",\\\"BannerMD\\\":\\\"https://cms2.cinepolis.co.id/Gallery/CPL/ENT/EntityBranch/Banner/8a480897e6034d9989f35eeeb3de92a2.jpg\\\",\\\"BannerLG\\\":\\\"https://cms2.cinepolis.co.id/Gallery/CPL/ENT/EntityBranch/Banner/\\\",\\\"CityCode\\\":{\\\"Code\\\":\\\"BIN\\\",\\\"Title\\\":\\\"Binjai\\\"},\\\"Latitude\\\":3.60773590,\\\"Longitude\\\":98.49653940,\\\"OpeningTime\\\":\\\"10:00:00\\\",\\\"ClosingTime\\\":\\\"00:00:00\\\",\\\"OpeningTimeDisp\\\":\\\"10:00 AM\\\",\\\"ClosingTimeDisp\\\":\\\"12:00 AM\\\",\\\"IsPreferred\\\":0,\\\"Distance\\\":0.0,\\\"DistanceValue\\\":\\\"\\\",\\\"ScreenClassList\\\":[{\\\"Code\\\":\\\"REG\\\",\\\"Title\\\":\\\"REGULAR\\\",\\\"Icon\\\":\\\"https://cms2.cinepolis.co."
+  }
+]

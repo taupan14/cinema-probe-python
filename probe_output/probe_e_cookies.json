@@ -1,0 +1,152 @@
+[
+  {
+    "name": "ASP.NET_SessionId",
+    "value": "2i5r3m2tyddoewhtqxwxh4cc",
+    "domain": "cinepolis.co.id",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_gcl_au",
+    "value": "1.1.983239338.1778866381",
+    "domain": ".cinepolis.co.id",
+    "path": "/",
+    "expires": 1786642381,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_VT8XNPESW8",
+    "value": "GS2.1.s1778866381$o1$g0$t1778866381$j60$l0$h0",
+    "domain": ".cinepolis.co.id",
+    "path": "/",
+    "expires": 1813426381.167801,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.1.1525930406.1778866381",
+    "domain": ".cinepolis.co.id",
+    "path": "/",
+    "expires": 1813426381.168156,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "test_cookie",
+    "value": "CheckForPermission",
+    "domain": ".doubleclick.net",
+    "path": "/",
+    "expires": 1778867281.603033,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "__Secure-YNID",
+    "value": "18.YT=jpeW_-V0lG5S1C9DmyR65WU4KUXzmeVLnJ0h6ImW_Mg4tbinlkx9g35Ad4YwW-p4Wy0xzPs8To13KeQXS1txPFGAnIQWrW_aUoYemNDRc5A0mqT4vLrxhOg8041mcTcOyI3CZUcBQ2S9GGp4uThRtJArQ5Ujw-arn4XZaZ-2cCfsx10Ai15DAuL56PSyh8XLGgCJndePuKV9pMnEB_YDzs_ThLYEMPYZRNDoEMK2DCWUduYZbjWhzrZ3VNCgvbC36qfb5-AN61xNrfk-6WLRh5vLuiCxVUAEu0eNtK0FxijLaZQe7UzAtZ6Lj08ulRtI31VN0SiHGI8XRH4uqgt_Mg",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1794418381.638561,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://cinepolis.co.id",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "YSC",
+    "value": "EvlZ2TAwo3A",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://cinepolis.co.id",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "VISITOR_INFO1_LIVE",
+    "value": "sxKRoGbs8r0",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1794418381.63917,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://cinepolis.co.id",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "VISITOR_PRIVACY_METADATA",
+    "value": "CgJJRBIEGgAgGQ%3D%3D",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1794418381.639186,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://cinepolis.co.id",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "__Secure-ROLLOUT_TOKEN",
+    "value": "COfJ0KugrreYZhCS3Z3W6buUAxiS3Z3W6buUAw%3D%3D",
+    "domain": ".youtube.com",
+    "path": "/",
+    "expires": 1794418381.639201,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://cinepolis.co.id",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "_tt_enable_cookie",
+    "value": "1",
+    "domain": ".cinepolis.co.id",
+    "path": "/",
+    "expires": 1812562381,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ttp",
+    "value": "01KRPB5RXMZ0VH2840A4FYVGNP_.tt.2",
+    "domain": ".cinepolis.co.id",
+    "path": "/",
+    "expires": 1812562381,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ttcsid",
+    "value": "1778866381752::C466_Tg5T4AljRHKLfSS.1.1778866381991.0::1.-2295.0::0.0.0.0::0.0.0",
+    "domain": ".cinepolis.co.id",
+    "path": "/",
+    "expires": 1812562381,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ttcsid_CVVD70JC77UFA07AEFQ0",
+    "value": "1778866381752::gu26R5gqOSh12fFpVCIR.1.1778866381991.0",
+    "domain": ".cinepolis.co.id",
+    "path": "/",
+    "expires": 1812562381,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  }
+]

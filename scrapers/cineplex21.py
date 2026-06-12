@@ -59,6 +59,8 @@ class Cineplex21Scraper(BaseScraper):
         super().__init__(concurrency=5, **kwargs)
         self._detail_cache: dict[str, dict[str, dict]] = {}
         self._cache_lock = asyncio.Lock()
+        # city_map dari getCityList intercept — disimpan agar scrape_movies() bisa pakai
+        self._city_map_cache: dict[str, int] = {}
 
     # =========================================================================
     # SCRAPE CINEMAS — Playwright (wajib, karena getAllTheater butuh session)
@@ -66,13 +68,21 @@ class Cineplex21Scraper(BaseScraper):
 
     async def scrape_cinemas(self, client: AsyncHTTPClient) -> list[Cinema]:
         """
-        Gunakan Playwright untuk fetch daftar theater karena:
-          POST /api/theater?type=getAllTheater → value=null tanpa session browser
+        Strategi baru (v7) — sitemap.xml sebagai sumber daftar cinema:
 
-        Strategi:
-          1. Buka /cinemas via Playwright
-          2. Intercept response getAllTheater yang otomatis dipanggil app → parse JSON
-          3. Fallback: parse link /cinemas/{cinema_id} dari HTML yang di-render
+        Root cause lama: getAllTheater API adalah location-based (return ~101
+        bioskop terdekat dari IP server = Jabodetabek), bukan city-based.
+        Tidak ada city_id parameter yang mengubah hasilnya.
+
+        Solusi:
+          1. Fetch sitemap.xml → ekstrak 267 cinema_id (semua XXI Indonesia)
+          2. Buka 1 halaman /cinemas via Playwright untuk dapat:
+             - getCityList → city_map (city_name → city_id)
+             - getAllTheater → metadata (nama, koordinat, alamat) untuk ~101 cinema
+          3. Untuk cinema_id yang ada di sitemap tapi tidak ada di getAllTheater,
+             fetch detail via /cinemas/{cinema_id} (intercept getTheaterSchedule
+             response yang mengandung cafe_group = canonical cinema_id).
+          4. Build Cinema object untuk semua 267 cinema_id.
         """
         try:
             from playwright.async_api import async_playwright
@@ -83,7 +93,29 @@ class Cineplex21Scraper(BaseScraper):
             )
             return []
 
-        cinemas: list[Cinema] = []
+        # ── STEP 1: Fetch sitemap.xml → semua cinema_id ───────────────────
+        self.logger.info("XXI: fetching sitemap.xml ...")
+        sitemap_ids: list[str] = []
+        try:
+            resp = await client.get(
+                f"{MOBILE_BASE}/sitemap.xml",
+                headers={"User-Agent": MOBILE_HEADERS["User-Agent"]},
+            )
+            if resp.status_code == 200:
+                sitemap_ids = list(dict.fromkeys(
+                    re.findall(r'/cinemas/([A-Z]{3}[A-Z0-9]{3,})', resp.text)
+                ))
+                self.logger.info(f"XXI: {len(sitemap_ids)} cinema_id dari sitemap.xml")
+        except Exception as e:
+            self.logger.warning(f"XXI: sitemap.xml fetch error: {e}")
+
+        if not sitemap_ids:
+            self.logger.error("XXI: sitemap.xml kosong — scraping dihentikan")
+            return []
+
+        # ── STEP 2: Playwright — getCityList + getAllTheater metadata ──────
+        city_map:     dict[str, int]  = {}   # "JAKARTA" → 10
+        meta_map:     dict[str, dict] = {}   # cinema_id → {name, address, lat, lng}
 
         async with async_playwright() as p:
             browser = await p.chromium.launch(headless=True)
@@ -93,84 +125,168 @@ class Cineplex21Scraper(BaseScraper):
             )
             page = await context.new_page()
 
-            # ── Intercept getAllTheater response ───────────────────────────
-            theater_data: list[dict] = []
-            city_map: dict[str, int] = {}    # cinema_id → city_id
-
             async def on_response(resp):
                 url = resp.url
-                if "getAllTheater" in url:
-                    try:
-                        body = await resp.text()
-                        data = json.loads(body)
-                        value = (
-                            data.get("data", {}).get("value") or []
-                        )
-                        if isinstance(value, list) and value:
-                            self.logger.info(
-                                f"Intercepted getAllTheater: {len(value)} theaters"
-                            )
-                            theater_data.extend(value)
-                    except Exception as e:
-                        self.logger.warning(f"Parse getAllTheater response: {e}")
-
-                # Intercept getCityList untuk mapping city_name → city_id
                 if "getCityList" in url:
                     try:
-                        body = await resp.text()
-                        data = json.loads(body)
-                        cities = data.get("data", {}).get("value") or []
+                        data   = json.loads(await resp.text())
+                        cities = (data.get("data") or {}).get("value") or []
                         for c in cities:
-                            city_map[c.get("city_name", "").upper()] = c.get("city_id", 0)
+                            name = (c.get("city_name") or "").upper()
+                            cid  = c.get("city_id") or 0
+                            if name and cid:
+                                city_map[name] = cid
+                    except Exception:
+                        pass
+
+                if "getAllTheater" in url:
+                    try:
+                        data  = json.loads(await resp.text())
+                        value = (data.get("data") or {}).get("value") or []
+                        for t in (value or []):
+                            subtypes = t.get("theater_subtype") or {}
+                            for sub_key, sub in subtypes.items():
+                                if not isinstance(sub, dict):
+                                    continue
+                                cid = sub.get("cinema_id")
+                                if cid and cid not in meta_map:
+                                    coord = sub.get("coordinate") or ""
+                                    lat, lng = 0.0, 0.0
+                                    parts = coord.split(",")
+                                    if len(parts) == 2:
+                                        try:
+                                            lat = float(parts[0].strip())
+                                            lng = float(parts[1].strip())
+                                        except ValueError:
+                                            pass
+                                    meta_map[cid] = {
+                                        "name":    clean_text(sub.get("cinema_name") or t.get("theater_name") or ""),
+                                        "address": clean_text(sub.get("cinema_address") or ""),
+                                        "lat":     lat,
+                                        "lng":     lng,
+                                    }
                     except Exception:
                         pass
 
             page.on("response", on_response)
-
-            # ── Buka halaman /cinemas ──────────────────────────────────────
-            self.logger.info("Playwright: membuka /cinemas ...")
+            self.logger.info("XXI: Playwright membuka /cinemas ...")
             try:
-                await page.goto(
-                    f"{MOBILE_BASE}/cinemas",
-                    wait_until="networkidle",
-                    timeout=30_000,
-                )
+                await page.goto(f"{MOBILE_BASE}/cinemas", wait_until="networkidle", timeout=30_000)
                 await page.wait_for_timeout(3000)
             except Exception as e:
-                self.logger.warning(f"Playwright goto /cinemas: {e}")
+                self.logger.warning(f"XXI: goto /cinemas: {e}")
+            page.remove_listener("response", on_response)
 
-            # ── Parse theater_data dari intercept ─────────────────────────
-            if theater_data:
-                cinemas = self._parse_theater_data(theater_data, city_map)
+            self.logger.info(
+                f"XXI: city_map={len(city_map)} kota, "
+                f"meta_map={len(meta_map)} cinema dari getAllTheater"
+            )
+
+            # ── STEP 3: Fetch detail untuk cinema yang tidak ada di meta_map ─
+            # Cinema di luar Jabodetabek tidak ada di getAllTheater (location-based).
+            # Kita navigate ke /cinemas/{id} untuk dapat nama dari page title/content.
+            missing_ids = [cid for cid in sitemap_ids if cid not in meta_map]
+            self.logger.info(
+                f"XXI: {len(missing_ids)} cinema tidak ada di getAllTheater — "
+                f"fetch via /cinemas/{{id}}"
+            )
+
+            # Batasi concurrency agar tidak kena rate limit
+            sem = asyncio.Semaphore(3)
+
+            async def fetch_cinema_meta(cinema_id: str) -> None:
+                async with sem:
+                    schedule_data: list[dict] = []
+
+                    async def cap(resp, sd=schedule_data):
+                        if "getTheaterSchedule" in resp.url:
+                            try:
+                                data  = json.loads(await resp.text())
+                                value = (data.get("data") or {}).get("value") or []
+                                if isinstance(value, list):
+                                    sd.extend(value)
+                            except Exception:
+                                pass
+
+                    page.on("response", cap)
+                    try:
+                        await page.goto(
+                            f"{MOBILE_BASE}/cinemas/{cinema_id}",
+                            wait_until="networkidle",
+                            timeout=15_000,
+                        )
+                        await page.wait_for_timeout(1500)
+                    except Exception as e:
+                        self.logger.debug(f"XXI: goto /cinemas/{cinema_id}: {e}")
+                    finally:
+                        page.remove_listener("response", cap)
+
+                    # Coba ambil nama dari title halaman: "Nama Cinema | Cinema XXI"
+                    name = ""
+                    try:
+                        title = await page.title()
+                        if " | " in title:
+                            name = clean_text(title.split(" | ")[0])
+                    except Exception:
+                        pass
+
+                    # Nama dari page title lebih akurat — tapi kalau kosong,
+                    # fallback ke cafe_group dari schedule
+                    if cinema_id not in meta_map:
+                        meta_map[cinema_id] = {"name": name, "address": "", "lat": 0.0, "lng": 0.0}
+                    elif not meta_map[cinema_id].get("name") and name:
+                        meta_map[cinema_id]["name"] = name
+
+                    await asyncio.sleep(self.delay)
+
+            # Jalankan batch fetch untuk cinema yang belum ada metadata
+            batch_size = 10
+            for i in range(0, len(missing_ids), batch_size):
+                batch = missing_ids[i:i + batch_size]
+                await asyncio.gather(*[fetch_cinema_meta(cid) for cid in batch])
                 self.logger.info(
-                    f"XXI: {len(cinemas)} cinema dari getAllTheater intercept"
+                    f"XXI: metadata fetch {min(i + batch_size, len(missing_ids))}"
+                    f"/{len(missing_ids)}"
                 )
-
-            # ── Fallback: parse link dari HTML ────────────────────────────
-            if not cinemas:
-                self.logger.warning(
-                    "getAllTheater intercept kosong — fallback ke HTML link parsing"
-                )
-                cinemas = await self._parse_cinemas_from_page(page, city_map)
-
-            # ── Cari semua kota untuk dapat lebih banyak theater ──────────
-            # App hanya load theater untuk kota default (berdasarkan lokasi).
-            # Kita perlu klik tiap kota agar getAllTheater dipanggil lagi.
-            if cinemas and city_map:
-                extra = await self._fetch_theaters_per_city(page, city_map, theater_data)
-                existing_ids = {c.external_id for c in cinemas}
-                added = 0
-                for c in extra:
-                    if c.external_id not in existing_ids:
-                        existing_ids.add(c.external_id)
-                        cinemas.append(c)
-                        added += 1
-                if added:
-                    self.logger.info(f"XXI: +{added} cinema dari city iteration")
 
             await browser.close()
 
-        self.logger.info(f"XXI: total {len(cinemas)} cinema")
+        # Simpan city_map
+        self._city_map_cache = city_map
+
+        # ── STEP 4: Build Cinema objects dari semua sitemap_ids ───────────
+        cinemas: list[Cinema] = []
+        for cinema_id in sitemap_ids:
+            meta = meta_map.get(cinema_id) or {}
+            name = meta.get("name") or cinema_id   # fallback ke ID kalau nama tidak dapat
+
+            city_str = self._city_from_cinema_id(cinema_id)
+
+            # Lookup city_id case-insensitive
+            city_id_int = 0
+            city_upper  = city_str.upper()
+            for map_name, map_id in city_map.items():
+                if city_upper in map_name or map_name in city_upper:
+                    city_id_int = map_id
+                    break
+            city_id_str = str(city_id_int) if city_id_int else ""
+
+            cinemas.append(Cinema(
+                name        = name,
+                chain       = self.CHAIN,
+                city        = normalize_city(city_str),
+                address     = meta.get("address") or "",
+                source      = self.SOURCE,
+                external_id = cinema_id,
+                lat         = meta.get("lat") or 0.0,
+                lng         = meta.get("lng") or 0.0,
+                booking_url = (
+                    f"{MOBILE_BASE}/cinemas/{cinema_id}"
+                    + (f"?city_id={city_id_str}" if city_id_str else "")
+                ),
+            ))
+
+        self.logger.info(f"XXI: total {len(cinemas)} cinema dari sitemap")
         return cinemas
 
     def _parse_theater_data(
@@ -226,8 +342,19 @@ class Cineplex21Scraper(BaseScraper):
                 # e.g. "JKTAETB" → "JKT" → Jakarta
                 city = self._city_from_cinema_id(cinema_id)
 
-                # Cari city_id untuk detail cache
-                city_id = city_map.get(city.upper(), 0)
+                # Tidak ada filter kota di sini — theater yang masuk ke sini
+                # sudah berasal dari response getAllTheater untuk kota target.
+                # Filter hanya dilakukan di _fetch_theaters_per_city (level city_id).
+
+                # Case-insensitive city_id lookup
+                city_id = 0
+                city_upper = city.upper()
+                for map_name, map_id in city_map.items():
+                    if city_upper in map_name.upper() or map_name.upper() in city_upper:
+                        city_id = map_id
+                        break
+
+                city_id_str = str(city_id) if city_id else ""
 
                 cinemas.append(Cinema(
                     name        = cinema_name,
@@ -240,7 +367,7 @@ class Cineplex21Scraper(BaseScraper):
                     lng         = lng,
                     booking_url = (
                         f"{MOBILE_BASE}/cinemas/{cinema_id}"
-                        f"?city_id={city_id}"
+                        + (f"?city_id={city_id_str}" if city_id_str else "")
                     ),
                 ))
 
@@ -271,65 +398,115 @@ class Cineplex21Scraper(BaseScraper):
                 if cinema_id in seen:
                     continue
                 seen.add(cinema_id)
-                city    = self._city_from_cinema_id(cinema_id)
-                city_id = city_map.get(city.upper(), 0)
+                city = self._city_from_cinema_id(cinema_id)
+
+                # Case-insensitive city_id lookup (tidak filter kota di sini)
+                city_id = 0
+                city_upper = city.upper()
+                for map_name, map_id in city_map.items():
+                    if city_upper in map_name.upper() or map_name.upper() in city_upper:
+                        city_id = map_id
+                        break
+                city_id_str = str(city_id) if city_id else ""
+
                 cinemas.append(Cinema(
                     name        = name,
                     chain       = self.CHAIN,
                     city        = normalize_city(city),
                     source      = self.SOURCE,
                     external_id = cinema_id,
-                    booking_url = f"{MOBILE_BASE}/cinemas/{cinema_id}?city_id={city_id}",
+                    booking_url = (
+                        f"{MOBILE_BASE}/cinemas/{cinema_id}"
+                        + (f"?city_id={city_id_str}" if city_id_str else "")
+                    ),
                 ))
         except Exception as e:
             self.logger.warning(f"HTML fallback: {e}")
         return cinemas
 
+    # Fase awal: 20 kota prioritas. Matching dilakukan case-insensitive dan
+    # substring agar tetap cocok walau API mengembalikan nama kota yang sedikit
+    # berbeda (mis. "Dki Jakarta", "Jakarta Selatan", "Kota Bekasi", dll.)
+    TARGET_CITY_KEYWORDS: set[str] = {
+        "jakarta", "bekasi", "surabaya", "bandung", "bogor",
+        "tangerang", "medan", "makassar", "semarang", "depok",
+        "palembang", "denpasar", "bali", "yogyakarta", "malang",
+        "surakarta", "solo", "batam", "pekanbaru", "balikpapan",
+    }
+
+    def _is_target_city(self, city_name: str) -> bool:
+        """
+        Return True jika city_name mengandung salah satu keyword kota target.
+        Case-insensitive dan substring match — aman untuk variasi nama API.
+        Contoh: "Kota Bekasi", "DKI JAKARTA", "Kab. Bogor" semua akan match.
+        """
+        normalized = city_name.lower()
+        return any(kw in normalized for kw in self.TARGET_CITY_KEYWORDS)
+
     async def _fetch_theaters_per_city(
         self, page, city_map: dict[str, int], existing: list[dict]
     ) -> list[Cinema]:
         """
-        Iterasi tiap kota dengan klik/navigate agar app load theater per kota.
-        App memanggil getAllTheater setiap kali user ganti kota di dropdown.
+        Iterasi kota-kota target via Playwright agar app memanggil getAllTheater
+        per kota. Fix dari versi lama:
+          - Tidak ada [:10] hard cap
+          - city_map matching sekarang case-insensitive + substring
+          - existing_ids tidak di-rebuild ulang (pakai seen_ids yang live-update)
+          - all_theaters hanya berisi theater baru (tidak campur dengan existing)
         """
-        all_theaters: list[dict] = list(existing)
-        seen_ids = {
-            sub.get("cinema_id")
+        # seen_ids: track semua cinema_id yang sudah diketahui (existing + baru)
+        seen_ids: set[str] = {
+            str(sub["cinema_id"])
             for t in existing
             for sub in (t.get("theater_subtype") or {}).values()
-            if isinstance(sub, dict)
+            if isinstance(sub, dict) and sub.get("cinema_id")
         }
 
+        # all_new_theaters: hanya theater yang benar-benar baru
+        all_new_theaters: list[dict] = []
+
         async def on_resp(resp):
-            if "getAllTheater" in resp.url:
-                try:
-                    body = await resp.text()
-                    data = json.loads(body)
-                    value = data.get("data", {}).get("value") or []
-                    for t in (value or []):
-                        for sub in (t.get("theater_subtype") or {}).values():
-                            if isinstance(sub, dict):
-                                cid = sub.get("cinema_id")
-                                if cid and cid not in seen_ids:
-                                    seen_ids.add(cid)
-                                    all_theaters.append(t)
-                except Exception:
-                    pass
+            if "getAllTheater" not in resp.url:
+                return
+            try:
+                body  = await resp.text()
+                data  = json.loads(body)
+                value = data.get("data", {}).get("value") or []
+                for t in value:
+                    subtypes = t.get("theater_subtype") or {}
+                    has_new  = False
+                    for sub in subtypes.values():
+                        if not isinstance(sub, dict):
+                            continue
+                        cid = sub.get("cinema_id")
+                        if cid and cid not in seen_ids:
+                            seen_ids.add(cid)
+                            has_new = True
+                    if has_new:
+                        all_new_theaters.append(t)
+            except Exception:
+                pass
 
         page.on("response", on_resp)
 
-        # Coba navigate ke beberapa kota besar via URL langsung
-        # Format: /cinemas?city_id={N}
-        major_city_ids = [
-            cid for name, cid in city_map.items()
-            if name in {
-                "JAKARTA", "BANDUNG", "SURABAYA", "MEDAN", "SEMARANG",
-                "YOGYAKARTA", "DENPASAR", "MAKASSAR", "PALEMBANG",
-                "TANGERANG", "BEKASI", "DEPOK", "BOGOR", "MALANG",
-                "JABODETABEK",
-            }
+        # Ambil city_id untuk semua kota yang match TARGET_CITY_KEYWORDS
+        # Matching case-insensitive — city_map key bisa uppercase atau mixed
+        target_city_ids = [
+            cid
+            for name, cid in city_map.items()
+            if cid and self._is_target_city(name)
         ]
-        for city_id in major_city_ids[:10]:
+        self.logger.info(
+            f"XXI city iteration: {len(target_city_ids)} kota target ditemukan "
+            f"dari {len(city_map)} kota di city_map"
+        )
+        if len(target_city_ids) == 0:
+            self.logger.warning(
+                f"XXI: 0 kota match TARGET_CITY_KEYWORDS! "
+                f"Sample city_map keys: {list(city_map.keys())[:10]}"
+            )
+
+        for city_id in target_city_ids:
             try:
                 await page.goto(
                     f"{MOBILE_BASE}/cinemas?city_id={city_id}",
@@ -342,39 +519,53 @@ class Cineplex21Scraper(BaseScraper):
 
         page.remove_listener("response", on_resp)
 
-        # Hanya return yang baru (bukan yang sudah ada di existing)
-        existing_ids = {
-            sub.get("cinema_id")
-            for t in existing
-            for sub in (t.get("theater_subtype") or {}).values()
-            if isinstance(sub, dict)
-        }
-        new_theaters = [
-            t for t in all_theaters
-            if any(
-                isinstance(sub, dict) and sub.get("cinema_id") not in existing_ids
-                for sub in (t.get("theater_subtype") or {}).values()
-            )
-        ]
-        return self._parse_theater_data(new_theaters, city_map)
+        self.logger.info(
+            f"XXI city iteration selesai: +{len(all_new_theaters)} theater baru"
+        )
+        return self._parse_theater_data(all_new_theaters, city_map)
 
     @staticmethod
     def _city_from_cinema_id(cinema_id: str) -> str:
         """
         Ekstrak nama kota dari prefix cinema_id (3 huruf pertama).
         Contoh: JKTAETB → Jakarta, BDGPVJ → Bandung, SBYCWO → Surabaya
+
+        Prefix map diperluas untuk semua kota operasional XXI Indonesia.
+        Prefix yang tidak dikenali akan return string prefix mentah (3 huruf),
+        sehingga city_map lookup di caller masih bisa mencoba mencocokkan.
         """
         prefix_map = {
-            "JKT": "Jakarta",   "BDG": "Bandung",   "SBY": "Surabaya",
-            "MDN": "Medan",     "SMG": "Semarang",   "YGY": "Yogyakarta",
-            "DPS": "Denpasar",  "MKS": "Makassar",   "PLM": "Palembang",
-            "BTM": "Batam",     "PKU": "Pekanbaru",  "MLG": "Malang",
-            "TGR": "Tangerang", "BKS": "Bekasi",     "DPK": "Depok",
-            "BGR": "Bogor",     "SMD": "Samarinda",  "BPN": "Balikpapan",
-            "BJM": "Banjarmasin","MNO": "Manado",    "AMB": "Ambon",
-            "LPG": "Lampung",   "CRB": "Cirebon",    "KDR": "Kediri",
-            "MLG": "Malang",    "PNK": "Pontianak",  "JMB": "Jambi",
-            "PDG": "Padang",    "MTR": "Mataram",    "KPG": "Kupang",
+            # Jawa
+            "JKT": "Jakarta",      "BDG": "Bandung",    "SBY": "Surabaya",
+            "SMG": "Semarang",     "YGY": "Yogyakarta", "MLG": "Malang",
+            "BGR": "Bogor",        "BKS": "Bekasi",     "DPK": "Depok",
+            "TGR": "Tangerang",    "TSL": "Tangerang Selatan",
+            "CRB": "Cirebon",      "KDR": "Kediri",     "SLO": "Surakarta",
+            "MJK": "Mojokerto",    "JMB": "Jember",     "MDR": "Madura",
+            "PRW": "Purwokerto",   "TGL": "Tegal",       "MGL": "Magelang",
+            "KLT": "Klaten",       "SRG": "Serang",      "CKR": "Cikarang",
+            "CMH": "Cimahi",       "TSM": "Tasikmalaya", "SKB": "Sukabumi",
+            "CJR": "Cianjur",      "PWK": "Purwakarta",  "KRW": "Karawang",
+            "BYM": "Bayuwangi",
+            # Sumatera
+            "MDN": "Medan",        "PLM": "Palembang",   "PKU": "Pekanbaru",
+            "BTM": "Batam",        "LPG": "Lampung",     "PDG": "Padang",
+            "JMB": "Jambi",        "BKL": "Bengkulu",    "TJP": "Tanjung Pinang",
+            "LHO": "Lhokseumawe", "BND": "Banda Aceh",  "SBG": "Sabang",
+            "PRP": "Prapatan",     "SWT": "Sawit",
+            # Kalimantan
+            "BPN": "Balikpapan",   "SMD": "Samarinda",   "PNK": "Pontianak",
+            "BJM": "Banjarmasin",  "PLK": "Palangka Raya","TRK": "Tarakan",
+            "BLK": "Balikpapan",
+            # Sulawesi
+            "MKS": "Makassar",     "MNO": "Manado",      "PRU": "Palu",
+            "KDR": "Kendari",      "GTL": "Gorontalo",
+            # Bali & Nusa Tenggara
+            "DPS": "Denpasar",     "MTR": "Mataram",     "KPG": "Kupang",
+            "SBH": "Sumbawa",      "MBJ": "Labuan Bajo",
+            # Maluku & Papua
+            "AMB": "Ambon",        "JYP": "Jayapura",    "SRG": "Sorong",
+            "MNK": "Manokwari",    "TRN": "Ternate",
         }
         prefix = cinema_id[:3].upper() if len(cinema_id) >= 3 else ""
         return prefix_map.get(prefix, prefix)
@@ -440,13 +631,15 @@ class Cineplex21Scraper(BaseScraper):
             self.logger.warning(f"Skip {cinema.name}: external_id kosong")
             return [], []
 
-        schedule_days = await self._fetch_schedule_days(client, cinema)
+        # getTheaterSchedule (mobile API) terbukti bekerja untuk semua 267 cinema.
+        # dc21-api hanya sebagai fallback.
+        schedule_days = await self._fetch_schedule_days_mobile(client, cinema)
         if not schedule_days:
-            schedule_days = await self._fetch_schedule_days_mobile(client, cinema)
+            schedule_days = await self._fetch_schedule_days(client, cinema)
         if not schedule_days:
             return [], []
 
-        city_id      = self._extract_city_id(cinema)
+        city_id      = self._resolve_city_id(cinema, self._city_map_cache)
         detail_cache = (
             await self._get_detail_cache(client, city_id) if city_id else {}
         )
@@ -526,7 +719,12 @@ class Cineplex21Scraper(BaseScraper):
 
                 for film in film_list:
                     cafe_group = film.get("cafe_group", "")
-                    if cafe_group and cafe_group != cinema.external_id:
+                    # cafe_group bisa berisi parent group ID (mis. untuk bioskop
+                    # multi-gedung). Kita skip hanya jika cafe_group terisi DAN
+                    # tidak mengandung external_id cinema ini (substring, bukan
+                    # exact match) — mencegah film ter-skip akibat perbedaan
+                    # format ID antara parent group dan cinema individual.
+                    if cafe_group and cinema.external_id not in cafe_group and cafe_group not in cinema.external_id:
                         continue
 
                     title = clean_text(
@@ -674,10 +872,33 @@ class Cineplex21Scraper(BaseScraper):
     # HELPERS
     # =========================================================================
 
-    @staticmethod
-    def _extract_city_id(cinema: Cinema) -> str:
+    def _resolve_city_id(self, cinema: Cinema, city_map: dict[str, int]) -> str:
+        """
+        Ambil city_id valid untuk sebuah cinema.
+
+        Urutan lookup:
+          1. Dari booking_url (?city_id=N) — sudah tersimpan saat scrape_cinemas
+          2. Dari city_map dengan nama kota cinema (case-insensitive substring)
+
+        Return string kosong jika tidak ditemukan, agar caller bisa skip
+        detail_cache lookup daripada call dengan city_id=0 yang tidak valid.
+        """
+        # 1. Dari booking_url (?city_id=N)
         m = re.search(r'city_id=(\d+)', cinema.booking_url or "")
-        return m.group(1) if m else ""
+        cid = m.group(1) if m else ""
+        if cid and cid != "0":
+            return cid
+
+        # 2. Fallback: cari di city_map berdasarkan nama kota cinema
+        if cinema.city:
+            city_lower = cinema.city.lower()
+            for map_name, map_id in city_map.items():
+                if map_id and city_lower in map_name.lower():
+                    return str(map_id)
+                if map_name.lower() in city_lower:
+                    return str(map_id)
+
+        return ""
 
     @staticmethod
     def _parse_date(raw: str) -> str:

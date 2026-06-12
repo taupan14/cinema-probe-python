@@ -1,0 +1,90 @@
+2026-06-12 15:10:44,393 [INFO] Cineplex21Scraper: 🎬 Starting scrape: 21cineplex (XXI)
+2026-06-12 15:10:45,615 [INFO] Cineplex21Scraper: Playwright: membuka /cinemas ...
+2026-06-12 15:10:47,508 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:10:47,523 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:10:51,273 [INFO] Cineplex21Scraper: XXI: getAllTheater intercept raw = 146 theater entries
+2026-06-12 15:10:51,283 [INFO] Cineplex21Scraper: XXI: 145 cinema dari getAllTheater intercept
+2026-06-12 15:10:51,283 [INFO] Cineplex21Scraper: XXI city iteration: 19 kota target ditemukan dari 70 kota di city_map
+2026-06-12 15:10:51,617 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:10:51,619 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:10:54,161 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:10:54,212 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:10:56,578 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:10:56,597 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:10:59,085 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:10:59,127 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:11:01,719 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:11:01,728 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:11:04,292 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:11:04,309 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:11:07,187 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:11:07,217 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:11:09,639 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:11:09,655 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:11:12,300 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:11:12,312 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:11:14,928 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:11:14,938 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:11:17,360 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:11:17,375 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:11:19,795 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:11:19,924 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:11:22,340 [WARNING] Cineplex21Scraper: Parse getAllTheater response: Expecting value: line 1 column 1 (char 0)
+2026-06-12 15:11:22,341 [WARNING] Cineplex21Scraper: Parse getAllTheater response: Expecting value: line 1 column 1 (char 0)
+2026-06-12 15:11:24,592 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:11:24,639 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:11:27,019 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:11:27,040 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:11:44,600 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:11:44,618 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:11:47,068 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:11:47,189 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:11:49,570 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 45 theaters
+2026-06-12 15:11:49,609 [INFO] Cineplex21Scraper: Intercepted getAllTheater: 101 theaters
+2026-06-12 15:11:51,766 [INFO] Cineplex21Scraper: XXI city iteration selesai: +0 theater baru
+2026-06-12 15:11:51,832 [INFO] Cineplex21Scraper: XXI: total 145 cinema
+2026-06-12 15:11:51,833 [INFO] Cineplex21Scraper: ✅ Found 145 cinemas for 21cineplex
+2026-06-12 15:11:52,427 [INFO] Cineplex21Scraper: dc21 schedule [AEON MALL TANJUNG BARAT XXI]: status=200 len=5779
+2026-06-12 15:11:53,472 [INFO] Cineplex21Scraper: dc21 schedule [AGORA MALL XXI]: status=200 len=5926
+2026-06-12 15:11:54,903 [INFO] Cineplex21Scraper: dc21 schedule [AGORA MALL PREMIERE]: status=200 len=3322
+2026-06-12 15:11:56,702 [INFO] Cineplex21Scraper: dc21 schedule [AGORA MALL IMAX]: status=200 len=3673
+2026-06-12 15:11:57,913 [INFO] Cineplex21Scraper: dc21 schedule [ARION XXI]: status=200 len=4201
+2026-06-12 15:11:59,851 [INFO] Cineplex21Scraper: detail_cache city_id=10: status=200 len=41801
+2026-06-12 15:11:59,852 [INFO] Cineplex21Scraper: detail_cache city_id=10: 28 film
+2026-06-12 15:11:59,852 [INFO] Cineplex21Scraper: [1/145] AEON MALL TANJUNG BARAT XXI → 7 movies, 25 showtimes
+2026-06-12 15:11:59,853 [INFO] Cineplex21Scraper: [2/145] AGORA MALL XXI → 7 movies, 30 showtimes
+2026-06-12 15:11:59,853 [INFO] Cineplex21Scraper: [3/145] AGORA MALL PREMIERE → 0 movies, 0 showtimes
+2026-06-12 15:11:59,853 [INFO] Cineplex21Scraper: [4/145] AGORA MALL IMAX → 0 movies, 0 showtimes
+2026-06-12 15:11:59,853 [INFO] Cineplex21Scraper: [5/145] ARION XXI → 5 movies, 18 showtimes
+2026-06-12 15:12:01,449 [INFO] Cineplex21Scraper: dc21 schedule [ARTHA GADING XXI]: status=200 len=7593
+2026-06-12 15:12:01,450 [INFO] Cineplex21Scraper: [6/145] ARTHA GADING XXI → 9 movies, 39 showtimes
+2026-06-12 15:12:02,966 [INFO] Cineplex21Scraper: dc21 schedule [BASSURA XXI]: status=200 len=5846
+2026-06-12 15:12:02,967 [INFO] Cineplex21Scraper: [7/145] BASSURA XXI → 7 movies, 28 showtimes
+2026-06-12 15:12:04,696 [INFO] Cineplex21Scraper: dc21 schedule [BAYWALK PLUIT XXI]: status=200 len=8571
+2026-06-12 15:12:04,699 [INFO] Cineplex21Scraper: [8/145] BAYWALK PLUIT XXI → 10 movies, 44 showtimes
+2026-06-12 15:12:05,926 [INFO] Cineplex21Scraper: dc21 schedule [BAYWALK PLUIT PREMIERE]: status=200 len=2878
+2026-06-12 15:12:05,927 [INFO] Cineplex21Scraper: [9/145] BAYWALK PLUIT PREMIERE → 0 movies, 0 showtimes
+2026-06-12 15:12:07,695 [INFO] Cineplex21Scraper: dc21 schedule [BLOK M SQUARE]: status=200 len=8709
+2026-06-12 15:12:07,700 [INFO] Cineplex21Scraper: [10/145] BLOK M SQUARE → 10 movies, 45 showtimes
+2026-06-12 15:12:08,954 [INFO] Cineplex21Scraper: dc21 schedule [BLOK M XXI]: status=200 len=10988
+2026-06-12 15:12:08,957 [INFO] Cineplex21Scraper: [11/145] BLOK M XXI → 13 movies, 57 showtimes
+2026-06-12 15:12:10,502 [INFO] Cineplex21Scraper: dc21 schedule [CIJANTUNG XXI]: status=200 len=7589
+2026-06-12 15:12:10,505 [INFO] Cineplex21Scraper: [12/145] CIJANTUNG XXI → 9 movies, 35 showtimes
+2026-06-12 15:12:11,916 [INFO] Cineplex21Scraper: dc21 schedule [CIPINANG XXI]: status=200 len=6923
+2026-06-12 15:12:11,917 [INFO] Cineplex21Scraper: [13/145] CIPINANG XXI → 8 movies, 35 showtimes
+2026-06-12 15:12:13,663 [INFO] Cineplex21Scraper: dc21 schedule [CIPLAZ CENGKARENG XXI]: status=200 len=3344
+2026-06-12 15:12:13,664 [INFO] Cineplex21Scraper: [14/145] CIPLAZ CENGKARENG XXI → 4 movies, 15 showtimes
+2026-06-12 15:12:14,946 [INFO] Cineplex21Scraper: dc21 schedule [CIPLAZ KLENDER XXI]: status=200 len=4341
+2026-06-12 15:12:14,948 [INFO] Cineplex21Scraper: [15/145] CIPLAZ KLENDER XXI → 5 movies, 21 showtimes
+2026-06-12 15:12:16,792 [INFO] Cineplex21Scraper: dc21 schedule [CITRA XPERIENCE XXI]: status=200 len=4100
+2026-06-12 15:12:16,793 [INFO] Cineplex21Scraper: [16/145] CITRA XPERIENCE XXI → 5 movies, 18 showtimes
+2026-06-12 15:12:17,958 [INFO] Cineplex21Scraper: dc21 schedule [CITRA XXI]: status=200 len=7844
+2026-06-12 15:12:17,961 [INFO] Cineplex21Scraper: [17/145] CITRA XXI → 9 movies, 40 showtimes
+2026-06-12 15:12:19,763 [INFO] Cineplex21Scraper: dc21 schedule [CITY PLAZA JATINEGARA XXI]: status=200 len=3469
+2026-06-12 15:12:19,764 [INFO] Cineplex21Scraper: [18/145] CITY PLAZA JATINEGARA XXI → 4 movies, 18 showtimes
+2026-06-12 15:12:20,952 [INFO] Cineplex21Scraper: dc21 schedule [DAAN MOGOT XXI]: status=200 len=5143
+2026-06-12 15:12:20,952 [INFO] Cineplex21Scraper: [19/145] DAAN MOGOT XXI → 6 movies, 25 showtimes
+2026-06-12 15:12:22,683 [INFO] Cineplex21Scraper: dc21 schedule [DJAKARTA XXI]: status=200 len=3081
+2026-06-12 15:12:22,684 [INFO] Cineplex21Scraper: [20/145] DJAKARTA XXI → 4 movies, 10 showtimes
+2026-06-12 15:12:23,952 [INFO] Cineplex21Scraper: dc21 schedule [EMPORIUM PLUIT XXI]: status=200 len=7717
+2026-06-12 15:12:23,955 [INFO] Cineplex21Scraper: [21/145] EMPORIUM PLUIT XXI → 9 movies, 39 showtimes

@@ -5,6 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field, asdict
 from datetime import date, datetime
 from typing import Optional
+from typing import Any
 import uuid
 
 
@@ -47,6 +48,12 @@ class CinemaMovie:
     show_date: str = field(default_factory=lambda: date.today().isoformat())
     id: str = field(default_factory=lambda: str(uuid.uuid4()))
     created_at: str = field(default_factory=lambda: datetime.utcnow().isoformat())
+
+    _raw_detail: dict[str, Any] = field(
+        default_factory=dict,
+        repr=False,
+        compare=False
+    )
 
     def to_dict(self) -> dict:
         return asdict(self)

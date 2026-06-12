@@ -2,8 +2,8 @@ name: Cinema Scraper Cron
 
 on:
   schedule:
-    # 07:10 WIB
-    - cron: "10 0 * * *"
+    # 12:00 WIB (05:00 UTC)
+    - cron: "0 5 * * *"
 
   workflow_dispatch:
 

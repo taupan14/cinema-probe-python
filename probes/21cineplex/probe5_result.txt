@@ -1,0 +1,177 @@
+
+============================================================
+ANALISA 1 — Full response getTheaterSchedule untuk BDGTEAV
+============================================================
+
+Semua API calls (74):
+  https://m.21cineplex.com/?_rsc=1b5fu
+  https://m.21cineplex.com/_next/static/chunks/13b76428-62a6e4bbed6f1919.js
+  https://m.21cineplex.com/_next/static/chunks/2117-bad3abe65f20d54a.js
+  https://m.21cineplex.com/_next/static/chunks/2306-e9603498eac0ae0b.js
+  https://m.21cineplex.com/_next/static/chunks/2792-c0791eebe03b66bf.js
+  https://m.21cineplex.com/_next/static/chunks/3377-15905889b2b49fab.js
+  https://m.21cineplex.com/_next/static/chunks/3706-a0e1d153bf74b54c.js
+  https://m.21cineplex.com/_next/static/chunks/4541-cae2e9e91c6e7fcc.js
+  https://m.21cineplex.com/_next/static/chunks/5423-68d16f2d60231cda.js
+  https://m.21cineplex.com/_next/static/chunks/5622-ccb5314b7d002d85.js
+  https://m.21cineplex.com/_next/static/chunks/5900-4d6f082074e50551.js
+  https://m.21cineplex.com/_next/static/chunks/605-bdd67c78824db5f1.js
+  https://m.21cineplex.com/_next/static/chunks/7124-527f8cc386f6b7ad.js
+  https://m.21cineplex.com/_next/static/chunks/9297-7af8b9dd83c363c2.js
+  https://m.21cineplex.com/_next/static/chunks/9590-feae836a88eae01b.js
+  https://m.21cineplex.com/_next/static/chunks/9764-e9e169ef2f3f8f6d.js
+  https://m.21cineplex.com/_next/static/chunks/aaea2bcf-1a9653b618ef7356.js
+  https://m.21cineplex.com/_next/static/chunks/app/%5Blocale%5D/(main)/cinemas/%5B...slug%5D/page-563b29d00f696182.js
+  https://m.21cineplex.com/_next/static/chunks/app/%5Blocale%5D/(main)/cinemas/page-8cb2fc29a985c1c8.js
+  https://m.21cineplex.com/_next/static/chunks/app/%5Blocale%5D/(main)/page-756df820df7720dc.js
+  https://m.21cineplex.com/_next/static/chunks/app/%5Blocale%5D/(webview)/layout-00618b93e1c7852c.js
+  https://m.21cineplex.com/_next/static/chunks/app/%5Blocale%5D/error-fe1713377d1f1d31.js
+  https://m.21cineplex.com/_next/static/chunks/app/%5Blocale%5D/layout-71c09f3c2cce6c02.js
+  https://m.21cineplex.com/_next/static/chunks/app/%5Blocale%5D/not-found-66e668482ccc95cc.js
+  https://m.21cineplex.com/_next/static/chunks/app/not-found-33e8f9d6b8d54202.js
+  https://m.21cineplex.com/_next/static/chunks/fd9d1056-74f5726473b0d744.js
+  https://m.21cineplex.com/_next/static/chunks/main-app-5294d1645fe5526e.js
+  https://m.21cineplex.com/_next/static/chunks/webpack-d0e8e522db644a40.js
+  https://m.21cineplex.com/_next/static/css/02409508432e1dfb.css
+  https://m.21cineplex.com/_next/static/css/2c4e051d04efbd36.css
+  https://m.21cineplex.com/_next/static/css/62469ab530f7a41d.css
+  https://m.21cineplex.com/_next/static/css/66b208a7a5ddd579.css
+  https://m.21cineplex.com/_next/static/css/66c3c614ecea7050.css
+  https://m.21cineplex.com/_next/static/css/819000458b15ad0f.css
+  https://m.21cineplex.com/_next/static/css/8f0be9027a16d5b4.css
+  https://m.21cineplex.com/_next/static/css/aa09553b8e9794d7.css
+  https://m.21cineplex.com/_next/static/css/cff8575b995d6d0e.css
+  https://m.21cineplex.com/_next/static/css/d0acb67e0efc0855.css
+  https://m.21cineplex.com/_next/static/css/d4daf17d5ca77203.css
+  https://m.21cineplex.com/_next/static/css/d7c1c1e9b8addadf.css
+  https://m.21cineplex.com/_next/static/css/dfe38a67ed492070.css
+  https://m.21cineplex.com/_next/static/css/eaaf65048af00898.css
+  https://m.21cineplex.com/_next/static/css/f67928b0e3cecc35.css
+  https://m.21cineplex.com/_next/static/media/675122d2515ca0fe-s.p.ttf
+  https://m.21cineplex.com/_next/static/media/8217b72e075de375-s.p.ttf
+  https://m.21cineplex.com/_next/static/media/867bce6efedfde96-s.p.ttf
+  https://m.21cineplex.com/_next/static/media/Color=Black.daaf0056.png
+  https://m.21cineplex.com/_next/static/media/D17.752afb6a.svg
+  https://m.21cineplex.com/_next/static/media/R13.54bd144a.svg
+  https://m.21cineplex.com/_next/static/media/SU.64966be0.svg
+  https://m.21cineplex.com/_next/static/media/a12eb4fba1f8988d-s.p.ttf
+  https://m.21cineplex.com/_next/static/media/english-flag-circle.97b65673.svg
+  https://m.21cineplex.com/_next/static/media/facebook.0c1bbcdf.svg
+  https://m.21cineplex.com/_next/static/media/header-background.154afe20.png
+  https://m.21cineplex.com/_next/static/media/instagram.8d912780.svg
+  https://m.21cineplex.com/_next/static/media/tiktok.180bc941.svg
+  https://m.21cineplex.com/_next/static/media/x.9d4ec82f.svg
+  https://m.21cineplex.com/_next/static/media/youtube.05d057c4.svg
+  https://m.21cineplex.com/api/auth/session
+  https://m.21cineplex.com/api/theater?type=getCityList
+  https://m.21cineplex.com/api/theater?type=getTheaterSchedule
+  https://m.21cineplex.com/cdn-cgi/rum?
+  https://m.21cineplex.com/cdn-cgi/speculation
+  https://m.21cineplex.com/cinemas/BDGTEAV
+  https://m.21cineplex.com/cinemas?_rsc=1b5fu
+  https://www.google-analytics.com/g/collect?v=2&tid=G-B87QWNSGB3&gtm=45je66b0h2v9130365239za200zd9130365239&_p=1781415525428&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EA&are=1&cid=609525322.1781415526&frm=0&ir=1&pscdl=noapi&rcb=6&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=iOS&uapv=16.0&uaw=0&ul=en-us&_s=1&tag_exp=115616986~115938465~115938469~119456239~119456247&sid=1781415525&sct=1&seg=0&dl=https%3A%2F%2Fm.21cineplex.com%2Fcinemas%2FBDGTEAV&dt=TENTH%20AVENUE%20XXI%20%7C%20Cinema%20XXI&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1378
+
+--- https://m.21cineplex.com/api/auth/session ---
+{}
+
+--- https://m.21cineplex.com/api/theater?type=getCityList ---
+
+--- https://m.21cineplex.com/api/theater?type=getTheaterSchedule ---
+Top keys: ['status', 'data', 'accessTime']
+data keys: ['is_success', 'default_date', 'value']
+value length (days): 2
+day[0] keys: ['timezone', 'date', 'cinema', 'is_ats']
+day[0].date: 14-06-2026
+day[0].timezone: 1
+day[0].cinema subtypes: ['xxi']
+  [xxi] 5 films
+    film[0] keys: ['age_limit', 'cafe_group', 'dc21_parent_movie_id', 'dc21_parent_movie_code', 'duration', 'genre', 'movie_image', 'movie_type', 'parent_movie_id', 'rating', 'title', 'schedule']
+    title: 'SCARY MOVIE '
+    cafe_group: 'BDGTEAV'
+    schedule entries: 1
+    schedule[0]: {
+      "dc21_movie_subtype_id": "97538c3d-8b62-4610-a257-6ec4b3304184",
+      "dc21_movie_code": "26SMO6",
+      "movie_id": "26SMO6",
+      "movie_type_name": "Reguler 2D",
+      "ticket_price": "40000",
+      "time_show": [
+            "12:30",
+            "14:25"
+      ],
+      "show_status": [
+            "0",
+            "1"
+      ],
+      "studio_id": [
+            2,
+            2
+      ],
+
+============================================================
+ANALISA 2 — HTML content page /cinemas/BDGTEAV
+============================================================
+Page title: 'TENTH AVENUE XXI | Cinema XXI'
+
+h1: 'TENTH AVENUE XXI'
+h2: 'Comedy, Horror'
+address element: ''
+
+Meta tags:
+  description: 'Tenth Avenue Lt.1,\r\nJl Soekarno Hatta No.526, Cijaura, Kec. Buahbatu,\r\nKota Bandung, Jawa Barat 40286\r\n\r\nTelepon : (022) 31232121'
+  og:title: 'Cinema XXI'
+  og:description: 'CINEMA 21 - We Are The Largest Cinema Chain In Indonesia'
+  og:url: 'https://m.21cineplex.com'
+  og:site_name: 'Cinema XXI'
+  og:locale: 'id_ID'
+  og:image: 'https://m.21cineplex.com/xxi.png'
+  og:image:width: '1200'
+  og:image:height: '630'
+  og:image:alt: 'Cinema XXI'
+  og:type: 'website'
+  twitter:title: 'Cinema XXI'
+  twitter:description: 'CINEMA 21 - We Are The Largest Cinema Chain In Indonesia'
+
+JSON-LD structured data:
+  {
+    "@context": "https://schema.org",
+    "@type": "MovieTheater",
+    "name": "TENTH AVENUE XXI",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Tenth Avenue Lt.1,\r\nJl Soekarno Hatta No.526, Cijaura, Kec. Buahbatu,\r\nKota Bandung, Jawa Barat 40286\r\n\r\nTelepon : (022) 31232121",
+        "addressCountry": "ID"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-6.946238",
+        "longitude": "107.640764"
+    },
+    "hasMap": "https://www.google.com/maps?q=-6.946238, 107.640764",
+    "openingHours": "Mo-Su 10:00-23:00",
+    "priceRa
+
+__NEXT_DATA__ tidak ditemukan
+
+============================================================
+ANALISA 3 — Cek 12 cinema BDG: nama + apakah ada Backrooms
+============================================================
+  BDGBRAG → 'BRAGA XXI'                              addr='' lat=0.0 lng=0.0 films=5 
+  BDGCIWL → 'CIWALK XXI'                             addr='' lat=0.0 lng=0.0 films=16 🎬 BACKROOMS
+  BDGBTC → "D'BOTANICA XXI"                         addr='' lat=0.0 lng=0.0 films=6 🎬 BACKROOMS
+  BDGEMPI → 'EMPIRE XXI BANDUNG'                     addr='' lat=0.0 lng=0.0 films=12 🎬 BACKROOMS
+  BDGFECI → 'FESTIVAL CITYLINK XXI'                  addr='' lat=0.0 lng=0.0 films=11 🎬 BACKROOMS
+  BDGJATO → 'JATOS XXI'                              addr='' lat=0.0 lng=0.0 films=7 🎬 BACKROOMS
+  BDGSUBA → 'SUMMARECON MALL BANDUNG XXI'            addr='' lat=0.0 lng=0.0 films=11 🎬 BACKROOMS
+  BDGTEAV → 'TENTH AVENUE XXI'                       addr='' lat=0.0 lng=0.0 films=6 🎬 BACKROOMS
+  BDGTHMA → 'THEE MATIC MALL XXI'                    addr='' lat=0.0 lng=0.0 films=6 
+  BDGTRBB → 'TRANSMART BUAH BATU XXI'                addr='' lat=0.0 lng=0.0 films=9 🎬 BACKROOMS
+  BDGBSM → 'TSM XXI'                                addr='' lat=0.0 lng=0.0 films=9 🎬 BACKROOMS
+  BDGUBER → 'UBERTOS XXI'                            addr='' lat=0.0 lng=0.0 films=11 🎬 BACKROOMS
+
+============================================================
+ANALISA 4 — Direct fetch getTheaterSchedule via JS (dengan session)
+============================================================
+  POST getTheaterSchedule cinema_id=BDGTEAV: {'status': 200, 'days': 0, 'films_day0': 0, 'sample_title': ''}
+  POST getTheaterSchedule cinema_id=BDGBRAG: {'status': 200, 'days': 0, 'films_day0': 0, 'sample_title': ''}
+  POST getTheaterSchedule cinema_id=BDGUBER: {'status': 200, 'days': 0, 'films_day0': 0, 'sample_title': ''}

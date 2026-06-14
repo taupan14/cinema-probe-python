@@ -182,72 +182,117 @@ class Cineplex21Scraper(BaseScraper):
                 f"meta_map={len(meta_map)} cinema dari getAllTheater"
             )
 
-            # ── STEP 3: Fetch detail untuk cinema yang tidak ada di meta_map ─
-            # Cinema di luar Jabodetabek tidak ada di getAllTheater (location-based).
-            # Kita navigate ke /cinemas/{id} untuk dapat nama dari page title/content.
-            missing_ids = [cid for cid in sitemap_ids if cid not in meta_map]
+            # ── STEP 3: Navigate semua cinema_id untuk dapat metadata + schedule
+            # Root cause dari probe:
+            #   - getTheaterSchedule HANYA bekerja via Playwright navigate (intercept)
+            #   - POST via httpx selalu return 0 days (butuh session browser)
+            #   - Nama, alamat, koordinat ada di JSON-LD di setiap /cinemas/{id}
+            # Solusi: navigate semua 267 cinema, intercept getTheaterSchedule,
+            # parse JSON-LD, simpan semua ke cache untuk dipakai scrape_movies.
+
+            # Cache schedule per cinema_id — dipakai oleh scrape_movies()
+            # supaya tidak perlu navigate ulang
+            self._schedule_cache: dict[str, list[dict]] = {}
+
+            # Navigate semua sitemap_ids (bukan hanya yang missing dari getAllTheater)
+            # karena meta_map dari getAllTheater tidak punya alamat/koordinat.
+            all_ids_to_visit = sitemap_ids  # semua 267
             self.logger.info(
-                f"XXI: {len(missing_ids)} cinema tidak ada di getAllTheater — "
-                f"fetch via /cinemas/{{id}}"
+                f"XXI: navigating {len(all_ids_to_visit)} cinema untuk "
+                f"JSON-LD metadata + schedule intercept ..."
             )
 
-            # Batasi concurrency agar tidak kena rate limit
-            sem = asyncio.Semaphore(3)
+            # Playwright single-page — navigate sequential dengan delay
+            # (concurrent di satu page tidak aman; buka tab baru terlalu berat)
+            visited = 0
+            for cinema_id in all_ids_to_visit:
+                schedule_buf: list[dict] = []
 
-            async def fetch_cinema_meta(cinema_id: str) -> None:
-                async with sem:
-                    schedule_data: list[dict] = []
+                async def cap_ld(resp, sb=schedule_buf):
+                    if "getTheaterSchedule" in resp.url:
+                        try:
+                            data  = json.loads(await resp.text())
+                            value = (data.get("data") or {}).get("value") or []
+                            if isinstance(value, list):
+                                sb.extend(value)
+                        except Exception:
+                            pass
 
-                    async def cap(resp, sd=schedule_data):
-                        if "getTheaterSchedule" in resp.url:
-                            try:
-                                data  = json.loads(await resp.text())
-                                value = (data.get("data") or {}).get("value") or []
-                                if isinstance(value, list):
-                                    sd.extend(value)
-                            except Exception:
-                                pass
+                page.on("response", cap_ld)
+                try:
+                    await page.goto(
+                        f"{MOBILE_BASE}/cinemas/{cinema_id}",
+                        wait_until="networkidle",
+                        timeout=15_000,
+                    )
+                    await page.wait_for_timeout(800)
+                except Exception as e:
+                    self.logger.debug(f"XXI goto /cinemas/{cinema_id}: {e}")
+                finally:
+                    page.remove_listener("response", cap_ld)
 
-                    page.on("response", cap)
+                # Simpan schedule ke cache
+                if schedule_buf:
+                    self._schedule_cache[cinema_id] = schedule_buf
+
+                # Parse JSON-LD untuk nama, alamat, koordinat
+                try:
+                    json_ld_raw = await page.evaluate("""() => {
+                        const scripts = document.querySelectorAll(
+                            'script[type="application/ld+json"]'
+                        );
+                        for (const s of scripts) {
+                            try {
+                                const d = JSON.parse(s.textContent);
+                                if (d['@type'] === 'MovieTheater') return d;
+                            } catch(e) {}
+                        }
+                        return null;
+                    }""")
+                except Exception:
+                    json_ld_raw = None
+
+                name, address, lat, lng = "", "", 0.0, 0.0
+                if json_ld_raw:
+                    name    = clean_text(json_ld_raw.get("name") or "")
+                    addr_obj = json_ld_raw.get("address") or {}
+                    address = clean_text(
+                        addr_obj.get("streetAddress") or ""
+                        if isinstance(addr_obj, dict) else str(addr_obj)
+                    )
+                    geo = json_ld_raw.get("geo") or {}
                     try:
-                        await page.goto(
-                            f"{MOBILE_BASE}/cinemas/{cinema_id}",
-                            wait_until="networkidle",
-                            timeout=15_000,
-                        )
-                        await page.wait_for_timeout(1500)
-                    except Exception as e:
-                        self.logger.debug(f"XXI: goto /cinemas/{cinema_id}: {e}")
-                    finally:
-                        page.remove_listener("response", cap)
+                        lat = float(geo.get("latitude") or 0)
+                        lng = float(geo.get("longitude") or 0)
+                    except (ValueError, TypeError):
+                        pass
 
-                    # Coba ambil nama dari title halaman: "Nama Cinema | Cinema XXI"
-                    name = ""
+                # Fallback nama dari page title jika JSON-LD tidak ada
+                if not name:
                     try:
-                        title = await page.title()
-                        if " | " in title:
-                            name = clean_text(title.split(" | ")[0])
+                        title_str = await page.title()
+                        if " | " in title_str:
+                            name = clean_text(title_str.split(" | ")[0])
                     except Exception:
                         pass
 
-                    # Nama dari page title lebih akurat — tapi kalau kosong,
-                    # fallback ke cafe_group dari schedule
-                    if cinema_id not in meta_map:
-                        meta_map[cinema_id] = {"name": name, "address": "", "lat": 0.0, "lng": 0.0}
-                    elif not meta_map[cinema_id].get("name") and name:
-                        meta_map[cinema_id]["name"] = name
+                # Update meta_map — override apapun yang ada sebelumnya
+                # karena JSON-LD lebih akurat dari getAllTheater
+                meta_map[cinema_id] = {
+                    "name":    name or meta_map.get(cinema_id, {}).get("name") or cinema_id,
+                    "address": address,
+                    "lat":     lat,
+                    "lng":     lng,
+                }
 
-                    await asyncio.sleep(self.delay)
+                visited += 1
+                if visited % 20 == 0:
+                    self.logger.info(
+                        f"XXI: metadata+schedule {visited}/{len(all_ids_to_visit)} "
+                        f"(schedule_cache={len(self._schedule_cache)})"
+                    )
 
-            # Jalankan batch fetch untuk cinema yang belum ada metadata
-            batch_size = 10
-            for i in range(0, len(missing_ids), batch_size):
-                batch = missing_ids[i:i + batch_size]
-                await asyncio.gather(*[fetch_cinema_meta(cid) for cid in batch])
-                self.logger.info(
-                    f"XXI: metadata fetch {min(i + batch_size, len(missing_ids))}"
-                    f"/{len(missing_ids)}"
-                )
+                await asyncio.sleep(self.delay * 0.5)  # lebih ringan dari delay penuh
 
             await browser.close()
 
@@ -631,10 +676,15 @@ class Cineplex21Scraper(BaseScraper):
             self.logger.warning(f"Skip {cinema.name}: external_id kosong")
             return [], []
 
-        # getTheaterSchedule (mobile API) terbukti bekerja untuk semua 267 cinema.
-        # dc21-api hanya sebagai fallback.
-        schedule_days = await self._fetch_schedule_days_mobile(client, cinema)
+        # Utamakan schedule dari cache Playwright (intercept saat navigate /cinemas/{id})
+        # karena getTheaterSchedule via httpx POST selalu return kosong (butuh session).
+        schedule_days = getattr(self, "_schedule_cache", {}).get(cinema.external_id)
+
+        # Fallback ke dc21-api jika tidak ada di cache (seharusnya tidak terjadi)
         if not schedule_days:
+            self.logger.debug(
+                f"[{cinema.name}] tidak ada di schedule_cache, fallback ke dc21-api"
+            )
             schedule_days = await self._fetch_schedule_days(client, cinema)
         if not schedule_days:
             return [], []
